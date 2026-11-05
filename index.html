@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f5ef">
+  <meta name="description" content="精选985、北邮、西电与香港五所大学的通信研究大组，按学校地图浏览研究主线与核实更新。">
+  <title>通信研究地图 · Comm Atlas</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#workspace">跳到研究地图</a>
+<header class="topbar">
+  <a class="brand" href="./" aria-label="通信研究地图首页"><span class="brand-symbol" aria-hidden="true">⌁</span><span>通信研究地图<small>COMM ATLAS</small></span></a>
+  <nav class="topnav" aria-label="主导航"><button class="nav-item active" data-view="atlas" type="button">研究地图</button><button class="nav-item" data-view="changes" type="button">更新日志 <span id="change-count"></span></button><button class="nav-item" data-view="method" type="button">筛选方法</button></nav>
+  <a class="github-link" id="github-link" href="https://github.com/hongjinrui/To-Know-Communication-Groups" target="_blank" rel="noopener noreferrer" aria-label="打开 GitHub 项目">GitHub <span aria-hidden="true">↗</span></a>
+</header>
+<main>
+  <section class="hero" aria-labelledby="page-title">
+    <div class="hero-main"><p class="eyebrow"><span class="live-marker"></span> 有选择地跟踪，有依据地理解</p><h1 id="page-title">通信研究，<br class="mobile-break">从这里看见脉络。</h1><p class="hero-description">先看学校，再看大组。用少量精选档案，连接过去的研究积累与正在出现的新方向。</p></div>
+    <div class="hero-aside"><div class="edition-label">当前档案版本</div><div id="edition" class="edition-date">正在读取</div><div class="schedule"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 3v4M17 3v4M4 10h16M5 5h14a1 1 0 0 1 1 1v14H4V6a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="1.7"/></svg> 每周三、周六 · 北京时间</div><div id="editorial-status" class="collection-status"></div><div id="collection-status" class="collection-status">核实档案与自动采集分别标记</div></div>
+  </section>
+  <div class="overview-strip" aria-label="档案规模"><div><strong id="school-total">—</strong><span>所精选学校</span></div><div><strong id="group-total">—</strong><span>个通信大组</span></div><div><strong id="verified-total">—</strong><span>条核实更新</span></div><p><span class="small-dot" aria-hidden="true"></span> 红点表示本设备未读的核实更新<span class="mobile-hide"> · 首版建立研究基线</span></p></div>
+  <section id="atlas-view" class="view active" aria-label="研究地图">
+    <div class="toolbar"><label class="search-field"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.7"/></svg><input id="search" type="search" autocomplete="off" placeholder="搜索学校、leader、研究方向" aria-label="搜索学校、组负责人或研究方向"><kbd aria-hidden="true">/</kbd></label><label class="unread-filter"><input id="unread-only" type="checkbox"><span>只看未读</span></label><button id="reset-filters" class="text-button" type="button">重置筛选 ↺</button></div>
+    <div class="topic-toolbar"><span class="filter-label">方向</span><div id="topic-filters" class="topic-filters" aria-label="按研究方向筛选"></div></div>
+    <div id="workspace" class="workspace" tabindex="-1">
+      <section class="map-panel" aria-labelledby="map-title"><div class="panel-heading"><div><h2 id="map-title">按学校探索</h2><p>点选地图中的城市或区域，再选择学校</p></div><span class="scope-badge">985 + 北邮/西电 + 港五</span></div><div id="map" class="map" aria-label="学校地理位置示意图"><div class="map-loading">正在绘制学校地图…</div></div><div class="map-footer"><span><i class="map-legend-dot"></i> 已收录学校</span><span>海岸线示意 · 无行政边界</span></div><div id="city-schools" class="city-schools" aria-live="polite"></div><div class="school-explorer"><div class="mini-heading"><h3>学校索引</h3><span id="school-visible-count"></span></div><div id="school-index" class="school-index"></div></div></section>
+      <section class="groups-panel" aria-labelledby="groups-title"><div class="groups-heading"><div><p id="selected-school-overline" class="eyebrow">精选研究档案</p><h2 id="groups-title">从一个学校开始</h2><p id="groups-subtitle">选择学校，查看该校值得长期跟踪的大组。</p></div><span id="visible-groups" class="count-label"></span></div><div id="group-list" class="group-list" aria-live="polite"></div><div class="editor-note"><span aria-hidden="true">↳</span><p>不按论文数量排序。入选依据、研究脉络与原始来源，均在组内展开。</p></div></section>
+    </div>
+  </section>
+  <section id="changes-view" class="view reading-view" aria-labelledby="changes-title" hidden><div class="section-intro"><p class="eyebrow">RESEARCH LOG</p><h2 id="changes-title">只看值得关注的变化</h2><p>已核实更新进入组日志并点亮红点。arXiv 自动采集的论文先进入候选池，尚不代表方向发生变化。</p></div><p id="pipeline-status" class="pipeline-status"></p><div id="updates-feed"></div><details class="candidate-section"><summary><span>arXiv 待核实候选</span><span id="candidate-count">0 篇</span></summary><p class="muted">仅命中作者及通信相关关键词。归属、贡献与研究方向仍需结合论文和组官网复核，不计为核实更新。</p><div id="candidate-list"></div></details></section>
+  <section id="method-view" class="view reading-view" aria-labelledby="method-title" hidden><div class="section-intro"><p class="eyebrow">EDITORIAL PRINCIPLES</p><h2 id="method-title">少而准，比全而杂更有用。</h2><p>这是一个有取舍、可纠正的研究观察名单，不是学者排名，也不是对未收录团队的评价。</p></div><div class="method-grid"><article class="method-card"><span>01 / 范围</span><h3>先守住学科与学校边界</h3><p>以通信工程为主线，关注无线通信、网络、信息理论及相关信号处理。境内以985为范围，并补充北京邮电大学、西安电子科技大学；香港限港大、港中文、港科大、港城大、港理工。其他学校与境外地区暂不纳入。</p></article><article class="method-card"><span>02 / 入选</span><h3>看积累与团队，而非发文量</h3><p>交叉查看持续的研究主线、稳定团队或实验室、代表性贡献和同行认可。个人荣誉只是证据之一；不因单篇热点论文或论文数量直接入选。</p></article><article class="method-card"><span>03 / 归纳</span><h3>明确区分事实与跟踪问题</h3><p>“过去积累”和“当前方向”由公开来源支持。“下一步看什么”是编辑提出的观察问题，不代表团队已公布的未来计划。每个档案保留可回溯的原始链接。</p></article><article class="method-card"><span>04 / 更新</span><h3>先采集，再核实，最后归纳</h3><p>每周三、周六检索arXiv候选。作者重名、归属不明和仅更新版本的论文不能直接变成方向结论；核实后才进入研究日志并产生红点。</p></article><article class="method-card"><span>05 / 阅读</span><h3>让变化先被看见</h3><p>本轮更新标签比较档案发布版本；红点表示这台设备尚未读过的核实更新。打开组档案即可标为已读。阅读状态仅保存在当前浏览器。</p></article><article class="method-card"><span>06 / 边界</span><h3>保留不确定性与空白</h3><p>首版是精选基线，不声称穷尽全部符合条件的大组。未收录学校不等于没有好团队。合作论文不等于同一团队，预印本也不等于已通过同行评审。</p></article></div><div class="map-credit">地图海岸线：Natural Earth，1:110m land，公有领域。地图仅用于研究机构的位置示意，不表示行政边界。<a href="data/coverage.json" target="_blank" rel="noopener noreferrer">查看46所学校的范围盘点 ↗</a><a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener noreferrer">数据说明 ↗</a></div></section>
+  <div id="load-error" class="error-state" hidden><h2>研究档案暂时未能读取</h2><p>请刷新页面，或通过 GitHub 项目查看数据文件。</p><button type="button" id="retry-load">重新读取</button></div>
+</main>
+<footer class="footer"><div><span class="footer-mark">⌁</span><strong>Comm Atlas</strong><span>把论文放回研究脉络。</span></div><p>研究档案可追溯 · 自动采集可检查 · 阅读状态仅存本机</p></footer>
+<dialog id="group-dialog" class="group-dialog" aria-labelledby="detail-title"><button type="button" id="close-dialog" class="close-dialog" aria-label="关闭研究档案">×</button><div id="group-detail"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

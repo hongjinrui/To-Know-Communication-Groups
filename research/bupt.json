@@ -1,0 +1,62 @@
+[
+  {
+    "id":"bupt-zhang-ping", "name":"张平组", "schoolId":"bupt",
+    "leaders":[{"name":"张平","en":"Ping Zhang"}],
+    "tagline":"从移动通信系统走向语义信息论与智简6G",
+    "whyFollow":"北邮2026年官方资料明确列为“6G与智简网络团队”；既有移动通信系统与标准实践积累，又在语义理论、芯片和外场系统之间持续推进。团队曾入选首批全国高校黄大年式教师团队，适合观察理论到工程的完整路径。",
+    "past":"移动通信、TDD系统、异构无线网络与系统验证；逐步转向通信和AI融合及智简网络。",
+    "current":"牛凯等骨干推进语义/语用信息的数学理论；AI原生空口强调压缩和自适应，并以非地面网络作案例。2026年有运营商参与的实星语义通信试验报道。",
+    "next":"重点核对语义增益在统一任务、带宽、算力、时延和失真条件下是否仍成立；跟踪公开数据和实星链路条件，区分论文理论与新闻中的工程宣称。",
+    "confidence":"高：2026校方团队归属、当年原始预印本和运营商试验来源交叉；理论正确性及“首个”等宣传口径未作独立背书。",
+    "topics":["语义通信","语义信息论","AI原生6G","星地网络"],
+    "sources":[
+      {"title":"北邮信通学院2026官方团队资料","url":"https://sice.bupt.edu.cn/__local/5/C9/4E/FFC7F49E65BCE59736D82C80D3D_D6B81E58_2E20FD.pdf","note":"第5页明确列张平6G与智简网络团队及彭木根团队，不能把985优势学科平台误认作985高校。"},
+      {"title":"西工大：张平2026学术报告","url":"https://www.nwpu.edu.cn/info/1039/127408.htm","note":"2026-10活动介绍当前研究兴趣及黄大年式教师团队。"},
+      {"title":"中国电信：知识库高轨卫星语义通信试验","url":"https://www.chinatelecom.com.cn/ct/news/gdxw/167629.html","note":"运营商原始报道提供工程合作和试验线索；页面直接访问有412限制，未采纳绝对领先宣传语。"}
+    ],
+    "papers":[
+      {"title":"A Mathematical Theory of Pragmatic Information","url":"https://arxiv.org/abs/2609.10986","date":"2026-09-10","updated":"2026-09-30","authors":["Kai Niu","Ping Zhang"],"note":"预印本：以任务动作等效映射连接通信、控制与决策，提出语用信息度量和编码定理；应作为待跟踪研究，不等同已获普遍接受的新标准。"},
+      {"title":"Way to Build Native AI-driven 6G Air Interface: Principles, Roadmap, and Outlook","url":"https://arxiv.org/abs/2508.15277","date":"2025-08-21","authors":["Ping Zhang","Kai Niu","Yiming Liu","Zijian Liang","Nan Ma","Xiaodong Xu","Wenjun Xu","Mengying Sun","Yinqiu Liu","Xiaoyun Wang","Ruichen Zhang"],"note":"预印本路线图：用压缩与自适应组织AI原生空口，含非地面网络语义通信案例。"}
+    ],
+    "authorQueries":["Ping Zhang"],"coauthorAnchors":["Kai Niu","Zijian Liang","Nan Ma","Xiaodong Xu","Wenjun Xu","Mengying Sun"],"evidenceDate":"2026-11-05"
+  },
+  {
+    "id":"bupt-peng-mugen", "name":"彭木根组", "schoolId":"bupt",
+    "leaders":[{"name":"彭木根","en":"Mugen Peng"}],
+    "tagline":"从云雾接入网走向通感算与空间信息融合",
+    "whyFollow":"北邮2026官方资料列为“6G空间信息与融合通道团队”；长期研究云/雾无线接入网和异构协同组网，有明确的理论、专利及小基站工程延续，学院官方成果记录可核实云雾适配自然科学奖和组网专利奖。",
+    "past":"TD-SCDMA组网、异构网络自组织，发展到云/雾无线接入网、通信计算协同和灵巧基站。",
+    "current":"当前本人论文将路线概括为从云化协同迈向感智协同，重点涉及6G空间信息、通感算融合与通算无线网络。",
+    "next":"跟踪通感算融合是否给出统一的系统模型和可迁移实现，以及星地网络中移动性、干扰和算力约束的联合处理。",
+    "confidence":"高：2026学院团队归属、2026本人署名综述及当前任职一致；与张平同属更大平台但保留独立研究主线，不把整个平台计作两个独立团队。",
+    "topics":["云雾无线接入网","通感算融合","星地网络","无线网络架构"],
+    "sources":[
+      {"title":"北邮信通学院2026官方团队资料","url":"https://sice.bupt.edu.cn/__local/5/C9/4E/FFC7F49E65BCE59736D82C80D3D_D6B81E58_2E20FD.pdf","note":"第5页列6G空间信息与融合通道团队，提供当前组归属。"},
+      {"title":"信通学院科研成果记录","url":"https://sice.bupt.edu.cn/kxyj/kycg.htm","note":"云雾适配理论与方法自然科学奖（2020）、无线通信组网方法专利奖（2021）；直接访问有412限制。"},
+      {"title":"教育部：彭木根正式任职通知","url":"https://www.moe.gov.cn/srcsite/A04/moe_673/202507/t20250731_1200833.html","note":"2025任北京邮电大学副校长，核实当前机构。"}
+    ],
+    "papers":[
+      {"title":"通信计算融合无线网络：从云化协同迈向感智协同","url":"https://www.joconline.com.cn/zh/article/doi/10.11959/j.issn.1000-436x.TXXB260063/","date":"2026-05-25","authors":["Mugen Peng","Ning Jiang","Shi Yan"],"note":"本人一作综述：系统梳理云化通信计算网络向感知与智能协调发展的研究主线。"},
+      {"title":"ARIS-RSMA Enhanced ISAC System: Joint Rate Splitting and Beamforming Design","url":"https://arxiv.org/abs/2602.06399","date":"2026-02-06","authors":["Xin Jin","Tiejun Lv","Yashuai Cao","Jie Zeng","Mugen Peng"],"note":"跨组合作、已被IEEE WCL录用：联合优化主动RIS、RSMA与通感波束；依据为仿真，不能解读为硬件已落地。"}
+    ],
+    "authorQueries":["Mugen Peng"],"coauthorAnchors":["Ning Jiang","Shi Yan","Chenxi Liu","Xiqing Liu","Nian Xia","Yaohua Sun"],"evidenceDate":"2026-11-05"
+  },
+  {
+    "id":"bupt-ji-yuefeng", "name":"纪越峰组", "schoolId":"bupt",
+    "leaders":[{"name":"纪越峰","en":"Yuefeng Ji"},{"name":"张杰","en":"Jie Zhang"},{"name":"黄善国","en":"Shanguo Huang"}],
+    "tagline":"以光网络支撑宽带互联与分布式计算",
+    "whyFollow":"这里用纪越峰组作为北邮光通信网络创新团队的跟踪入口。中国电子学会2024创新成就奖官方名单明确三位带头人为纪越峰、张杰、黄善国，并列出持续科研梯队；团队奖提供了比个人论文数量更直接的影响力证据。",
+    "past":"高速宽带光通信、光交换及光网络灵活控制，延伸到光载无线、数据中心网络和网络资源协同。",
+    "current":"近期可见超宽带光链路数字孪生、光传输质量智能建模，并有水下无线光语义通信分支；先以纪越峰参与的明确论文作为精选跟踪起点。",
+    "next":"重点看光网络的AI模型能否跨设备和链路泛化，以及光传送与分布式训练需求能否在端到端指标上闭合。",
+    "confidence":"高：学会官方名单证实共同带头人与团队，2026学校任职相关报道及论文验证仍活跃；未把整支团队所有成果归于纪越峰个人。",
+    "topics":["光通信","光网络","数字孪生","数据中心互联"],
+    "sources":[
+      {"title":"中国电子学会2024科技奖官方名单","url":"https://www.cie.org.cn/static/upload/file/20250307/1741349024203034.pdf","note":"第1页列光通信网络创新团队、三位带头人和主要团队成员。"},
+      {"title":"北京市政府转载教委：纪越峰2026报道","url":"https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202605/t20260511_4645936.html","note":"核实目前仍在北邮教学研究及光网络主线，不用早年院长职务冒充现任。"},
+      {"title":"Optica：2026水下光语义通信论文","url":"https://opg.optica.org/ol/abstract.cfm?uri=ol-51-20-5689","note":"作者原始期刊信息，印证光通信分支当前活跃。"}
+    ],
+    "papers":[{"title":"Link-adaptive digital twin for robust physical-layer modeling in hybrid-amplified ultra-wideband optical networks","url":"https://arxiv.org/abs/2608.10517","date":"2026-08-11","authors":["Xiaoxuan Gao","Rentao Gu","Yingchun Wang","Xinyi Liu","Junshi Gao","Yuefeng Ji"],"note":"arXiv原文标注对应JOCN2026论文：链路自适应数字孪生改善跨场景光层建模；arXiv上传晚于期刊日期，不作为2026-08新方向证据。"}],
+    "authorQueries":["Yuefeng Ji"],"coauthorAnchors":["Rentao Gu","Jiawei Zhang","Zhitong Huang","Hongxiang Wang","Xiaoxuan Gao"],"evidenceDate":"2026-11-05"
+  }
+]

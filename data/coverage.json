@@ -1,0 +1,276 @@
+{
+  "evidenceDate": "2026-11-05",
+  "scope": "39所985 + 北邮/西电 + 港五",
+  "methodology": {
+    "selection": "以持续团队、可辨识的研究主线及可核查的重要成果交叉筛选；职务、Fellow或论文数量均不单独构成入选条件。",
+    "coverageCaveat": "以下是39所985及用户追加北邮、西电的范围盘点，不代表41校均已完成逐组评审。deferred表示本轮尚未形成足够证据，不表示学校或教师质量低。included按并行研究候选标记，最终应由合并后的groups名单回写。",
+    "scope": "按用户最新指示，纳入39所985及额外指定的北京邮电大学、西安电子科技大学；港五由独立研究记录处理。哈工程等其他非985学校仍不纳入。",
+    "groupBoundary": "不将整个学院、全国重点实验室或跨校合作平台当作一个组；允许有官网明确组织边界的多PI大组。新论文不得仅凭一个同名作者自动归组。",
+    "judgment": "精选属于编辑判断，不作学术质量总排名；通过不同技术主线控制重复与阅读负担。"
+  },
+  "schools": [
+    {
+      "name": "北京大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。"
+    },
+    {
+      "name": "清华大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。"
+    },
+    {
+      "name": "中国人民大学",
+      "status": "deferred",
+      "reason": "本轮未完成符合通信工程主线的持续大组核验。"
+    },
+    {
+      "name": "北京师范大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验；不以学校综合声誉代替团队证据。"
+    },
+    {
+      "name": "北京航空航天大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。"
+    },
+    {
+      "name": "北京理工大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。"
+    },
+    {
+      "name": "中国农业大学",
+      "status": "deferred",
+      "reason": "农业物联网可能相关，但本轮未完成通信技术主线与团队影响力核验。"
+    },
+    {
+      "name": "中央民族大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验。"
+    },
+    {
+      "name": "南开大学",
+      "status": "deferred",
+      "reason": "光电子与通信交叉有待独立评审，暂不泛化纳入所有电子信息方向。"
+    },
+    {
+      "name": "天津大学",
+      "status": "candidate",
+      "reason": "智能多媒体与通信团队有公开团队资料，但当前偏视频/视觉，需进一步限定本项目的通信主线边界。",
+      "source": "https://tj.teacher.360eol.com/teacherBasic/preview?teacherId=3068"
+    },
+    {
+      "name": "复旦大学",
+      "status": "candidate",
+      "reason": "官网无线通信尖兵团队有明确多教师组织及5G/6G项目与奖项；应列下一轮高优先核验，不宜据此次未入选推断没有强组。",
+      "source": "https://fit.fudan.edu.cn/data/List/wireless"
+    },
+    {
+      "name": "上海交通大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。"
+    },
+    {
+      "name": "同济大学",
+      "status": "deferred",
+      "reason": "车路协同与通信交叉有待定组核验；本轮未形成精选记录。"
+    },
+    {
+      "name": "华东师范大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验。"
+    },
+    {
+      "name": "南京大学",
+      "status": "deferred",
+      "reason": "光通信、网络与电磁方向需进一步区分；本轮未完成组级证据核验。"
+    },
+    {
+      "name": "东南大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。",
+      "source": "https://www.seupml.awitec.cn/"
+    },
+    {
+      "name": "浙江大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。"
+    },
+    {
+      "name": "中国科学技术大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。"
+    },
+    {
+      "name": "厦门大学",
+      "status": "deferred",
+      "reason": "水声与无线通信可能相关，但本轮未完成组级影响力与近年主线核验。"
+    },
+    {
+      "name": "山东大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。",
+      "source": "https://iict.sdu.edu.cn/info/1013/1044.htm"
+    },
+    {
+      "name": "中国海洋大学",
+      "status": "deferred",
+      "reason": "海洋通信是相关特色方向，暂未完成具体leader与持续团队核验。"
+    },
+    {
+      "name": "武汉大学",
+      "status": "deferred",
+      "reason": "通信、导航与遥感边界需明确；本轮未完成符合通信主线的组级核验。"
+    },
+    {
+      "name": "华中科技大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。"
+    },
+    {
+      "name": "湖南大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验。"
+    },
+    {
+      "name": "中南大学",
+      "status": "deferred",
+      "reason": "工业互联网与通信交叉有待核验，暂不以应用场景替代通信技术主线。"
+    },
+    {
+      "name": "国防科技大学",
+      "status": "candidate",
+      "reason": "通信工程相关性高，应进一步基于公开资料核验具体团队与可长期跟踪信息源；本轮未定组。"
+    },
+    {
+      "name": "中山大学",
+      "status": "candidate",
+      "reason": "官方设有信息与通信工程学科，下一轮需细核leader与团队边界，本轮不据学院名录直接纳入。",
+      "source": "https://seit.sysu.edu.cn/research/direction/xxtx"
+    },
+    {
+      "name": "华南理工大学",
+      "status": "included",
+      "reason": "本轮有季飞组候选；天线/射频主线仍需单独评审。"
+    },
+    {
+      "name": "四川大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验。"
+    },
+    {
+      "name": "电子科技大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。"
+    },
+    {
+      "name": "重庆大学",
+      "status": "candidate",
+      "reason": "天线与通信信息处理有公开团队线索；本轮暂未完成当前leader、组边界与近年研究主线交叉核验。",
+      "source": "https://www.bioklab.cqu.edu.cn/English/Team/Team.htm"
+    },
+    {
+      "name": "西安交通大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。",
+      "source": "https://faculty.xjtu.edu.cn/hmwang/"
+    },
+    {
+      "name": "西北工业大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。",
+      "source": "https://hanghai.nwpu.edu.cn/info/1600/6513.htm"
+    },
+    {
+      "name": "兰州大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验。"
+    },
+    {
+      "name": "哈尔滨工业大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。"
+    },
+    {
+      "name": "吉林大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验。"
+    },
+    {
+      "name": "大连理工大学",
+      "status": "candidate",
+      "reason": "赵楠组有持续学生队伍、无线安全主线与2025 ICC最佳论文证据，建议候选或补入。",
+      "source": "https://faculty.dlut.edu.cn/zhaonan/"
+    },
+    {
+      "name": "东北大学",
+      "status": "deferred",
+      "reason": "工业互联网、网络控制与通信交叉需进一步限定；本轮未完成定组核验。"
+    },
+    {
+      "name": "西北农林科技大学",
+      "status": "deferred",
+      "reason": "农业物联网有相关应用，但本轮未完成通信技术主线持续大组核验。"
+    },
+    {
+      "name": "北京邮电大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。"
+    },
+    {
+      "name": "西安电子科技大学",
+      "status": "included",
+      "reason": "首版已有精选组；详见组档案与原始来源。"
+    },
+    {
+      "name": "香港大学",
+      "status": "included",
+      "reason": "首版已核对香港校区并纳入精选组；未覆盖该校所有实验室。"
+    },
+    {
+      "name": "香港中文大学",
+      "status": "included",
+      "reason": "首版已核对香港校区并纳入精选组；未覆盖该校所有实验室。"
+    },
+    {
+      "name": "香港科技大学",
+      "status": "included",
+      "reason": "首版已核对香港校区并纳入精选组；未覆盖该校所有实验室。"
+    },
+    {
+      "name": "香港城市大学",
+      "status": "included",
+      "reason": "首版已核对香港校区并纳入精选组；未覆盖该校所有实验室。"
+    },
+    {
+      "name": "香港理工大学",
+      "status": "included",
+      "reason": "首版已核对香港校区并纳入精选组；未覆盖该校所有实验室。"
+    }
+  ],
+  "watchlist": [
+    {
+      "name": "赵楠组",
+      "schoolId": "dlut",
+      "reason": "已有初步证据，控制首版阅读量，待进一步比较核验。",
+      "sources": [
+        {
+          "title": "大连理工大学赵楠官方主页",
+          "url": "https://faculty.dlut.edu.cn/zhaonan/",
+          "note": "当前归属、持续学生队伍和研究方向。"
+        },
+        {
+          "title": "大连理工2025 ICC最佳论文报道",
+          "url": "https://news.dlut.edu.cn/info/1024/121144.htm",
+          "note": "明确第一作者为本组博士生。"
+        },
+        {
+          "title": "UCL合作作者机构库原始论文",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10215962/",
+          "note": "完整论文、作者及会议元数据。"
+        }
+      ]
+    }
+  ]
+}

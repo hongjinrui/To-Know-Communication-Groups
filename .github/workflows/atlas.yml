@@ -1,0 +1,73 @@
+name: Update candidates and deploy atlas
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # 08:17 Asia/Shanghai on Wednesday and Saturday. GitHub may delay cron jobs.
+    - cron: '17 0 * * 3,6'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: communication-atlas-pages
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify collector
+        run: python -m unittest discover -s tests -v
+      - name: Collect arXiv candidates (editorial logs are untouched)
+        run: python scripts/collect_arxiv.py
+      - name: Commit candidate cache and collection health
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/papers.json data/status.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update arXiv candidates and collection status'
+            git pull --rebase
+            git push
+          fi
+
+  deploy:
+    needs: collect
+    if: always() && !cancelled() && (needs.collect.result == 'success' || needs.collect.result == 'skipped')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The collector may have just advanced main using GITHUB_TOKEN.
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate and package public files
+        run: python scripts/build_site.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

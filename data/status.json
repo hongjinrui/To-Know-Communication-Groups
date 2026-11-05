@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "state": "not_started",
+  "lastAttemptAt": null,
+  "lastSuccessAt": null,
+  "candidateCount": 0,
+  "groups": [],
+  "message": "尚未执行首轮arXiv采集；当前论文由首版研究人工核实。"
+}

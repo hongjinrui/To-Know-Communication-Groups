@@ -1,0 +1,577 @@
+[
+  {
+    "id": "uestc-tang-wanbin",
+    "name": "唐万斌组",
+    "schoolId": "uestc",
+    "leaders": [
+      {
+        "name": "唐万斌",
+        "en": "Wanbin Tang"
+      },
+      {
+        "name": "肖悦",
+        "en": "Yue Xiao"
+      },
+      {
+        "name": "武刚",
+        "en": "Gang Wu"
+      }
+    ],
+    "tagline": "从移动通信与智能抗干扰积累，延伸到6G新空口和新型天线。",
+    "whyFollow": "官方团队页确认这是1996年起发展的多教师团队，肖悦/武刚无线新技术小组隶属其下（2023口径32名教师）；唐万斌入选2025中国通信学会会士，武刚参与国家6G总体组，兼有原型系统积累。",
+    "past": "宽带移动通信、认知无线电与频谱共享、智能抗干扰；李少谦是该学术谱系的重要历史负责人。",
+    "current": "团队公开方向仍覆盖5G/6G系统与抗干扰；肖悦、武刚2026年合作研究捏合天线空分复用，近期官网也出现轻量语义通信与AFDM。",
+    "next": "跟踪新型天线/新空口能否进入可重复的系统验证，以及抗干扰主线与AI方法如何结合；这些是观察问题，不是已确认的全组转向。",
+    "confidence": "较高：负责人和团队边界据2023官方团队页；近期方向据2026论文与教师官网。教师数量不是2026实时统计。",
+    "topics": [
+      "智能抗干扰",
+      "6G新空口",
+      "新型天线",
+      "无线AI"
+    ],
+    "sources": [
+      {
+        "title": "电子科大官方团队介绍：宽带无线通信系统与智能抗干扰—无线新技术组",
+        "url": "https://faculty.uestc.edu.cn/wugang1/zh_CN/tdcy/539315/content/2197.htm",
+        "note": "2023-06-19明确负责人唐万斌、肖悦小组隶属关系；纠正按旧资料把现组长写成李少谦的风险。"
+      },
+      {
+        "title": "武刚官方主页",
+        "url": "https://faculty.uestc.edu.cn/wugang1/zh_CN/index/148059/list/index.htm",
+        "note": "6G总体组、当前研究方向及2026论文动态。"
+      },
+      {
+        "title": "捏合天线空分复用论文官方动态",
+        "url": "https://faculty.uestc.edu.cn/wugang1/zh_CN/article/539315/content/4507.htm",
+        "note": "2026-07-02，附IEEE TCOM DOI与论文题名。"
+      },
+      {
+        "title": "电子科大2025中国通信学会荣誉",
+        "url": "https://www.news.uestc.edu.cn/?Id=98468&n=UestcNews.Front.DocumentV2.ArticlePage",
+        "note": "官方说明唐万斌入选2025中国通信学会会士，为其个人影响力补充证据。"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Pinching Antenna-Aided Spatial Multiplexing: Transceiver Design and Performance Analysis",
+        "url": "https://arxiv.org/abs/2604.26635",
+        "date": "2026-04-29",
+        "authors": [
+          "Ruijie Li",
+          "Yue Xiao",
+          "Shuaixin Yang",
+          "Gang Wu",
+          "Xianfu Lei",
+          "Ming Xiao"
+        ],
+        "note": "arXiv原页已核实；研究捏合天线位置与空分复用的结合。IEEE发表状态另由团队2026-07官网确认。"
+      }
+    ],
+    "authorQueries": [
+      "Wanbin Tang",
+      "Yue Xiao",
+      "Gang Wu"
+    ],
+    "evidenceDate": "2026-11-05"
+  },
+  {
+    "id": "uestc-tang-youxi",
+    "name": "唐友喜组",
+    "schoolId": "uestc",
+    "leaders": [
+      {
+        "name": "唐友喜",
+        "en": "Youxi Tang"
+      },
+      {
+        "name": "邵士海",
+        "en": "Shihai Shao"
+      }
+    ],
+    "tagline": "全双工、自干扰消除和射频实现，兼顾算法与硬件。",
+    "whyFollow": "学校官方连续以独立科研团队介绍；早期官方说明列出11名教师、94名研究生，具有原型验证和产品开发能力，2024招生网继续单独展示该组。跟踪价值在物理层方法与射频工程的闭环。",
+    "past": "扩频与分布式MIMO、抗干扰、软件无线电，以及功放线性化/CFR/DPD。",
+    "current": "持续推进同时同频全双工；2025论文细化到OFDM模拟阵列的自干扰信道估计，相关工作涉及STAR相控阵的硬件复杂度。",
+    "next": "关注宽带和大规模阵列下，自干扰抑制能否在硬件开销、校准误差与实时性之间取得可用折中。",
+    "confidence": "较高：独立团队有2024官方展示，2025期刊原页核对近期问题；历史人数仅作为团队长期性证据，不作为当前人数。",
+    "topics": [
+      "全双工",
+      "自干扰消除",
+      "射频系统",
+      "软件无线电"
+    ],
+    "sources": [
+      {
+        "title": "电子科大研究生招生网：唐友喜教授科研团队",
+        "url": "https://yz.uestc.edu.cn/info/1164/5011.htm",
+        "note": "2024-05-17的独立团队展示，核实团队实体持续存在。"
+      },
+      {
+        "title": "宽带无线通信信号处理团队介绍",
+        "url": "https://i.study.uestc.edu.cn/WWC/menu/team-introduction",
+        "note": "历史官方页面列出多位教师及原型/产品研发方向；人数为该页面口径。"
+      },
+      {
+        "title": "通信学报2025原始论文页面",
+        "url": "https://www.joconline.com.cn/en/article/doi/10.11959/j.issn.1000-436x.2025254/",
+        "note": "2025-12-25发表，机构为电子科大通信抗干扰全国重点实验室。"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Self-interference channel estimation for OFDM-based full-duplex analog arrays",
+        "url": "https://doi.org/10.11959/j.issn.1000-436x.2025254",
+        "date": "2025-12-25",
+        "authors": [
+          "Lang Lin",
+          "Wenqiang Tang",
+          "Hongzhi Zhao",
+          "Wensheng Pan",
+          "Shihai Shao",
+          "Youxi Tang"
+        ],
+        "note": "期刊原页与原文索引核对；面向OFDM模拟阵列的自干扰信道估计。"
+      }
+    ],
+    "authorQueries": [
+      "Youxi Tang",
+      "Shihai Shao",
+      "Hongzhi Zhao"
+    ],
+    "evidenceDate": "2026-11-05"
+  },
+  {
+    "id": "hust-jiang-tao",
+    "name": "江涛组",
+    "schoolId": "hust",
+    "leaders": [
+      {
+        "name": "江涛",
+        "en": "Tao Jiang"
+      }
+    ],
+    "tagline": "以可靠空口为根基，走向极端环境与星地融合通信。",
+    "whyFollow": "江涛为IEEE Fellow，团队官网给出PCC极化码进入5G标准的技术积累；现有6G移动通信研究中心、天地一体化工程平台及连续的理论、系统成果，不能与同校医学或脑科学同名Tao Jiang混淆。",
+    "past": "OFDM/FBMC波形、峰均比、PCC极化码与多天线通信；兼有多媒体网络与安全研究。",
+    "current": "2026工作包括极端环境弹性编码、低轨卫星随机接入/波形、反向散射和低空安全；主阅读线保留“可靠传输”，避免把所有跨学科论文都推给用户。",
+    "next": "关注弹性编码是否给出跨信道实测收益，以及星地网络中的短包、异步与高速移动约束如何影响空口设计。",
+    "confidence": "高：现学院以2026学校新闻确认为网络空间安全学院；官方实验室论文表与原始论文DOI交叉核对。",
+    "topics": [
+      "信道编码",
+      "极端环境通信",
+      "卫星互联网",
+      "可靠传输"
+    ],
+    "sources": [
+      {
+        "title": "华科大2026新闻：江涛团队极端环境信道编码",
+        "url": "https://news.hust.edu.cn/info/1003/59371.htm",
+        "note": "2026-08-27，确认现归属、研究主线与论文DOI。"
+      },
+      {
+        "title": "6G移动通信研究中心论文列表",
+        "url": "https://cse-sinclab.hust.edu.cn/tdythyw/Publications.htm",
+        "note": "有2025-2026连续论文及作者信息，含极化码、卫星、反向散射等主线。"
+      },
+      {
+        "title": "官方团队带头人介绍",
+        "url": "https://ei.hust.edu.cn/professor/jiangtao/ZDYF_web/html_team/team_02_leader.html",
+        "note": "历史影响力与PCC极化码标准贡献；学院归属使用2026新闻更新。"
+      }
+    ],
+    "papers": [
+      {
+        "title": "A highly reliable resilient coding for wireless communication in extreme environments",
+        "url": "https://doi.org/10.1016/j.xinn.2026.101540",
+        "date": "2026-08-24",
+        "authors": [
+          "Tao Jiang",
+          "Zhongwei Jiang",
+          "Yu Zhang",
+          "Miaoran Peng",
+          "Jinhai Zhang"
+        ],
+        "note": "官方团队论文表和学校新闻核对；原期刊卷期为2026年10月，在线日期2026-08-24。"
+      }
+    ],
+    "authorQueries": [
+      "Tao Jiang",
+      "Yu Zhang",
+      "Miaoran Peng"
+    ],
+    "evidenceDate": "2026-11-05"
+  },
+  {
+    "id": "hust-ge-xiaohu",
+    "name": "葛晓虎组",
+    "schoolId": "hust",
+    "leaders": [
+      {
+        "name": "葛晓虎",
+        "en": "Xiaohu Ge"
+      }
+    ],
+    "tagline": "绿色通信与信息网络，关注AI自身能耗和通信计算融合。",
+    "whyFollow": "依托科技部授牌的国家绿色通信与网络国际联合研究中心；团队“5G移动通信系统高能效机理研究”获2023世界互联网大会领先科技奖。长期价值是从网络能效机理推进到工程与能源约束。",
+    "past": "超密集蜂窝网络、5G网络能效、绿色通信与网络。",
+    "current": "2026综述讨论AI对能源/信息网络低碳化的帮助及AI自身碳足迹；2025合作论文研究分段捏合天线中的通信计算权衡。",
+    "next": "优先跟踪生命周期能耗、实测负载和供能约束是否进入通信优化模型；新型天线论文暂视为支线观察。",
+    "confidence": "高：2026官方团队新闻、国家平台人员页与arXiv原文机构交叉核对。",
+    "topics": [
+      "绿色通信",
+      "通信计算融合",
+      "网络能效",
+      "低碳AI"
+    ],
+    "sources": [
+      {
+        "title": "华科大2026新闻：葛晓虎团队绿色通信",
+        "url": "https://news.hust.edu.cn/info/1003/58209.htm",
+        "note": "2026-04-09，说明平台、2023奖项与2026低碳AI研究。"
+      },
+      {
+        "title": "国家绿色通信与网络国际联合研究中心：葛晓虎",
+        "url": "https://greencom.hust.edu.cn/szdw1/gxh.htm",
+        "note": "当前学校归属及学术服务背景。"
+      },
+      {
+        "title": "分段捏合天线论文原文",
+        "url": "https://arxiv.org/html/2511.16327v1",
+        "note": "正文明确葛晓虎为华科大通讯作者，避免与化学领域同名作者混淆。"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Revealing computation-communication trade-off in Segmented Pinching Antenna System (PASS)",
+        "url": "https://arxiv.org/abs/2511.16327",
+        "date": "2025-11-20",
+        "authors": [
+          "Deqiao Gan",
+          "Xiaoxia Xu",
+          "Xiaohu Ge",
+          "Yuanwei Liu"
+        ],
+        "note": "通信与计算联合传输的模型和波束优化；为合作支线，不能独自证明全组转向。"
+      }
+    ],
+    "authorQueries": [
+      "Xiaohu Ge",
+      "Junliang Ye"
+    ],
+    "evidenceDate": "2026-11-05"
+  },
+  {
+    "id": "ustc-xu-zhengyuan",
+    "name": "徐正元组",
+    "schoolId": "ustc",
+    "leaders": [
+      {
+        "name": "徐正元",
+        "en": "Zhengyuan Xu"
+      }
+    ],
+    "tagline": "无线光通信：从紫外、可见光和水下链路走向宽光谱系统。",
+    "whyFollow": "徐正元创建无线光通信与网络研究中心，曾任国家973和重点研发计划首席科学家；有持续团队、通信样机和室内/低空/海洋平台，补足纯射频通信名单的盲区。",
+    "past": "可见光/紫外通信信道、光子计数接收、无线光定位与水下无线光通信。",
+    "current": "2025-2026论文继续解决紫外测距、动态接收、波束对准与网络同步；2025报告提出用拍赫兹通信框架整合不同光谱和应用场景。",
+    "next": "跟踪动态终端、环境光和水体扰动下的可靠组网，以及宽光谱框架是否形成系统级验证。",
+    "confidence": "高：活跃研究中心官网、2026论文表与2025官方学术报告核对；不把整个中科院无线光电通信重点实验室全部并为此组。",
+    "topics": [
+      "无线光通信",
+      "水下通信",
+      "紫外通信",
+      "通信感知"
+    ],
+    "sources": [
+      {
+        "title": "无线光通信与网络研究中心",
+        "url": "https://owc.ustc.edu.cn/main.htm",
+        "note": "官网有2026最新活动、低空/海洋/工业平台及教师团队入口。"
+      },
+      {
+        "title": "徐正元论文列表",
+        "url": "https://owc.ustc.edu.cn/2016/0830/c13877a116334/page.htm",
+        "note": "持续更新至2026，区分published与in press。"
+      },
+      {
+        "title": "2025官方报告：面向6G的无线光通信感知与拍赫兹通信",
+        "url": "https://quantum.ustc.edu.cn/node/1214",
+        "note": "2025-04-18，确认主任身份、历史影响力和公开研究构想。"
+      }
+    ],
+    "papers": [
+      {
+        "title": "An adaptive threshold updating algorithm for PMT-based ultraviolet communication",
+        "url": "https://doi.org/10.1109/JPHOT.2025.3570394",
+        "date": "2025-06",
+        "authors": [
+          "Jingyang Chen",
+          "Yuan Ren",
+          "Fei Long",
+          "Lingfeng Li",
+          "Weijie Liu",
+          "Jian Chen",
+          "Dezhi Yang",
+          "Chen Gong",
+          "Zhengyuan Xu"
+        ],
+        "note": "中心官方论文列表核对；通过动态阈值适配环境变化，并有室内/室外实验。"
+      }
+    ],
+    "authorQueries": [
+      "Zhengyuan Xu",
+      "Chen Gong",
+      "Weijie Liu"
+    ],
+    "evidenceDate": "2026-11-05"
+  },
+  {
+    "id": "hit-zhang-qinyu",
+    "name": "张钦宇组",
+    "schoolId": "hit",
+    "leaders": [
+      {
+        "name": "张钦宇",
+        "en": "Qinyu Zhang"
+      }
+    ],
+    "tagline": "空天通信与分布式卫星，把编码、网络和星载验证连起来。",
+    "whyFollow": "带领哈工大深圳校区广东省空天通信与网络技术重点实验室，长期服务卫星互联网与深空探测；2026联合研制的鹏城首发星入轨，具有从理论到在轨载荷验证的证据。",
+    "past": "深空通信、可靠编译码、星地链路和空间信息网络。",
+    "current": "2026重点可见分布式卫星/手机直连、超可靠编码、多轨道融合、在轨计算与按需回传；鹏城首发星集成通信、AI计算及激光/微波载荷。",
+    "next": "官网已明确后续推进在轨验证及标准/产品转化；优先跟踪实际在轨结果，而非只新增卫星资源分配仿真。",
+    "confidence": "高：2026-09深圳校区官方新闻直接说明组实体与任务。张钦宇有跨校区行政任职，地图按本组实验室放深圳并注明。",
+    "topics": [
+      "卫星互联网",
+      "深空通信",
+      "信道编码",
+      "在轨验证"
+    ],
+    "sources": [
+      {
+        "title": "哈工大深圳2026：鹏城首发星成功入轨",
+        "url": "https://www.hitsz.edu.cn/news/2026/0925/c6a18602/page.psp",
+        "note": "2026-09-25，明确张钦宇为实验室主任、团队贡献及后续在轨验证。"
+      },
+      {
+        "title": "张钦宇官方教师主页",
+        "url": "https://homepage.hit.edu.cn/zhangqinyu",
+        "note": "列深圳校区归属和联系方式；地图使用研究实体所在校区。"
+      },
+      {
+        "title": "2026卫星直连综述的官方团队论文目录",
+        "url": "https://cse-sinclab.hust.edu.cn/tdythyw/Publications.htm",
+        "note": "第51项为张钦宇领衔多机构综述；不把所有合作作者归入一个组。"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Semantics-Empowered Space-Air-Ground-Sea Integrated Network: New Paradigm, Frameworks, and Challenges",
+        "url": "https://arxiv.org/abs/2402.14297",
+        "date": "2024-02-22",
+        "authors": [
+          "Siqi Meng",
+          "Shaohua Wu",
+          "Jiaming Zhang",
+          "Junlan Cheng",
+          "Haibo Zhou",
+          "Qinyu Zhang"
+        ],
+        "note": "原arXiv确认2024-06-16修订，页面注明被IEEE Communications Surveys & Tutorials接受；语义与空天地海融合的一条支线。"
+      }
+    ],
+    "authorQueries": [
+      "Qinyu Zhang",
+      "Jian Jiao",
+      "Shaohua Wu"
+    ],
+    "evidenceDate": "2026-11-05",
+    "campus": "哈尔滨工业大学（深圳）"
+  },
+  {
+    "id": "bit-fei-zesong",
+    "name": "费泽松组",
+    "schoolId": "bit",
+    "leaders": [
+      {
+        "name": "费泽松",
+        "en": "Zesong Fei"
+      }
+    ],
+    "tagline": "星地融合与通感算，连接移动通信算法和系统研发。",
+    "whyFollow": "依托北理工通信技术研究所的教育部创新团队、重点实验室平台；2025官方联合招聘明确费泽松、郑重等持续协作。费泽松主持多类国家项目并有学会自然科学奖，不能把研究所20名教师全算其个人组。",
+    "past": "MIMO与无线资源优化、5G通信系统、卫星通信。",
+    "current": "2025官方招聘将星地融合、通感算列为主线，招卫星通信与通感一体化博士后；近期论文使用条件扩散模型识别无线信道场景。",
+    "next": "关注生成式模型是否提高真实信道/跨场景泛化，以及通感与卫星方向是否出现联合原型和实测。",
+    "confidence": "较高：2025官方招聘、教师页、arXiv作者机构核对；研究所平台规模与个人组规模严格区分。",
+    "topics": [
+      "星地融合",
+      "通感算融合",
+      "无线AI",
+      "MIMO"
+    ],
+    "sources": [
+      {
+        "title": "北理工2025通信技术研究所招聘公告",
+        "url": "https://renshichu.bit.edu.cn/gb2bsh/zpxxblk/xxydzxb/xxydzxy/39c2f28378b74e55abdc237762078957.htm",
+        "note": "2025-06-20，说明多教师研究所、费泽松研究方向及卫星/通感招聘。"
+      },
+      {
+        "title": "北理工费泽松教师页",
+        "url": "https://sie.bit.edu.cn/szdw/jsml/txjsyjsj/zgzct/906fc131cd5b40a9b0dc7bfc441ceb42.htm",
+        "note": "现归属与IMT-2020/2030推进组专家背景。"
+      },
+      {
+        "title": "无线信道识别论文原文",
+        "url": "https://arxiv.org/html/2506.12419v1",
+        "note": "明确费泽松与主要学生作者为北京理工大学。"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Wireless Channel Identification via Conditional Diffusion Model",
+        "url": "https://arxiv.org/abs/2506.12419",
+        "date": "2025-06-14",
+        "authors": [
+          "Yuan Li",
+          "Zhong Zheng",
+          "Chang Liu",
+          "Zesong Fei"
+        ],
+        "note": "原arXiv与HTML机构核对；使用条件生成扩散模型提取信道场景特征，结果仍属于论文实验范围。"
+      }
+    ],
+    "authorQueries": [
+      "Zesong Fei",
+      "Zhong Zheng",
+      "Jingxuan Huang"
+    ],
+    "evidenceDate": "2026-11-05"
+  },
+  {
+    "id": "buaa-liu-rongke",
+    "name": "刘荣科组",
+    "schoolId": "buaa",
+    "leaders": [
+      {
+        "name": "刘荣科",
+        "en": "Rongke Liu"
+      }
+    ],
+    "tagline": "卫星互联网与低空融合通信感知，强调可靠链路和工程平台。",
+    "whyFollow": "刘荣科任卫星导航应用国家工程研究中心副主任、深圳市智慧城市重点实验室主任；官方资料给出国家项目与标准制定经历。团队2026展示低空融合终端和电磁安全平台，有工程连续性证据。",
+    "past": "宽带无线通信、卫星测控通信导航、集成电路与航电系统。",
+    "current": "2025低空定位感知综述明确展示团队测试平台；2026深圳研究院展示低空融合通信终端，研究复杂电磁干扰、多链路可靠性、机载集成。",
+    "next": "跟踪复杂城市场景长期验证、低空通信与定位的共同指标，以及卫星/地面/低空链路的协同证据。",
+    "confidence": "较高：2026官方研究院动态与2025论文机构核对；研究横跨北航本部和深圳研究院，未据单篇同名arXiv自动归属。",
+    "topics": [
+      "低空通信",
+      "卫星互联网",
+      "通信感知",
+      "可靠链路"
+    ],
+    "sources": [
+      {
+        "title": "刘荣科官方主页：研究领域与简介",
+        "url": "https://teacher.buaa.edu.cn/liurongke/zh_CN/more/18015/jsjjgd/index.htm",
+        "note": "确认在北航任职、国家工程中心与研究方向。"
+      },
+      {
+        "title": "北航深圳研究院2026低空融合通信感知成果",
+        "url": "https://sibu.buaa.edu.cn/info/1318/3019.htm",
+        "note": "2026-09-23，实际终端/平台展示与团队最新关注问题。"
+      },
+      {
+        "title": "北京大学机构库：融合6G网络的低空定位感知论文",
+        "url": "https://ir.pku.edu.cn/handle/20.500.11897/765120",
+        "note": "2025-10-17，列完整作者与北航/深圳研究院机构。"
+      }
+    ],
+    "papers": [
+      {
+        "title": "融合6G通信网络的低空飞行器定位感知理论模型与关键技术",
+        "url": "https://doi.org/10.1360/SSI-2025-0068",
+        "date": "2025-10-17",
+        "authors": [
+          "Qirui Liu",
+          "Rongke Liu",
+          "Quanyu Meng",
+          "Chang Jin",
+          "Zijie Wang",
+          "Chenren Xu"
+        ],
+        "note": "中国科学：信息科学55(10):2401–2426；原出版PDF与北大机构库确认，是合作综述及团队验证平台介绍。"
+      }
+    ],
+    "authorQueries": [
+      "Rongke Liu",
+      "Quanyu Meng",
+      "Chang Jin"
+    ],
+    "evidenceDate": "2026-11-05",
+    "campus": "北航本部 / 深圳研究院"
+  },
+  {
+    "id": "ustc-zhang-wenyi",
+    "name": "张文逸组",
+    "schoolId": "ustc",
+    "leaders": [
+      {
+        "name": "张文逸",
+        "en": "Wenyi Zhang"
+      }
+    ],
+    "tagline": "无线通信与信息论：关注可解释的边界、推断和语义接口。",
+    "whyFollow": "张文逸为中科大唐仲英讲席教授，依托持续的无线网络通信实验室平台，理论方向与华为合作项目有连续性；适合用作理论观察点。公开材料没有独立组的完整实时规模，核心名单优先级低于证据充分的多PI团队。",
+    "past": "认知无线电、非高斯干扰下频谱感知、无线容量与资源优化、信息论和统计推断。",
+    "current": "官网列语义驱动通信、信息传输与推断项目；2025学生论文研究带比特重要性的学习式数字接口，使DeepJSCC适配现有分层网络。",
+    "next": "关注语义收益是否经真实信道、标准兼容接口和强基线检验；理论边界能否解释学习系统的收益与失效条件。",
+    "confidence": "中等：现归属、理论主线和近期论文已核实；独立大组规模和组织边界尚需进一步确认，建议作为候补或理论特色观察点。",
+    "topics": [
+      "信息论",
+      "语义通信",
+      "统计推断",
+      "认知无线电"
+    ],
+    "sources": [
+      {
+        "title": "张文逸官方教师主页",
+        "url": "https://faculty.ustc.edu.cn/zhangwenyi/zh_CN/index.htm",
+        "note": "讲席教授及主要研究兴趣。"
+      },
+      {
+        "title": "中科大无线网络通信实验室简介",
+        "url": "https://institution.ustc.edu.cn/wuxianwangluotongxinshiyanshi1/zh_CN/",
+        "note": "长期平台、教师成员与系统研发条件；不将整个WINLab视作其个人组。"
+      },
+      {
+        "title": "张文逸官方科研项目列表",
+        "url": "https://faculty.ustc.edu.cn/zhangwenyi/zh_CN/kyxm/256559/list/index.htm",
+        "note": "有语义、推断和华为合作方向；页面“进行”状态无明确核实日期，不直接当作2026在研承诺。"
+      },
+      {
+        "title": "语义数字接口论文原文",
+        "url": "https://arxiv.org/html/2507.12850v1",
+        "note": "明确Wenzheng Kong和Wenyi Zhang均为中科大，附开源代码。"
+      }
+    ],
+    "papers": [
+      {
+        "title": "Learning-Based Interface for Semantic Communication with Bit Importance Awareness",
+        "url": "https://arxiv.org/abs/2507.12850",
+        "date": "2025-07-17",
+        "authors": [
+          "Wenzheng Kong",
+          "Wenyi Zhang"
+        ],
+        "note": "原arXiv与机构核对；不是把另一同名CV研究者的扩散模型论文误归到通信组。"
+      }
+    ],
+    "authorQueries": [
+      "Wenyi Zhang",
+      "Wenzheng Kong"
+    ],
+    "evidenceDate": "2026-11-05",
+    "selectionStatus": "候补：团队规模待补证"
+  }
+]

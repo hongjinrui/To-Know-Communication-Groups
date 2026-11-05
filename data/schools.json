@@ -1,0 +1,235 @@
+{
+  "schools": [
+    {
+      "id": "tsinghua",
+      "name": "清华大学",
+      "shortName": "清华",
+      "city": "北京",
+      "region": "内地",
+      "lat": 40.003,
+      "lon": 116.327,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "pku",
+      "name": "北京大学",
+      "shortName": "北大",
+      "city": "北京",
+      "region": "内地",
+      "lat": 39.991,
+      "lon": 116.305,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "seu",
+      "name": "东南大学",
+      "shortName": "东南",
+      "city": "南京",
+      "region": "内地",
+      "lat": 32.056,
+      "lon": 118.798,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "sjtu",
+      "name": "上海交通大学",
+      "shortName": "上交",
+      "city": "上海",
+      "region": "内地",
+      "lat": 31.025,
+      "lon": 121.438,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "zju",
+      "name": "浙江大学",
+      "shortName": "浙大",
+      "city": "杭州",
+      "region": "内地",
+      "lat": 30.308,
+      "lon": 120.086,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "uestc",
+      "name": "电子科技大学",
+      "shortName": "电子科大",
+      "city": "成都",
+      "region": "内地",
+      "lat": 30.758,
+      "lon": 103.925,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "xjtu",
+      "name": "西安交通大学",
+      "shortName": "西交",
+      "city": "西安",
+      "region": "内地",
+      "lat": 34.247,
+      "lon": 108.982,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "ustc",
+      "name": "中国科学技术大学",
+      "shortName": "中科大",
+      "city": "合肥",
+      "region": "内地",
+      "lat": 31.822,
+      "lon": 117.279,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "hust",
+      "name": "华中科技大学",
+      "shortName": "华科",
+      "city": "武汉",
+      "region": "内地",
+      "lat": 30.513,
+      "lon": 114.419,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "buaa",
+      "name": "北京航空航天大学",
+      "shortName": "北航",
+      "city": "北京",
+      "region": "内地",
+      "lat": 39.982,
+      "lon": 116.347,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "hit",
+      "name": "哈尔滨工业大学（深圳）",
+      "shortName": "哈工大·深圳",
+      "city": "深圳",
+      "region": "内地",
+      "lat": 22.591,
+      "lon": 113.974,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "bit",
+      "name": "北京理工大学",
+      "shortName": "北理",
+      "city": "北京",
+      "region": "内地",
+      "lat": 39.959,
+      "lon": 116.313,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "nwpu",
+      "name": "西北工业大学",
+      "shortName": "西工大",
+      "city": "西安",
+      "region": "内地",
+      "lat": 34.243,
+      "lon": 108.918,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "sdu",
+      "name": "山东大学",
+      "shortName": "山大",
+      "city": "青岛",
+      "region": "内地",
+      "lat": 36.363,
+      "lon": 120.686,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "bupt",
+      "name": "北京邮电大学",
+      "shortName": "北邮",
+      "city": "北京",
+      "region": "内地",
+      "lat": 39.961,
+      "lon": 116.358,
+      "coverage": "selected",
+      "scopeException": true
+    },
+    {
+      "id": "xidian",
+      "name": "西安电子科技大学",
+      "shortName": "西电",
+      "city": "西安",
+      "region": "内地",
+      "lat": 34.129,
+      "lon": 108.84,
+      "coverage": "selected",
+      "scopeException": true
+    },
+    {
+      "id": "hku",
+      "name": "香港大学",
+      "shortName": "港大",
+      "city": "香港",
+      "region": "香港",
+      "lat": 22.283,
+      "lon": 114.137,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "cuhk",
+      "name": "香港中文大学",
+      "shortName": "港中文",
+      "city": "香港",
+      "region": "香港",
+      "lat": 22.419,
+      "lon": 114.206,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "hkust",
+      "name": "香港科技大学",
+      "shortName": "港科大",
+      "city": "香港",
+      "region": "香港",
+      "lat": 22.336,
+      "lon": 114.266,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "cityu",
+      "name": "香港城市大学",
+      "shortName": "港城大",
+      "city": "香港",
+      "region": "香港",
+      "lat": 22.337,
+      "lon": 114.173,
+      "coverage": "selected",
+      "scopeException": false
+    },
+    {
+      "id": "polyu",
+      "name": "香港理工大学",
+      "shortName": "港理工",
+      "city": "香港",
+      "region": "香港",
+      "lat": 22.305,
+      "lon": 114.18,
+      "coverage": "selected",
+      "scopeException": false
+    }
+  ]
+}

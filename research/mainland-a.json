@@ -1,0 +1,155 @@
+[
+  {
+    "id": "tsinghua-dai", "name": "戴凌龙组", "schoolId": "tsinghua",
+    "leaders": [{"name":"戴凌龙","en":"Linglong Dai"}],
+    "tagline": "从大规模阵列走向近场通信与电磁信息论",
+    "whyFollow": "有持续学生团队、公开仿真代码和原型演示；代表工作获IEEE通信学会Abraham奖、Rice奖，兼有理论与实验支撑，适合跟踪6G物理层的演进。",
+    "past": "以多载波、多天线和多址传输起步，形成毫米波大规模MIMO、混合预编码与信道估计主线。",
+    "current": "近场超大规模阵列、RIS与电磁信息论是清晰主轴；2026年预印本进一步研究准分布阵列在角度和距离域的栅瓣抑制。",
+    "next": "跟踪近场方案能否在宽带、移动与硬件约束下继续成立，以及算法到原型系统的验证。此为观察问题，非已宣布计划。",
+    "confidence": "高：清华团队主页、研究人员页及2026年原始论文交叉核对。",
+    "topics": ["近场通信","超大规模MIMO","RIS","电磁信息论"],
+    "sources": [
+      {"title":"清华：戴凌龙团队主页","url":"https://oa.ee.tsinghua.edu.cn/dailinglong/","note":"现任归属、研究主线、团队规模及奖项；不采用旧版中文职称。"},
+      {"title":"团队研究人员","url":"https://oa.ee.tsinghua.edu.cn/dailinglong/members/zhuoxu.html","note":"可核对学生培养与近场研究连续性。"},
+      {"title":"团队新闻与获奖记录","url":"https://oa.ee.tsinghua.edu.cn/dailinglong/news/news.html","note":"核对近期团队成果；高被引身份仅作辅助证据。"}
+    ],
+    "papers": [{"title":"Near-Field Communications with Grating Lobes for Quasi-Distributed Arrays: From ULA to MRA","url":"https://arxiv.org/abs/2607.29341","date":"2026-07-31","authors":["Mingyuan Zhou","Zhuo Xu","Linglong Dai"],"note":"预印本；用非均匀子阵抑制近场角度/距离栅瓣，属于近场阵列主线的延伸。"}],
+    "authorQueries": ["Linglong Dai"], "identityHints":{"affiliations":["Tsinghua"],"coauthors":["Mingyao Cui","Zhuo Xu","Zijian Zhang","Yu Lu"]}, "evidenceDate":"2026-11-05"
+  },
+  {
+    "id": "tsinghua-niu", "name": "牛志升—周盛组", "schoolId": "tsinghua",
+    "leaders": [{"name":"牛志升","en":"Zhisheng Niu"},{"name":"周盛","en":"Sheng Zhou"}],
+    "tagline": "绿色无线网络 → 边缘智能与协同系统",
+    "whyFollow": "NIULAB公开列出两位教师及持续学生队伍；绿色网络长期积累延伸到无线联邦学习，相关联合调度论文获2024年IEEE通信学会亚太杰出论文奖，方向演化有连续证据。",
+    "past": "从排队论、话务与资源优化，发展绿色通信、超蜂窝网络和移动边缘计算；核心问题是能耗、时延和服务质量的联合权衡。",
+    "current": "官网已形成边缘智能、车路协同、低空智能网络、AI原生网络和绿色无线五条线；2026年工作把通信开销纳入车路协同视觉语言模型。",
+    "next": "关注通信受限的多智能体协作是否有真实系统收益，以及大模型边缘推理的能耗与端到端时延。此为观察问题。",
+    "confidence": "高：清华官方团队页确认共同团队关系，新团队站和原始论文确认当前方向。",
+    "topics": ["绿色通信","边缘智能","车联网","低空网络"],
+    "sources": [
+      {"title":"清华NIULAB成员页","url":"https://network.ee.tsinghua.edu.cn/niulab/?category_name=people","note":"确认牛志升与周盛属于同一持续团队，而非临时合作。"},
+      {"title":"NIULAB研究与近期成果","url":"https://souig.github.io/","note":"官网列2位faculty、11位博士生和5位硕士生；按研究主题组织。"},
+      {"title":"清华：无线联邦学习论文获亚太杰出论文奖","url":"https://www.ee.tsinghua.edu.cn/info/1076/4682.htm","note":"具体技术成果与外部同行认可。"}
+    ],
+    "papers": [{"title":"DH-VLM: Dual-Horizon Cooperative Latent Reasoning for Autonomous Driving","url":"https://arxiv.org/abs/2608.09333","date":"2026-08-10","authors":["Ziyi Song","Chen Xia","Hang Yu","Sheng Zhou","Zhisheng Niu"],"note":"预印本；车路协同潜在表示推理，重点看性能、通信量与计算开销的共同约束。"}],
+    "authorQueries": ["Zhisheng Niu","Sheng Zhou"], "identityHints":{"affiliations":["Tsinghua"],"coauthors":["Zhisheng Niu","Sheng Zhou","Ziyi Song","Yunchu Han"]}, "evidenceDate":"2026-11-05"
+  },
+  {
+    "id": "pku-song", "name": "宋令阳组", "schoolId": "pku",
+    "leaders": [{"name":"宋令阳","en":"Lingyang Song"}],
+    "tagline": "终端协作通信 → 可重构全息无线系统",
+    "whyFollow": "除无线协作通信理论积累外，联合团队已有可重构全息超表面大规模天线实物系统，并获ICCC 2024最佳演示奖；2026年与光子团队合作完成多频段无线系统，值得同时看算法与器件实现。",
+    "past": "D2D、全双工和协作通信是早期辨识度高的方向，随后扩展到蜂窝无人机、边缘资源分配与超表面。",
+    "current": "近期重点集中于可重构全息表面（RHS）、超大规模MIMO、通感融合；2026年原始论文研究抗遮挡的太赫兹弯曲波束，联合实验推进光子芯片与无线融合。",
+    "next": "跟踪全息表面相对相控阵的系统级能耗、互耦与校准代价，以及抗遮挡波束能否实验验证。此为观察问题。",
+    "confidence": "高：北大现任教师页、联合团队官方演示新闻与2026年原始论文核对；联合成果不等于所有合作者属于本组。",
+    "topics": ["全息通信","RIS","太赫兹","通感一体化"],
+    "sources": [
+      {"title":"北京大学：宋令阳教师页","url":"https://ele.pku.edu.cn/info/1042/1174.htm","note":"现任归属、早期代表成果及研究所信息。"},
+      {"title":"北大：联合课题组获ICCC 2024最佳演示奖","url":"https://ele.pku.edu.cn/info/1111/3210.htm","note":"宋令阳、邸博雅、张泓亮联合实验团队的真实系统证据。"},
+      {"title":"北大：光芯片与无线通信融合进展","url":"https://news.pku.edu.cn/jxky/1500ff6d699f4303ad4d98bf8554d6c0.htm","note":"2026-03-04多频段系统论文及雷达/视频实验；与常林、邸博雅团队合作。"}
+    ],
+    "papers": [{"title":"Holographic Airy Beamforming: Curved Trajectory Optimization for Blockage-Resilient Terahertz Communications","url":"https://arxiv.org/abs/2605.16057","date":"2026-05-15","authors":["Xinyuan Hu","Boya Di","Lingyang Song"],"note":"预印本；用RHS幅度控制产生弯曲Airy波束，当前验证以仿真为主。"}],
+    "authorQueries": ["Lingyang Song"], "identityHints":{"affiliations":["Peking University"],"coauthors":["Boya Di","Hongliang Zhang","Shuhang Zhang","Xinyuan Hu"]}, "evidenceDate":"2026-11-05"
+  },
+  {
+    "id": "seu-you", "name": "尤肖虎组", "schoolId": "seu",
+    "leaders": [{"name":"尤肖虎","en":"Xiaohu You"}],
+    "tagline": "移动通信体系、分布式MIMO与6G原生智能",
+    "whyFollow": "有跨代移动通信国家重大项目和真实通信系统积累；分布式MIMO/Cell-Free研究获陈嘉庚科学奖信息技术奖、IET成就奖，宽带无线传输工作获国家技术发明一等奖，影响力不只来自论文数量。",
+    "past": "长期围绕3G至5G传输理论和系统研发，代表线索包括分布式MIMO、容量逼近和大规模天线；亦推进光子太赫兹实时通信系统。",
+    "current": "6G总体技术体系、AI与通信融合及可持续网络是公开主线；2026年合作论文将无线知识图谱用于缺失/噪声网络数据预测。",
+    "next": "优先看6G总体架构是否形成可验证的新系统能力，及原生AI带来的时延、能耗和数据成本。此为观察问题。",
+    "confidence": "高（影响力与团队）；当前细分课题为中高：大平台下合作较多，单篇署名不能独立证明全组转向。",
+    "topics": ["6G体系","Cell-Free","AI原生网络","太赫兹"],
+    "sources": [
+      {"title":"东南大学：尤肖虎院士介绍","url":"https://rcb.seu.edu.cn/2023/1129/c56275a509342/page.htm","note":"具体历史贡献、奖项和国家项目；不以平台下所有教师作组成员。"},
+      {"title":"东南大学：学术年发展大会","url":"https://skc.seu.edu.cn/2024/0611/c23027a493433/page.htm","note":"团队牵头6G专项总体技术研究项目的证据。"},
+      {"title":"东南大学：6G太赫兹融合通信系统","url":"https://radio.seu.edu.cn/2022/0414/c1589a404862/page.htm","note":"100/200GbE光子太赫兹实时系统演示成果。"},
+      {"title":"原始论文全文与作者单位","url":"https://arxiv.org/html/2604.06971v1","note":"东南大学/紫金山实验室合作，黄永明为通讯作者；仅作为共同研究动向。"}
+    ],
+    "papers": [{"title":"RieIF: Knowledge-Driven Riemannian Information Flow for Robust Spatio-Temporal Graph Signal Prediction in 6G Wireless Networks","url":"https://arxiv.org/abs/2604.06971","date":"2026-04-08","authors":["Zhonghao Jiu","Yongming Huang","Fan Meng","Hang Zhan","Zening Liu","Xiaohu You"],"note":"预印本/合作工作，知识图谱与几何约束用于无线网络数据恢复；不据此认定团队整体改向。"}],
+    "authorQueries": ["Xiaohu You"], "identityHints":{"affiliations":["Southeast University","Purple Mountain"],"coauthors":["Yongming Huang","Dongming Wang","Cheng Zhang","Xiqi Gao"]}, "evidenceDate":"2026-11-05"
+  },
+  {
+    "id": "seu-jin", "name": "金石组", "schoolId": "seu",
+    "leaders": [{"name":"金石","en":"Shi Jin"}],
+    "tagline": "MIMO统计理论 → AI物理层与无线基座模型",
+    "whyFollow": "代表成果覆盖MIMO随机矩阵分析、CsiNet类CSI反馈和RIS测量；分别有Rice、Marconi等具体论文奖支撑，是观察通信物理模型与机器学习结合的重要团队。",
+    "past": "从MIMO波束成形及性能分析，延伸至大规模MIMO信道反馈、深度学习和RIS路径损耗建模与实测。",
+    "current": "官方2026年研究兴趣为AI原生通信、MIMO、RIS与通感；2025—2026原始论文从借用预训练视觉模型，走向物理先验引导的CSI基座模型。",
+    "next": "关注跨场景、跨任务泛化和数据效率，尤其与传统估计器、公平训练规模及实测信道的比较。此为观察问题。",
+    "confidence": "高：东南2026年官方简介与连续原始论文交叉核对。",
+    "topics": ["AI物理层","CSI反馈","MIMO","无线基座模型"],
+    "sources": [
+      {"title":"东南大学：JIN Shi（2026）","url":"https://oic.seu.edu.cn/oicenglish/2026/0522/c68505a568520/page.htm","note":"现任归属、研究主题及获奖代表工作。"},
+      {"title":"移动通信全国重点实验室：教学科研队伍","url":"https://ncrl.seu.edu.cn/jxkydw/list.htm","note":"核对持续团队所在的研究平台，平台不等于单一课题组。"}
+    ],
+    "papers": [
+      {"title":"SPA-MAE: A Physics-Guided CSI Foundation Model for Wireless Physical Layer","url":"https://arxiv.org/abs/2605.19849","date":"2026-05-19","authors":["Chen Chen","Weijie Jin","Hengtao He","Xiaoheng Sun","Shi Jin"],"note":"预印本；把多径参数和变换域稀疏结构作为预训练指导，重点看下游泛化。"},
+      {"title":"LVM4CSI: Enabling Direct Application of Pre-Trained Large Vision Models for Wireless Channel Tasks","url":"https://arxiv.org/abs/2507.05121","date":"2025-07-07","authors":["Jiajia Guo","Peiwen Jiang","Chao-Kai Wen","Shi Jin","Jun Zhang"],"note":"预印本/合作工作；将CSI转为视觉表示，应用预训练视觉模型处理信道估计、定位等任务。"}
+    ],
+    "authorQueries": ["Shi Jin"], "identityHints":{"affiliations":["Southeast University"],"coauthors":["Jiajia Guo","Hengtao He","Chao-Kai Wen","Wankai Tang"]}, "evidenceDate":"2026-11-05"
+  },
+  {
+    "id": "seu-zeng", "name": "曾勇组", "schoolId": "seu",
+    "leaders": [{"name":"曾勇","en":"Yong Zeng"}],
+    "tagline": "无人机通信 → 信道知识地图与环境感知无线",
+    "whyFollow": "无人机通信、无线供能与信道知识地图具有连续研究脉络；官方导师页列出IEEE Fellow及Marconi/Hertz等奖项，团队站公开人员与研究主题，能持续追踪而非单篇热点。",
+    "past": "从透镜阵列、毫米波MIMO和无线供能，拓展到无人机轨迹—能耗—通信联合设计与蜂窝联网无人机。",
+    "current": "低空智能通感、CKM、近场和ISAC为明确主线；2026年工作利用环境几何与材料信息生成信道知识地图。",
+    "next": "跟踪CKM从静态仿真走向动态环境、跨设备迁移和低成本采样，以及地图更新的时效与开销。此为观察问题。",
+    "confidence": "高：东南官方主页确认归属与早期成果，团队站及2026年论文确认当前方向。",
+    "topics": ["信道知识地图","低空通信","通感一体化","近场通信"],
+    "sources": [
+      {"title":"东南大学：曾勇教授简介","url":"https://ncrl.seu.edu.cn/2020/0508/c17542a327225/page.htm","note":"历史归属及无人机通信早期代表工作；页面较旧，不用其中旧统计冒充当前。"},
+      {"title":"东南大学导师主页：曾勇","url":"https://seu.teacher.360eol.com/teacherBasic/preview?teacherId=9593","note":"当前研究主题、2025 IEEE Fellow与论文奖信息。"},
+      {"title":"低空智能通感课题组","url":"https://www.yzgroup.top/","note":"当前团队、CKM/ISAC/近场研究线；引用数字不用于选组评分。"}
+    ],
+    "papers": [{"title":"A Material-Aware Channel Model for Efficient CKM Generation via Environment Reconstruction","url":"https://arxiv.org/abs/2609.08859","date":"2026-09-08","authors":["Xuancheng Zhu","Zhenjun Dong","Yong Zeng","Cheng-Xiang Wang"],"note":"预印本；显式建模散射体材料并从稀疏测量重构，当前验证为全波仿真。"}],
+    "authorQueries": ["Yong Zeng"], "identityHints":{"affiliations":["Southeast University","Purple Mountain"],"coauthors":["Xiaoli Xu","Zhenjun Dong","Haiquan Lu","Xuancheng Zhu"]}, "evidenceDate":"2026-11-05"
+  },
+  {
+    "id": "sjtu-tao", "name": "陶梅霞组", "schoolId": "sjtu",
+    "leaders": [{"name":"陶梅霞","en":"Meixia Tao"}],
+    "tagline": "计算通信融合 → 边缘学习与语义传输",
+    "whyFollow": "有移动计算通信融合的长期理论与项目积累，获2019 Marconi奖、2021上海市自然科学一等奖（第一完成人）；现有低空信道重点项目和6G空口基座模型项目，适合看语义/边缘智能是否形成系统能力。",
+    "past": "从无线资源分配、内容缓存与分发，逐步发展通信—存储—计算协同和无线联邦学习。",
+    "current": "官方方向覆盖边缘智能、语义通信、通感算与智能信道；2026年语义传输继续研究丢包条件下的轻量生成式重建，公开项目延伸到低空信道与无线空口基座模型。",
+    "next": "关注语义任务收益是否经受真实信道、丢包和算力预算约束，以及生成内容失真的可控性。此为观察问题。",
+    "confidence": "高（归属、项目和成果）；组内人员边界未以公开名册穷举，跨实验室合作明确保留为合作成果。",
+    "topics": ["语义通信","边缘智能","联邦学习","通感算一体化"],
+    "sources": [
+      {"title":"上海交大：陶梅霞教师页","url":"https://icisee.sjtu.edu.cn/jiaoshiml/541.html","note":"当前方向、2025—2029低空信道重点项目、2025—2027空口基座模型项目和具体论文奖。"},
+      {"title":"上海交大：团队与计算通信融合工作","url":"https://www.seiee.sjtu.edu.cn/index_news/1345.html","note":"学院介绍团队在通信/缓存/计算三维协同方面的持续研究。"}
+    ],
+    "papers": [
+      {"title":"Lightweight Generative Image Semantic Communication over Packet Erasure Channels","url":"https://arxiv.org/abs/2609.06989","date":"2026-09-07","authors":["Yufei Bo","Haoshuo Zhang","Meixia Tao","Jing He","Xinming Huang"],"note":"预印本；面向丢包信道的轻量生成式联合信源信道编码，重点权衡感知质量、像素保真与时延。"},
+      {"title":"Distributed Image Semantic Communication via Nonlinear Transform Coding","url":"https://arxiv.org/abs/2506.07391","date":"2025-06-09","authors":["Yufei Bo","Meixia Tao","Kai Niu"],"note":"预印本；相关多视角图像的分布式编码与联合恢复，延续语义与信源信道编码主线。"}
+    ],
+    "authorQueries": ["Meixia Tao"], "identityHints":{"affiliations":["Shanghai Jiao Tong"],"coauthors":["Yufei Bo","Haoshuo Zhang","Shu Sun","Yaping Sun"]}, "evidenceDate":"2026-11-05"
+  },
+  {
+    "id": "zju-zhang", "name": "张朝阳组", "schoolId": "zju",
+    "leaders": [{"name":"张朝阳","en":"Zhaoyang Zhang"}],
+    "tagline": "无线空口、网络智能与感知通信计算融合",
+    "whyFollow": "学校明确列为由张朝阳负责的“新一代通信与智能网络”核心研究团队，含多位持续研究骨干；横跨空口、架构和信息论，适合用一个入口理解浙大通信方向，避免把全部合作者拆成个人清单。",
+    "past": "团队早已布局无线空口、智能收发、大规模接入与感知通信计算融合；2021年官方团队介绍已将内生智能和分布学习列为主线。",
+    "current": "2026年官方主页仍以无线AI、通感算及后香农信息论为核心；近期原始论文从分割联邦大模型训练延伸到环境驱动的多径参数预测与缓存加速。",
+    "next": "关注无线AI的跨环境泛化、物理可解释性与端侧成本；不能把同名作者的纯视觉/语言模型论文当作本组新方向。此为观察问题。",
+    "confidence": "高（学校团队及归属）；论文已用无线主题、核心共作者和浙大单位交叉消歧。官方团队名单为2021年快照，不视作当前全员名册。",
+    "topics": ["无线AI","通感算一体化","信道预测","网络信息论"],
+    "sources": [
+      {"title":"浙江大学：张朝阳现任教师主页","url":"https://person.zju.edu.cn/zhaoyangzhang","note":"2026-09更新，确认浙大信电学院归属及当前研究方向。"},
+      {"title":"浙江大学：新一代通信与智能网络核心研究团队","url":"https://www.intl.zju.edu.cn/zh-hans/node/11720","note":"2021年正式团队负责人、骨干及主线；历史快照，不作当前全员认定。"},
+      {"title":"浙江大学：DRL初始接入研究","url":"https://futre.zju.edu.cn/2025/0924/c82801a3085317/page.htm","note":"官方成果报道，正文发布时间为2025-04-24；不能用URL月份替代论文日期。"},
+      {"title":"2026年论文全文与浙大单位","url":"https://arxiv.org/html/2610.34135v1","note":"确认同名作者的单位为浙江大学；摘要页与全文标题略有差异。"}
+    ],
+    "papers": [
+      {"title":"Environment-Adaptive Dynamic KV Cache for Multi-Path Parameter Prediction","url":"https://arxiv.org/abs/2610.34135","date":"2026-10-25","authors":["Zhaoyang Li","Yuhao Chen","Qianqian Yang","Zhaoyang Zhang"],"note":"预印本；复用环境侧Transformer表示以降低多链路预测成本，全文确认浙大单位。"},
+      {"title":"Efficient Split Federated Learning for Large Language Models over Communication Networks","url":"https://arxiv.org/abs/2504.14667","date":"2025-04-20","authors":["Kai Zhao","Zhaohui Yang","Ye Hu","Mingzhe Chen","Chen Zhu","Zhaoyang Zhang"],"note":"预印本；在无线边缘网络联合设计分割点、LoRA秩和通信计算资源。"}
+    ],
+    "authorQueries": ["Zhaoyang Zhang"], "identityHints":{"affiliations":["Zhejiang University"],"coauthors":["Qianqian Yang","Zhaohui Yang","Chongwen Huang","Xiaoming Chen","Rui Yin"],"requiresDisambiguation":true}, "evidenceDate":"2026-11-05"
+  }
+]

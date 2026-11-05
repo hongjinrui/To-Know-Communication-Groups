@@ -1,0 +1,541 @@
+{
+  "evidenceDate": "2026-11-05",
+  "methodology": {
+    "selection": "以持续团队、可辨识的研究主线及可核查的重要成果交叉筛选；职务、Fellow或论文数量均不单独构成入选条件。",
+    "coverageCaveat": "以下是39所985及用户追加北邮、西电的范围盘点，不代表41校均已完成逐组评审。deferred表示本轮尚未形成足够证据，不表示学校或教师质量低。included按并行研究候选标记，最终应由合并后的groups名单回写。",
+    "scope": "按用户最新指示，纳入39所985及额外指定的北京邮电大学、西安电子科技大学；港五由独立研究记录处理。哈工程等其他非985学校仍不纳入。",
+    "groupBoundary": "不将整个学院、全国重点实验室或跨校合作平台当作一个组；允许有官网明确组织边界的多PI大组。新论文不得仅凭一个同名作者自动归组。",
+    "judgment": "精选属于编辑判断，不作学术质量总排名；通过不同技术主线控制重复与阅读负担。"
+  },
+  "schools": [
+    {
+      "name": "北京大学",
+      "status": "included",
+      "reason": "本轮有宋令阳组候选，需以最终合并名单为准。"
+    },
+    {
+      "name": "清华大学",
+      "status": "included",
+      "reason": "本轮有戴凌龙组、牛志升—周盛组候选。"
+    },
+    {
+      "name": "中国人民大学",
+      "status": "deferred",
+      "reason": "本轮未完成符合通信工程主线的持续大组核验。"
+    },
+    {
+      "name": "北京师范大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验；不以学校综合声誉代替团队证据。"
+    },
+    {
+      "name": "北京航空航天大学",
+      "status": "included",
+      "reason": "本轮有刘荣科组候选。"
+    },
+    {
+      "name": "北京理工大学",
+      "status": "included",
+      "reason": "本轮有费泽松组候选。"
+    },
+    {
+      "name": "中国农业大学",
+      "status": "deferred",
+      "reason": "农业物联网可能相关，但本轮未完成通信技术主线与团队影响力核验。"
+    },
+    {
+      "name": "中央民族大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验。"
+    },
+    {
+      "name": "南开大学",
+      "status": "deferred",
+      "reason": "光电子与通信交叉有待独立评审，暂不泛化纳入所有电子信息方向。"
+    },
+    {
+      "name": "天津大学",
+      "status": "candidate",
+      "reason": "智能多媒体与通信团队有公开团队资料，但当前偏视频/视觉，需进一步限定本项目的通信主线边界。",
+      "source": "https://tj.teacher.360eol.com/teacherBasic/preview?teacherId=3068"
+    },
+    {
+      "name": "复旦大学",
+      "status": "candidate",
+      "reason": "官网无线通信尖兵团队有明确多教师组织及5G/6G项目与奖项；应列下一轮高优先核验，不宜据此次未入选推断没有强组。",
+      "source": "https://fit.fudan.edu.cn/data/List/wireless"
+    },
+    {
+      "name": "上海交通大学",
+      "status": "included",
+      "reason": "本轮有陶梅霞组候选。"
+    },
+    {
+      "name": "同济大学",
+      "status": "deferred",
+      "reason": "车路协同与通信交叉有待定组核验；本轮未形成精选记录。"
+    },
+    {
+      "name": "华东师范大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验。"
+    },
+    {
+      "name": "南京大学",
+      "status": "deferred",
+      "reason": "光通信、网络与电磁方向需进一步区分；本轮未完成组级证据核验。"
+    },
+    {
+      "name": "东南大学",
+      "status": "included",
+      "reason": "已有尤肖虎、金石、曾勇组候选；审阅建议补王承祥AWiTec组以覆盖信道建模。",
+      "source": "https://www.seupml.awitec.cn/"
+    },
+    {
+      "name": "浙江大学",
+      "status": "included",
+      "reason": "本轮有张朝阳组候选。"
+    },
+    {
+      "name": "中国科学技术大学",
+      "status": "included",
+      "reason": "本轮有徐正元、张文逸组候选。"
+    },
+    {
+      "name": "厦门大学",
+      "status": "deferred",
+      "reason": "水声与无线通信可能相关，但本轮未完成组级影响力与近年主线核验。"
+    },
+    {
+      "name": "山东大学",
+      "status": "candidate",
+      "reason": "建议补入张海霞组；院级官网、学生队伍与2025–2026成果可交叉核验。",
+      "source": "https://iict.sdu.edu.cn/info/1013/1044.htm"
+    },
+    {
+      "name": "中国海洋大学",
+      "status": "deferred",
+      "reason": "海洋通信是相关特色方向，暂未完成具体leader与持续团队核验。"
+    },
+    {
+      "name": "武汉大学",
+      "status": "deferred",
+      "reason": "通信、导航与遥感边界需明确；本轮未完成符合通信主线的组级核验。"
+    },
+    {
+      "name": "华中科技大学",
+      "status": "included",
+      "reason": "本轮有江涛、葛晓虎组候选。"
+    },
+    {
+      "name": "湖南大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验。"
+    },
+    {
+      "name": "中南大学",
+      "status": "deferred",
+      "reason": "工业互联网与通信交叉有待核验，暂不以应用场景替代通信技术主线。"
+    },
+    {
+      "name": "国防科技大学",
+      "status": "candidate",
+      "reason": "通信工程相关性高，应进一步基于公开资料核验具体团队与可长期跟踪信息源；本轮未定组。"
+    },
+    {
+      "name": "中山大学",
+      "status": "candidate",
+      "reason": "官方设有信息与通信工程学科，下一轮需细核leader与团队边界，本轮不据学院名录直接纳入。",
+      "source": "https://seit.sysu.edu.cn/research/direction/xxtx"
+    },
+    {
+      "name": "华南理工大学",
+      "status": "included",
+      "reason": "本轮有季飞组候选；天线/射频主线仍需单独评审。"
+    },
+    {
+      "name": "四川大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验。"
+    },
+    {
+      "name": "电子科技大学",
+      "status": "included",
+      "reason": "本轮有李少谦、方俊组候选。"
+    },
+    {
+      "name": "重庆大学",
+      "status": "candidate",
+      "reason": "天线与通信信息处理有公开团队线索；本轮暂未完成当前leader、组边界与近年研究主线交叉核验。",
+      "source": "https://www.bioklab.cqu.edu.cn/English/Team/Team.htm"
+    },
+    {
+      "name": "西安交通大学",
+      "status": "candidate",
+      "reason": "建议补王慧明组，物理层安全主线有持续项目、创新团队及原始论文依据。",
+      "source": "https://faculty.xjtu.edu.cn/hmwang/"
+    },
+    {
+      "name": "西北工业大学",
+      "status": "candidate",
+      "reason": "建议补杨坤德组，官方明确海洋声学信息感知团队，覆盖海洋超视距通信与水声组网。",
+      "source": "https://hanghai.nwpu.edu.cn/info/1600/6513.htm"
+    },
+    {
+      "name": "兰州大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验。"
+    },
+    {
+      "name": "哈尔滨工业大学",
+      "status": "included",
+      "reason": "本轮有张钦宇组候选，注意实际校区在深圳。"
+    },
+    {
+      "name": "吉林大学",
+      "status": "deferred",
+      "reason": "本轮未完成通信工程持续大组核验。"
+    },
+    {
+      "name": "大连理工大学",
+      "status": "candidate",
+      "reason": "赵楠组有持续学生队伍、无线安全主线与2025 ICC最佳论文证据，建议候选或补入。",
+      "source": "https://faculty.dlut.edu.cn/zhaonan/"
+    },
+    {
+      "name": "东北大学",
+      "status": "deferred",
+      "reason": "工业互联网、网络控制与通信交叉需进一步限定；本轮未完成定组核验。"
+    },
+    {
+      "name": "西北农林科技大学",
+      "status": "deferred",
+      "reason": "农业物联网有相关应用，但本轮未完成通信技术主线持续大组核验。"
+    },
+    {
+      "name": "北京邮电大学",
+      "status": "candidate",
+      "reason": "用户明确追加的非985例外；具体组由并行研究核验，最终按合并名单回写。"
+    },
+    {
+      "name": "西安电子科技大学",
+      "status": "candidate",
+      "reason": "用户明确追加的非985例外；具体组由并行研究核验，最终按合并名单回写。"
+    }
+  ],
+  "missingGroups": [
+    {
+      "id": "seu-wang-chengxiang",
+      "name": "王承祥组",
+      "schoolId": "seu",
+      "selectionPriority": "建议补入",
+      "leaders": [
+        {
+          "name": "王承祥",
+          "en": "Cheng-Xiang Wang"
+        }
+      ],
+      "tagline": "用实测、统一模型和仿真器建立6G信道底座",
+      "whyFollow": "AWiTec官网有完整教师、工程师和学生队伍；自主信道仿真器与国家自然科学基金重大项目形成可持续的平台型成果，补足其他通信组之外的信道测量与建模主线。",
+      "past": "从移动衰落/MIMO信道建模发展到覆盖多频段、多场景的6G普适几何随机模型。",
+      "current": "近期推进连续立体空间电磁信道、动态信道地图及数字孪生建模；官网记录2026年发布6G普适信道仿真器v4.0。",
+      "next": "关注动态信道地图能否通过持续实测验证、在线更新，以及模型与网规网优的结合。官网已有2025–2028低空通感智融合信道建模项目，属于有公开项目依据的方向。",
+      "confidence": "高：当前团队官网、学校项目页与2026原始预印本交叉核对。",
+      "topics": [
+        "信道建模",
+        "6G",
+        "电磁信息论",
+        "数字孪生"
+      ],
+      "sources": [
+        {
+          "title": "AWiTec课题组官网",
+          "url": "https://www.seupml.awitec.cn/",
+          "note": "团队组织、研究方向及自主平台。"
+        },
+        {
+          "title": "东南大学王承祥官方主页",
+          "url": "https://ncrl.seu.edu.cn/2023/1024/c34871a469485/page.htm",
+          "note": "2024–2028重大项目、2025–2028低空项目及2026仿真器发布。"
+        },
+        {
+          "title": "6G动态信道地图原始预印本",
+          "url": "https://arxiv.org/abs/2604.15083",
+          "note": "近期研究方向的具体证据。"
+        }
+      ],
+      "papers": [
+        {
+          "title": "A Novel 6G Dynamic Channel Map Based on a Hybrid Channel Model",
+          "url": "https://arxiv.org/abs/2604.15083",
+          "date": "2026-04-16",
+          "authors": [
+            "Tianrun Qi",
+            "Cheng-Xiang Wang",
+            "Chen Huang",
+            "Jiayue Shi",
+            "Junling Li",
+            "Shuaifei Chen",
+            "El-Hadi M. Aggoune"
+          ],
+          "note": "射线追踪离线构建、几何随机模型在线更新，并以测量核验动态信道地图。"
+        }
+      ],
+      "authorQueries": [
+        "Cheng-Xiang Wang"
+      ],
+      "evidenceDate": "2026-11-05"
+    },
+    {
+      "id": "sdu-zhang-haixia",
+      "name": "张海霞组",
+      "schoolId": "sdu",
+      "selectionPriority": "建议补入",
+      "leaders": [
+        {
+          "name": "张海霞",
+          "en": "Haixia Zhang"
+        }
+      ],
+      "tagline": "从多天线与无线流量建模走向通感算融合",
+      "whyFollow": "官方明确研究院与重点实验室负责人、持续博士生队伍及可识别的多天线调制/无线流量预测成果；近年兼有学术成果与车路云应用，适合跟踪通信与AI融合的实质演进。",
+      "past": "研究多天线空间调制与编码、无线资源管理，以及基于时空数据的无线流量预测。",
+      "current": "官方学生研究方向覆盖通感一体化、语义通信、车辆边缘计算和资源优化；2025合著论文继续研究大规模无线流量预测，并提供可复现实验库。",
+      "next": "跟踪通感算一体化是否形成可比较的系统指标，及车路云应用和流量预测算法是否有公开测试或代码。未将研究院内全部成果归为单一PI成果。",
+      "confidence": "较高：院级官网、学生研究方向与近期原始论文一致；官网研究院成员不等同全部由同一PI独立指导。",
+      "topics": [
+        "通感一体化",
+        "边缘计算",
+        "AI与通信",
+        "无线网络"
+      ],
+      "sources": [
+        {
+          "title": "山东大学张海霞官方介绍",
+          "url": "https://iict.sdu.edu.cn/info/1013/1044.htm",
+          "note": "当前归属、项目与持续研究主线。"
+        },
+        {
+          "title": "山东大学智能通信技术研究院博士生",
+          "url": "https://iict.sdu.edu.cn/rcpy/bss.htm",
+          "note": "可核验的持续学生队伍与通感算、语义通信方向。"
+        },
+        {
+          "title": "山东大学2026年人物报道",
+          "url": "https://www.view.sdu.edu.cn/info/1438/210674.htm",
+          "note": "近期车路云一体化应用方向。"
+        },
+        {
+          "title": "无线流量预测原始预印本",
+          "url": "https://arxiv.org/abs/2501.06255",
+          "note": "近期方法与开源实验库。"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Progressive Supervision via Label Decomposition: An Long-Term and Large-Scale Wireless Traffic Forecasting Method",
+          "url": "https://arxiv.org/abs/2501.06255",
+          "date": "2025-01-09",
+          "authors": [
+            "Daojun Liang",
+            "Haixia Zhang",
+            "Dongfeng Yuan"
+          ],
+          "note": "针对长期、大规模无线流量预测；附WTFlib开源实验库，属于可复核的AI辅助网络管理工作。"
+        }
+      ],
+      "authorQueries": [
+        "Haixia Zhang"
+      ],
+      "evidenceDate": "2026-11-05"
+    },
+    {
+      "id": "xjtu-wang-huiming",
+      "name": "王慧明组",
+      "schoolId": "xjtu",
+      "selectionPriority": "建议补入",
+      "leaders": [
+        {
+          "name": "王慧明",
+          "en": "Hui-Ming Wang"
+        }
+      ],
+      "tagline": "物理层安全、无线感知隐私与抗主动攻击",
+      "whyFollow": "官网记录物理层安全领域的省级创新团队负责人、长期项目和优秀博士培养，且有IEEE通信学会亚太最杰出青年研究学者奖这一与研究主线直接相关的外部认可；不是仅以论文量筛选。",
+      "past": "无线协作保密传输、多天线人工噪声、随机蜂窝网络物理层安全，逐步延伸至空口内生安全。",
+      "current": "官网列出2026–2029无线感知隐私保护与抗主动攻击项目；近期合著论文涉及可重构超表面天线及抗干扰感知。",
+      "next": "优先跟踪无线感知中的隐私/攻击模型是否更贴近实际系统，以及可重构天线方案是否从仿真走向原型验证。",
+      "confidence": "较高：当前官方主页与近期原始论文交叉；研究队伍页较旧，不沿用其历史人数作为当前规模。",
+      "topics": [
+        "物理层安全",
+        "无线感知",
+        "智能超表面",
+        "多天线"
+      ],
+      "sources": [
+        {
+          "title": "西安交通大学王慧明官方主页",
+          "url": "https://faculty.xjtu.edu.cn/hmwang/",
+          "note": "当前归属、创新团队与2026–2029公开项目。"
+        },
+        {
+          "title": "学校关于IEEE通信学会奖项的报道",
+          "url": "https://faculty.xjtu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbnewsid=18591&wbtreeid=1101",
+          "note": "2018年物理层安全领域的外部认可，属于历史入选依据。"
+        },
+        {
+          "title": "抗干扰感知原始预印本",
+          "url": "https://arxiv.org/abs/2508.04964",
+          "note": "近期研究主线证据。"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Anti-Jamming Sensing with Distributed Reconfigurable Intelligent Metasurface Antennas",
+          "url": "https://arxiv.org/abs/2508.04964",
+          "date": "2025-08-07",
+          "authors": [
+            "Zhaowei Wang",
+            "Yunsong Huang",
+            "Weicheng Liu",
+            "Hui-Ming Wang"
+          ],
+          "note": "研究分布式可重构天线抗干扰感知；原文是仿真验证，不标成已落地系统。"
+        }
+      ],
+      "authorQueries": [
+        "Hui-Ming Wang"
+      ],
+      "evidenceDate": "2026-11-05"
+    },
+    {
+      "id": "nwpu-yang-kunde",
+      "name": "杨坤德组",
+      "schoolId": "nwpu",
+      "selectionPriority": "建议补入",
+      "leaders": [
+        {
+          "name": "杨坤德",
+          "en": "Kunde Yang"
+        }
+      ],
+      "tagline": "海洋超视距通信、水声信息传输与系统验证",
+      "whyFollow": "学校明确命名的海洋声学信息感知团队具有多教师组织、长期海试和系统研发积累，曾获国家级技术奖励；为无线蜂窝主线之外保留真正有工程积累的海洋通信大组。",
+      "past": "长期研究海洋传播环境、声学信号处理与海面波导超视距传输，结合海上验证开发通信设备。",
+      "current": "2025公开报告继续强调超视距通信与组网；近期原始论文研究OTFS水声通信均衡。2026年11月官网记录深远海声学中心成立，杨坤德任首席科学家。",
+      "next": "跟踪通信方法在真实海洋时变信道中的速率、距离与可靠性；中心成立是组织变化，不能直接当作通信性能突破。arXiv对该组覆盖有限，需保留期刊和官网信息源。",
+      "confidence": "高：官方团队组织、2025专题报告与原始期刊论文交叉核验。",
+      "topics": [
+        "水声通信",
+        "海洋通信",
+        "信道建模",
+        "OTFS"
+      ],
+      "sources": [
+        {
+          "title": "西工大海洋声学信息感知团队",
+          "url": "https://hanghai.nwpu.edu.cn/info/1600/6513.htm",
+          "note": "明确负责人、团队组成和研究主线；人数为2023页面口径。"
+        },
+        {
+          "title": "2025深海声学信息感知报告",
+          "url": "https://honors.nwpu.edu.cn/info/1037/10084.htm",
+          "note": "近年通信与组网研究内容。"
+        },
+        {
+          "title": "2026深远海声学中心成立",
+          "url": "https://haiyang.nwpu.edu.cn/info/1033/5701.htm",
+          "note": "当前组织动向，不能据此推断通信系统性能。"
+        },
+        {
+          "title": "OTFS水声通信期刊论文",
+          "url": "https://doi.org/10.1121/10.0036370",
+          "note": "JASA 2025原始论文，元数据可由PubMed 40202362核验。"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Multi-directional decision feedback equalization for orthogonal time frequency space underwater acoustic communication system",
+          "url": "https://doi.org/10.1121/10.0036370",
+          "date": "2025-04-01",
+          "authors": [
+            "Lianyou Jing",
+            "Qingsong Wang",
+            "Qiulong Yang",
+            "Wentao Shi",
+            "Chengbing He",
+            "Nan Zhao",
+            "Kunde Yang"
+          ],
+          "note": "OTFS水声通信的多方向判决反馈均衡；与大连理工存在合作，不将合作方合并为同一组。"
+        }
+      ],
+      "authorQueries": [
+        "Kunde Yang"
+      ],
+      "evidenceDate": "2026-11-05"
+    },
+    {
+      "id": "dlut-zhao-nan",
+      "name": "赵楠组",
+      "schoolId": "dlut",
+      "selectionPriority": "候选，控制总量时可后置",
+      "leaders": [
+        {
+          "name": "赵楠",
+          "en": "Nan Zhao"
+        }
+      ],
+      "tagline": "无人机网络与隐蔽通信、通感一体化安全",
+      "whyFollow": "官方主页有持续学生培养与国家项目记录，且2025 ICC获奖论文第一作者来自本组，研究贡献可回溯至学生和原始论文；与无线安全特色主线直接相连。",
+      "past": "无线网络干扰管理、无人机辅助通信和物理层安全，逐渐聚焦隐蔽通信。",
+      "current": "近期研究通感一体化中的隐蔽传输与协作检测者；学校报道本组博士生为2025 ICC最佳论文第一作者。",
+      "next": "关注隐蔽性约束是否覆盖实际检测策略与不完美信息，以及理论权衡是否有可复现实验。该方向与其他安全组重叠，精选总量受限时可保留为候选。",
+      "confidence": "较高：学校获奖报道明确学生归属，原始论文列出大连理工地址；Nan Zhao同名较多，自动抓取须人工核对机构。",
+      "topics": [
+        "物理层安全",
+        "通感一体化",
+        "无人机通信",
+        "隐蔽通信"
+      ],
+      "sources": [
+        {
+          "title": "大连理工大学赵楠官方主页",
+          "url": "https://faculty.dlut.edu.cn/zhaonan/",
+          "note": "当前归属、持续学生队伍和研究方向。"
+        },
+        {
+          "title": "大连理工2025 ICC最佳论文报道",
+          "url": "https://news.dlut.edu.cn/info/1024/121144.htm",
+          "note": "明确第一作者为本组博士生。"
+        },
+        {
+          "title": "UCL合作作者机构库原始论文",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10215962/",
+          "note": "完整论文、作者及会议元数据。"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Covert ISAC: Towards Collusive Detection",
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10215962/",
+          "date": "2025-06-08",
+          "authors": [
+            "Yujie Wu",
+            "Chengwen Xing",
+            "Jie Tang",
+            "Nan Zhao",
+            "Xiu Yin Zhang",
+            "Kai-Kit Wong",
+            "George K. Karagiannidis"
+          ],
+          "note": "联合波束设计权衡通信、感知与隐蔽性；多校合作论文，不能归并所有作者的团队。日期采用会议起始日。"
+        }
+      ],
+      "authorQueries": [
+        "Nan Zhao"
+      ],
+      "evidenceDate": "2026-11-05"
+    }
+  ]
+}

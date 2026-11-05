@@ -1,0 +1,50 @@
+[
+  {
+    "id":"xidian-li-sheng", "name":"李建东—盛敏组", "schoolId":"xidian",
+    "leaders":[{"name":"李建东","en":"Jiandong Li"},{"name":"盛敏","en":"Min Sheng"}],
+    "tagline":"无线自组织网络 → 空天地融合与星座网络",
+    "whyFollow":"官方明确的“智能宽带无线通信网络团队”，有多代教师和学生积累；曾研制多信道自组织分组无线网络，团队获国家技术发明二等奖2项并获科技部、教育部创新团队支持，工程和组网理论基础扎实。",
+    "past":"从数字调制解调、移动终端、分组无线电和短波自组织网络，延伸到致密异构无线网络与空间信息网络。",
+    "current":"当前以空天地一体化、卫星与地面异构融合、智能组网为主轴；2026年预印本研究动态链路故障下LEO星座的容量扩展性，另与港大合作讨论空间边缘—云AI基础设施。",
+    "next":"跟踪星座规模收益是否被协议维护、链路故障和动态路由开销抵消，以及通信与星载计算如何共同约束服务能力。此为观察问题。",
+    "confidence":"高：西电新教师主页明确团队、共同成员及现任单位；2026原始论文交叉核对，合作稿不直接当作全组转向。",
+    "topics":["空天地一体化","卫星网络","自组织网络","智能组网"],
+    "sources":[
+      {"title":"西电：盛敏现任教师主页","url":"https://faculty.xidian.edu.cn/SM1/zh_CN/index/325443/list/index.htm","note":"当前空天地一体化综合业务网全国重点实验室归属、团队名称、贡献和方向。"},
+      {"title":"西电：李建东团队成员","url":"https://web.xidian.edu.cn/jdli/team.html","note":"确认李建东与盛敏等为同一持续团队，非按共同署名臆造合组。"},
+      {"title":"西电：智能宽带无线通信网络团队历史","url":"https://web.xidian.edu.cn/shengmin/team.html","note":"历史到1962年，具体组网成果和奖项；旧学生名册不冒充当前人数。"},
+      {"title":"空间AI合作论文全文","url":"https://arxiv.org/html/2610.16395v1","note":"核实盛敏西电单位，黄凯斌为通讯作者；明确标作合作研究。"}
+    ],
+    "papers":[
+      {"title":"Capacity Scalability of LEO Constellations With Dynamic Link Failures","url":"https://arxiv.org/abs/2605.12146","date":"2026-05-12","authors":["Wei Li","Min Sheng"],"note":"预印本；星座有效容量与协议开销、动态故障的权衡，分析存在适宜部署规模。"},
+      {"title":"Space AI Infrastructure: Where the Edge Meets the Orbital Cloud","url":"https://arxiv.org/abs/2610.16395","date":"2026-10-12","authors":["Zhanwei Wang","Jianhao Huang","Min Sheng","Kaibin Huang"],"note":"预印本/与港大合作；讨论空间边缘与轨道云架构，属路线与案例分析，不是已部署系统。"}
+    ],
+    "authorQueries":["Jiandong Li","Min Sheng"],
+    "identityHints":{"affiliations":["Xidian University"],"coauthors":["Min Sheng","Jiandong Li","Junyu Liu","Di Zhou","Weigang Bai","Yan Shi"],"requiresDisambiguation":true},
+    "evidenceDate":"2026-11-05"
+  },
+  {
+    "id":"xidian-guo", "name":"郭立新组", "schoolId":"xidian",
+    "leaders":[{"name":"郭立新","en":"Lixin Guo"}],
+    "tagline":"复杂环境传播与散射，为无线/光通信补物理基础",
+    "whyFollow":"国家级创新团队负责人，有多位持续骨干和长期电波传播研究积累；团队同时开展计算电磁学、实测信道与光学实验，能为通信模型提供物理依据，补足只看资源优化论文的盲区。",
+    "past":"长期研究复杂环境和随机介质中的电磁波传播/散射、天线、计算电磁学；通信相关积累包括城市/室内/海面射线追踪与可见光信道。",
+    "current":"无线侧延续物理驱动信道预测、GPU加速V2V建模与测量；光侧骨干研究结构光在湍流和散射介质中的信息传输及环境感知，2026年有二维OAM谱湍流感知成果。",
+    "next":"重点跟踪传播模型与真实测量的一致性、建模成本，以及复杂介质下可可靠利用的信息维度；雷达/遥感成果只收与通信物理相关的部分。此为观察问题。",
+    "confidence":"高（团队连续性与主线）：西电骨干现任主页明确依托郭立新领衔团队，原始论文及学校成果清单交叉核对；旧团队名单不视作当前人数。",
+    "topics":["电波传播","信道建模","计算电磁学","光通信"],
+    "sources":[
+      {"title":"西电：郭立新官方主页","url":"https://web.xidian.edu.cn/lxguo/index.html","note":"研究主线与创新团队资格；页面行政职务存在历史版本差异，不对外展示具体职务。"},
+      {"title":"西电：郭立新团队历史名册","url":"https://web.xidian.edu.cn/lxguo/team.html","note":"确认真实多教师大组；名册含2014—2016届，不能作为当前人数。"},
+      {"title":"西电：刘忠玉论文与专利","url":"https://web.xidian.edu.cn/liuzy/paper.html","note":"2024—2025无线信道、海面传播、V2V射线追踪持续成果。"},
+      {"title":"西电：程明建现任主页与团队依托","url":"https://faculty.xidian.edu.cn/CMJ/zh_CN/index/407435/list/index.htm","note":"明确程明建为郭立新目标与环境光电信息感知团队骨干，并列出2025—2026光学代表论文。"}
+    ],
+    "papers":[
+      {"title":"Spatially-resolved atmospheric turbulence sensing with two-dimensional orbital angular momentum spectroscopy","url":"https://www.nature.com/articles/s42005-026-02587-7","date":"2026-03-19","authors":["Wenjie Jiang","Mingjian Cheng","Lixin Guo","Andrew Forbes"],"note":"Communications Physics已发表；从一维积分OAM谱扩展为空间分辨二维表征，关联自由空间光通信信道感知。"},
+      {"title":"Hybrid Forward-Backward Ray Tube Propagation Model for Deterministic Multipath Channel Prediction","url":"https://www.mdpi.com/1424-8220/26/18/5886","date":"2026-09-17","authors":["Qi Yao","Zhongyu Liu","Lixin Guo"],"note":"Sensors已发表；多径传播射线管统一处理，作者单位由出版元数据核验。"}
+    ],
+    "authorQueries":["Lixin Guo","Li-Xin Guo"],
+    "identityHints":{"affiliations":["Xidian University"],"coauthors":["Zhongyu Liu","Jiangting Li","Mingjian Cheng","Wenjie Jiang","Pengcheng Zhao"],"requiresDisambiguation":true},
+    "evidenceDate":"2026-11-05"
+  }
+]
