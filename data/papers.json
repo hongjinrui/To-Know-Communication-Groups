@@ -18,7 +18,7 @@
       ],
       "affiliations": [],
       "summary": "This paper addresses a key challenge in bistatic integrated sensing and communications (ISAC): \\textit{How to achieve reliable ranging using communication data signals that cannot be reliably recovered?} In modern communication systems, data payloads typically occupy far more time-frequency resources than pilots, offering substantially more observations to improve sensing accuracy. Exploiting them requires recovering the transmitted symbols to form sensing references. However, propagation and reflection losses can severely weaken target echoes. The sensing receiver may therefore be unable to recover data transmitted at a high rate selected for communication users. We first show that, at low signal-to-noise ratios (SNRs), using hard symbol decisions as sensing references can introduce a persistent bias in the estimated channel impulse response (CIR). This bias produces an error floor and spurious peaks in the power delay profile (PDP) that persist even after coherent accumulation over a large number of observations. To address this limitation, we develop a pilot-initialized expectation-maximization (EM) estimator that iteratively refines the CIR using posterior symbol moments. Under local regularity conditions and successful initialization, we establish that the EM method converges to the local maximum-likelihood (ML) solution for a sufficiently large number of OFDM data symbols. The converged estimator is asymptotically unbiased, where the CIR estimation mean-square error (MSE) at each delay bin decays as $O(1/M)$ by accumulating $M$ data symbols. Thus, estimation error can vanish through sufficient accumulation even while symbol recovery remains highly unreliable. Numerical results validate the proposed method, demonstrating substantially higher target detection probabilities than pilot-only and hard-decision-based bistatic ranging under the same low-SNR conditions.",
-      "candidateStatus": "pending",
+      "candidateStatus": "verified",
       "groupIds": [
         "seu-jin"
       ],
@@ -36,7 +36,24 @@
       "changeType": "baseline",
       "versions": [
         1
-      ]
+      ],
+      "reviewNote": "全文确认Shi Jin为东南大学、金石邮箱jinshi@seu.edu.cn。通讯作者Fan Liu、Yifeng Xiong；仅认定金石参与合作方法研究，不推断整个组转向。首发晚于2026-11-05T08:00:20Z基线。读取时仅v1，无v2。",
+      "reviewSources": [
+        {
+          "title": "arXiv原始摘要与首发时刻",
+          "url": "https://arxiv.org/abs/2611.07803"
+        },
+        {
+          "title": "原始全文：作者单位、方法条件与数值验证",
+          "url": "https://arxiv.org/html/2611.07803v1"
+        }
+      ],
+      "reviewedAt": "2026-11-07T02:59:06Z",
+      "verifiedAffiliations": [
+        "Southeast University",
+        "Beijing University of Posts and Telecommunications"
+      ],
+      "reviewSummary": "合作预印本：导频初始化EM利用符号软信息改善双基地测距；信道估计均方误差的1/M渐近结论依赖局部条件，仅理论与仿真。"
     },
     {
       "id": "2611.07724",
@@ -73,6 +90,23 @@
       "changeType": "baseline",
       "versions": [
         1
+      ],
+      "reviewNote": "本轮已读摘要及作者单位：归属可确认，属于有源RIS改善既有蜂窝低空上行的理论/仿真常规延伸。保留候选待后续专题审阅，本轮不追加日志、不提高组revision。arXiv仅v1；Comments所写Minor Revision指期刊审稿阶段，不是arXiv v2。",
+      "reviewSources": [
+        {
+          "title": "摘要与版本历史",
+          "url": "https://arxiv.org/abs/2611.07724"
+        },
+        {
+          "title": "全文单位与仿真",
+          "url": "https://arxiv.org/html/2611.07724v1"
+        }
+      ],
+      "reviewedAt": "2026-11-07T02:59:06Z",
+      "verifiedAffiliations": [
+        "Southeast University",
+        "National Sun Yat-sen University",
+        "Nanjing University of Posts and Telecommunications"
       ]
     },
     {
@@ -88,7 +122,7 @@
       ],
       "affiliations": [],
       "summary": "Kinetic equations in the high-field regime describe particle transport dominated by electric-field acceleration and collisional relaxation. These equations are widely used in simulations of plasmas and semiconductor devices. Typical models include the Vlasov--Poisson--Fokker--Planck (VPFP) and Boltzmann--Poisson systems. Their high dimensionality and multiscale nature pose two of the major challenges to accurate and efficient numerical solution. To address these challenges, we propose an asymptotic-preserving tensor neural network (APTNN) method. Specifically, to reduce high-dimensional computational costs and memory requirements, we adopt the canonical polyadic (CP) decomposition structure of TNNs to approximate their solutions. We show that the equation residuals retain this decomposition form, allowing high-dimensional loss integrals to be evaluated through combinations of one-dimensional integrals. The resulting computational and storage costs are reduced from exponential to polynomial growth with dimension. To improve the prediction accuracy in the high-field limit, we enhance the baseline AP loss by incorporating the first moment equation. The added loss term directly constrains the limiting flux closure to reduce its approximation error in the high-field regime. The enhanced AP loss can still be evaluated dimension-wise. Numerical results show that APTNN improves prediction accuracy in the high-field regime with significantly reduced computational costs and memory usage. For a 3D3V VPFP problem with multiple random inputs, training takes less than 30 minutes on a single GPU.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "seu-jin"
       ],
@@ -106,7 +140,15 @@
       "changeType": "baseline",
       "versions": [
         1
-      ]
+      ],
+      "reviewNote": "原始全文Shi Jin为上海交通大学数学科学学院、自然科学研究院，非东南大学通信组。检索页日期与摘要页显示有差异，但不影响同名排除；无需据此记录任何本组新方向。",
+      "reviewSources": [
+        {
+          "title": "全文明确数学家单位",
+          "url": "https://arxiv.org/html/2611.07364v1"
+        }
+      ],
+      "reviewedAt": "2026-11-07T02:59:06Z"
     },
     {
       "id": "2611.07311",

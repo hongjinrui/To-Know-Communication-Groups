@@ -1,9 +1,58 @@
 {
-  "state": "baseline",
-  "lastReviewAt": "2026-11-05",
-  "summary": "首版研究基线；有公开成果所示近期方向，不冒充已宣布的未来计划。",
+  "state": "reviewed_with_limits",
+  "lastReviewAt": "2026-11-07T02:59:06Z",
+  "summary": "已对33组逐组定向补查，核实1条金石参与的合作预印本进展；其余组未在已查来源中核实到应新增日志的变化。32组arXiv近期窗口完成，江涛组因同名检索返回上限仍不完整。",
   "automation": {
     "schedule": "每周三/周六上午（北京时间）",
     "status": "scheduled"
-  }
+  },
+  "reviewedGroupCount": 33,
+  "reviewedGroupIds": [
+    "bit-fei-zesong",
+    "buaa-liu-rongke",
+    "bupt-ji-yuefeng",
+    "bupt-peng-mugen",
+    "bupt-zhang-ping",
+    "cityu-dai-lin",
+    "cityu-fang-yuguang",
+    "cuhk-zhang-yingjun",
+    "hit-zhang-qinyu",
+    "hku-huang-kaibin",
+    "hkust-letaief",
+    "hkust-murch",
+    "hkust-zhang-jun",
+    "hust-ge-xiaohu",
+    "hust-jiang-tao",
+    "nwpu-yang-kunde",
+    "pku-song",
+    "polyu-liu-liang",
+    "sdu-zhang-haixia",
+    "seu-jin",
+    "seu-wang-chengxiang",
+    "seu-you",
+    "seu-zeng",
+    "sjtu-tao",
+    "tsinghua-dai",
+    "tsinghua-niu",
+    "uestc-tang-wanbin",
+    "uestc-tang-youxi",
+    "ustc-xu-zhengyuan",
+    "xidian-guo",
+    "xidian-li-sheng",
+    "xjtu-wang-huiming",
+    "zju-zhang"
+  ],
+  "verifiedUpdateCount": 1,
+  "candidateReviewCounts": {
+    "verified": 1,
+    "pending": 1,
+    "rejected": 1
+  },
+  "pendingCandidateCount": 79,
+  "reportUrl": "https://github.com/hongjinrui/To-Know-Communication-Groups/blob/main/research/reviews/2026-11-07.json",
+  "scopeNotes": [
+    "候选归属与贡献逐条核实；首批45天存量未全部全文审阅。",
+    "补查光/水声/卫星等arXiv弱覆盖方向的官网；部分官网有访问或索引新鲜度限制。",
+    "赵楠组继续候补，33组名单未扩张；修正华南理工学校收录状态矛盾。"
+  ]
 }

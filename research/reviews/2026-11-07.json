@@ -1,0 +1,1099 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-07T02:59:06Z",
+  "window": {
+    "after": "2026-11-05T08:00:20Z",
+    "through": "2026-11-07T02:59:06Z",
+    "baselineCommit": "b3188ad3b8b90484d177e07a26ac668f5eab88c6"
+  },
+  "groupCount": 33,
+  "checks": [
+    {
+      "groupId": "tsinghua-dai",
+      "sources": [
+        {
+          "title": "arXiv作者检索：Linglong Dai（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Dai%2C+Linglong&order=-submitted_date&size=50"
+        },
+        {
+          "title": "戴凌龙组新闻",
+          "url": "https://oa.ee.tsinghua.edu.cn/dailinglong/news/news.html"
+        },
+        {
+          "title": "戴凌龙组出版物",
+          "url": "https://oa.ee.tsinghua.edu.cn/dailinglong/publications/publications.html"
+        }
+      ],
+      "result": "未核实到窗口内值得追加日志的变化。",
+      "notes": [
+        "已打开作者最新提交列表（含修订排序）、团队新闻和出版物页；可见最新arXiv提交为2026-09-01，团队新闻最新列2026-08，不能据此排除尚未更新官网的成果。",
+        "另以作者全名+2026-11-05/06/07及Nov 2026做网页检索，无可核实新增。"
+      ]
+    },
+    {
+      "groupId": "tsinghua-niu",
+      "sources": [
+        {
+          "title": "arXiv作者检索：Zhisheng Niu（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Niu%2C+Zhisheng&order=-submitted_date&size=50"
+        },
+        {
+          "title": "arXiv作者检索：Sheng Zhou（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Zhou%2C+Sheng&order=-submitted_date&size=50"
+        },
+        {
+          "title": "NIULAB研究及近期成果",
+          "url": "https://souig.github.io/"
+        }
+      ],
+      "result": "未核实到窗口内值得追加日志的变化。",
+      "notes": [
+        "分别检查Zhisheng Niu和Sheng Zhou最新提交列表与NIULAB近期成果；牛志升最新可见2026-09-15，周盛列表最新2026-09-30项为另一语音处理合作作者集合，未据姓名自动归清华组。",
+        "NIULAB列出的2026会议论文及DH-VLM为此前成果，未重复作为本轮更新。"
+      ]
+    },
+    {
+      "groupId": "pku-song",
+      "sources": [
+        {
+          "title": "arXiv作者检索：Lingyang Song（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Song%2C+Lingyang&order=-submitted_date&size=50"
+        },
+        {
+          "title": "北京大学电子学院新闻首页",
+          "url": "https://ele.pku.edu.cn/"
+        }
+      ],
+      "result": "未核实到窗口内值得追加日志的变化。",
+      "notes": [
+        "最新提交排序列表可见最新修订为2026-10-28（2606.25310），早于基线；已检查北大电子学院首页11-06消息，涉及周小计/陈徐低温实验与论坛，不能算宋令阳组更新。",
+        "已补做学校域名+宋令阳+2026年11月检索；未找到本组窗口内重大官方消息。"
+      ]
+    },
+    {
+      "groupId": "seu-you",
+      "sources": [
+        {
+          "title": "arXiv作者检索：Xiaohu You（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=You%2C+Xiaohu&order=-submitted_date&size=50"
+        },
+        {
+          "title": "东南大学信息科学与工程学院新闻首页",
+          "url": "https://radio.seu.edu.cn/"
+        }
+      ],
+      "result": "未核实到窗口内值得追加日志的变化。",
+      "notes": [
+        "最新提交列表首项2611.04647发表于2026-11-03，早于11-05 08:00:20Z基线；没有把原先遗漏的旧稿包装为本轮新增。",
+        "检查东南信息学院新闻首页及学校域名检索；未核实到尤肖虎组本窗口内重大消息。"
+      ]
+    },
+    {
+      "groupId": "seu-jin",
+      "sources": [
+        {
+          "title": "arXiv作者检索：Shi Jin（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Jin%2C+Shi&order=-submitted_date&size=50"
+        },
+        {
+          "title": "Reliable Bistatic Ranging：摘要与版本历史",
+          "url": "https://arxiv.org/abs/2611.07803"
+        },
+        {
+          "title": "Reliable Bistatic Ranging：原始全文及作者单位",
+          "url": "https://arxiv.org/html/2611.07803v1"
+        },
+        {
+          "title": "有源RIS低空上行：版本历史",
+          "url": "https://arxiv.org/abs/2611.07724"
+        },
+        {
+          "title": "有源RIS低空上行：作者单位与仿真",
+          "url": "https://arxiv.org/html/2611.07724v1"
+        },
+        {
+          "title": "排除的同名Shi Jin数学稿：单位",
+          "url": "https://arxiv.org/html/2611.07364v1"
+        },
+        {
+          "title": "东南大学金石官方主页",
+          "url": "https://oic.seu.edu.cn/oicenglish/2026/0522/c68505a568520/page.htm"
+        }
+      ],
+      "result": "核实1条值得日志的方法进展；另1条普通延伸保留pending，排除1条同名稿。",
+      "notes": [
+        "2611.07803v1 history为2026-11-05 10:46:39 UTC，晚于首版commit 08:00:20 UTC；本轮读取时仅v1，没有v2。全文确认Shi Jin为东南大学，并明确通讯作者Fan Liu和Yifeng Xiong，属于跨团队合作方法进展。",
+        "2611.07724v1于2026-11-05 09:38:36 UTC首发，仅v1；东南单位与Wankai Tang/Chao-Kai Wen可核实，但仅为有源RIS低空上行主线的理论及仿真延伸，本轮不单独写日志，候选保持pending。",
+        "2611.07364的Shi Jin全文单位为上海交通大学数学科学学院/自然科学研究院，非本组，rejected。作者页存在明显同名混入，需强制单位消歧。"
+      ]
+    },
+    {
+      "groupId": "seu-zeng",
+      "sources": [
+        {
+          "title": "arXiv作者检索：Yong Zeng（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Zeng%2C+Yong&order=-submitted_date&size=50"
+        },
+        {
+          "title": "LAICS低空智能通感课题组",
+          "url": "https://www.yzgroup.top/"
+        }
+      ],
+      "result": "未核实到窗口内值得追加日志的变化。",
+      "notes": [
+        "按最新版本提交排序，最新可见2611.06220、2611.06164、2611.06063均为2026-11-04，早于本轮窗口；不作为11-07新增。",
+        "LAICS官网标注学术统计更新于2026-11-01，其研究栏目与既有方向一致；统计或抓取更新时间不能替代成果发布日期。"
+      ]
+    },
+    {
+      "groupId": "sjtu-tao",
+      "sources": [
+        {
+          "title": "arXiv作者检索：Meixia Tao（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Tao%2C+Meixia&order=-submitted_date&size=50"
+        },
+        {
+          "title": "上海交通大学陶梅霞教师页",
+          "url": "https://icisee.sjtu.edu.cn/jiaoshiml/541.html"
+        }
+      ],
+      "result": "未核实到窗口内值得追加日志的变化。",
+      "notes": [
+        "最新提交排序列表首项2610.39024为2026-10-28；教师页公开的低空信道与无线空口基座模型项目起止时间在基线前已知，不重复作为新立项。",
+        "补做上海交大域名+陶梅霞+2026年11月检索，未核实到窗口内重大消息。"
+      ]
+    },
+    {
+      "groupId": "zju-zhang",
+      "sources": [
+        {
+          "title": "arXiv作者检索：Zhaoyang Zhang（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Zhang%2C+Zhaoyang&order=-submitted_date&size=50"
+        },
+        {
+          "title": "浙大张朝阳现任主页",
+          "url": "https://person.zju.edu.cn/zhaoyangzhang"
+        },
+        {
+          "title": "排除的数据库同名稿：原始全文单位",
+          "url": "https://arxiv.org/html/2611.07739v1"
+        }
+      ],
+      "result": "未核实到本组窗口内实质变化；已排除同名新稿。",
+      "notes": [
+        "2611.07739发表于2026-11-05 09:48:45 UTC，但原始全文全部作者为中国人民大学，Zhaoyang Zhang邮箱为ruc.edu.cn，非浙大张朝阳，rejected。",
+        "无线相关2610.23118最新修订2026-10-30、基线论文2610.34135为10-25，均早于窗口。浙大个人主页仍标更新日期2026-09-20，不能据抓取时间声称11月有方向变化。"
+      ]
+    },
+    {
+      "groupId": "xidian-li-sheng",
+      "sources": [
+        {
+          "title": "arXiv作者检索：Jiandong Li（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Li%2C+Jiandong&order=-submitted_date&size=50"
+        },
+        {
+          "title": "arXiv作者检索：Min Sheng（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Sheng%2C+Min&order=-submitted_date&size=50"
+        },
+        {
+          "title": "盛敏西电现任主页及团队",
+          "url": "https://faculty.xidian.edu.cn/SM1/zh_CN/index/325443/list/index.htm"
+        }
+      ],
+      "result": "未核实到窗口内值得追加日志的变化。",
+      "notes": [
+        "分别检查Jiandong Li与Min Sheng最新版本提交列表，前者最新可见2026-10-20修订，后者最新为2026-10-12空间AI合作稿，早于窗口。",
+        "打开盛敏现任主页、做西电域名+李建东/盛敏+2026年11月检索；现有页面未提供本窗口内有日期的重大新消息。空间AI既有合作稿不当作全组改向。"
+      ]
+    },
+    {
+      "groupId": "xidian-guo",
+      "sources": [
+        {
+          "title": "arXiv作者检索：Lixin Guo（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Guo%2C+Lixin&order=-submitted_date&size=50"
+        },
+        {
+          "title": "arXiv作者检索：Li-Xin Guo（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Guo%2C+Li-Xin&order=-submitted_date&size=50"
+        },
+        {
+          "title": "程明建现任主页及郭立新团队依托",
+          "url": "https://faculty.xidian.edu.cn/CMJ/zh_CN/index/407435/list/index.htm"
+        },
+        {
+          "title": "程明建论文目录",
+          "url": "https://faculty.xidian.edu.cn/CMJ/zh_CN/lwcg/407438/list/index.htm"
+        },
+        {
+          "title": "刘忠玉官方论文页",
+          "url": "https://web.xidian.edu.cn/liuzy/paper.html"
+        }
+      ],
+      "result": "未核实到窗口内值得追加日志的变化；arXiv覆盖较弱。",
+      "notes": [
+        "检查Lixin Guo与Li-Xin Guo两种作者检索。前者最新可见2026-02-17光学拓扑合作稿，另有不同名字Lixing Guo混入；后者无结果。没有把同名或词形近似自动归组。",
+        "已打开程明建现任主页及其论文目录、刘忠玉论文页，并做西电域名及英文姓名+11-05/06/07检索；未核实到本窗口内有明确出版日的成果。旧论文列表和未注明更新时间的教师页不能证明全面无更新。"
+      ]
+    },
+    {
+      "groupId": "seu-wang-chengxiang",
+      "sources": [
+        {
+          "title": "arXiv作者检索：Cheng-Xiang Wang（按最近版本提交日期倒序）",
+          "url": "https://arxiv.org/search/?searchtype=author&query=Wang%2C+Cheng-Xiang&order=-submitted_date&size=50"
+        },
+        {
+          "title": "AWiTec先进无线技术课题组官网",
+          "url": "https://www.seupml.awitec.cn/"
+        },
+        {
+          "title": "东南大学王承祥教师主页",
+          "url": "https://ncrl.seu.edu.cn/2023/1024/c34871a469485/page.htm"
+        }
+      ],
+      "result": "未核实到窗口内值得追加日志的变化。",
+      "notes": [
+        "按最近版本提交排序，首项2611.07311为2026-11-04，早于基线；不能把本次才发现的旧稿叫作本轮首发。",
+        "打开AWiTec官网及东南官方教师页；仿真器v4.0和专著明确发表于2026-05-15前后，均为既有成果。新闻子栏目尝试未成功解析，官方首页覆盖有限。"
+      ]
+    },
+    {
+      "groupId": "uestc-tang-wanbin",
+      "sources": [
+        {
+          "url": "https://faculty.uestc.edu.cn/wugang1/zh_CN/article/539315/list/index.htm",
+          "title": "武刚官方教学科研动态"
+        },
+        {
+          "url": "https://faculty.uestc.edu.cn/wugang1/zh_CN/article/539315/content/4556.htm",
+          "title": "联合信源信道编码有效深度：官方动态"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Wanbin+Tang%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Wanbin Tang 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Yue+Xiao%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Yue Xiao 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.39917",
+          "title": "CKM波束反馈定位原摘要与版本记录"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.41382",
+          "title": "流体天线ISAC综述原摘要与版本记录"
+        }
+      ],
+      "result": "no_verified_material_update",
+      "notes": "官网可见最新教学科研动态为2026-09-18的有效深度JSCC投稿，非窗口内；8月OneBitSC/AFDM录用新闻也早于基线。arXiv准确姓名检索未显示本窗口条目；近期肖悦、武刚合作稿2610.39917首发2026-10-29、2610.41382首发2026-10-30，原页均仅v1，没有11-05之后修订，不能把今天检索到旧稿写成本轮新增。局限：唐万斌组较大，本轮重点检查负责人及肖悦/武刚支线，未穷尽32名历史教师口径中的所有成员；官网动态页缓存标记约上月，不能排除尚未索引事项。"
+    },
+    {
+      "groupId": "uestc-tang-youxi",
+      "sources": [
+        {
+          "url": "https://yz.uestc.edu.cn/info/1164/5011.htm",
+          "title": "唐友喜科研团队：官方独立团队页"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Youxi+Tang%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Youxi Tang 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Shihai+Shao%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Shihai Shao 作者检索"
+        }
+      ],
+      "result": "no_verified_material_update",
+      "notes": "官方团队页发布日期仍为2024-05-17；定向检索唐友喜/邵士海及11-05至11-07未找到可证实的新系统、方向变化或重大成果。arXiv准确姓名检索分别只有2条：唐友喜最新可见提交2022-11-22，邵士海最新可见2507.14945提交2025-07-20，未显示本轮新版本。局限：该组全双工/射频系统研究的arXiv覆盖很弱，官方招生展示页不能承担实时新闻流；本轮没有逐篇穷尽IEEE及全部硬件合作者，因此结论仅为未核实到，不能宣称没有成果。"
+    },
+    {
+      "groupId": "hust-jiang-tao",
+      "sources": [
+        {
+          "url": "https://cse-sinclab.hust.edu.cn/tdythyw/Publications.htm",
+          "title": "6G移动通信研究中心官方论文目录"
+        },
+        {
+          "url": "https://cse.hust.edu.cn/index/xyxw.htm",
+          "title": "华科网络空间安全学院新闻"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Tao+Jiang%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Tao Jiang 作者检索"
+        }
+      ],
+      "result": "no_verified_material_update",
+      "notes": "官方论文表顶部列出TCOMM.2026.3747967有限码长无小区MIMO、JIOT.2026.3741914车联网资源分配等in press稿，但未给日级上线日期，不能据目录顺序认定11-05后新增。对顶部DOI进一步检索，第三方索引指向10-29，作为排除本轮新增的线索；没有用其替代出版商原始证据。学院新闻中的弹性编码成果仍为8月旧消息，已入基线。Tao Jiang作者页顶部为10月的拍卖/化学等跨领域论文，未按同名归组。局限：作者页工具标记约上周抓取，论文表无日期；检索无法排除未被索引的本窗口早期在线稿，可靠传输/卫星原始文章不是完整逐篇复审。"
+    },
+    {
+      "groupId": "hust-ge-xiaohu",
+      "sources": [
+        {
+          "url": "https://greencom.hust.edu.cn/",
+          "title": "国家绿色通信与网络国际联合研究中心：首页"
+        },
+        {
+          "url": "https://greencom.hust.edu.cn/xscg.htm",
+          "title": "国家绿色通信中心：带年份的学术成果目录"
+        },
+        {
+          "url": "https://greencom.hust.edu.cn/info/1026/1090.htm",
+          "title": "第十八届挑战杯获奖：原文日期核查"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Xiaohu+Ge%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Xiaohu Ge 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2603.03809",
+          "title": "T-PASS原摘要与版本历史"
+        }
+      ],
+      "result": "no_verified_material_update",
+      "notes": "中心新闻首页可见最新为2026-10-23，未见11-05至11-07的研究变化。首页学术成果栏的“11-07”挑战杯消息经原文和带年目录核实为2023-11-07，明确排除，不能误作今天新闻。arXiv姓名检索顶部T-PASS稿2603.03809原页仅v1、2026-03-04，无窗口内修订。局限：中心官网部分栏目长期未更新且不同缓存快照不一致；本轮没有穷尽全部低碳能源/信息网络合作者及出版社早期在线文章。"
+    },
+    {
+      "groupId": "ustc-xu-zhengyuan",
+      "sources": [
+        {
+          "url": "https://owc.ustc.edu.cn/10526/list.htm",
+          "title": "无线光通信与网络研究中心：新闻动态"
+        },
+        {
+          "url": "https://owc.ustc.edu.cn/10528/list.htm",
+          "title": "无线光通信与网络研究中心：科研动态"
+        },
+        {
+          "url": "https://owc.ustc.edu.cn/2016/0830/c13877a116334/page.htm",
+          "title": "徐正元官方论文列表"
+        },
+        {
+          "url": "https://ieeexplore.ieee.org/abstract/document/11659781",
+          "title": "IEEE：Robust Beam Alignment in LD-PMT-Based UOWC via Entropy-Guided Gradient-Direction Voting"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Zhengyuan+Xu%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Zhengyuan Xu 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Chen+Gong%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Chen Gong 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Weijie+Liu%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Weijie Liu 作者检索"
+        }
+      ],
+      "result": "no_verified_material_update",
+      "notes": "在所检查的官网栏目、论文列表及作者检索中，未核实到11月5–7日应新增日志的成果。中心官网新闻列表最新为2026-11-04的龚晨公开课专题分享，早于窗口；科研动态栏目最新为2023年。官方论文表首项仍以2026 in press列水下光通信鲁棒波束对准。针对该原始题名进一步检索，IEEE出版商索引给出DOI 10.1109/JLT.2026.3725718、在线发表2026-08-19、卷期2026-10-01，因此不是本轮新成果；直接打开IEEE页返回418，日期依据注明为出版商搜索索引。Zhengyuan Xu作者页第一项是2402.19013，显示最近提交/修订为2024-04-14。Chen Gong检索首项2611.00102虽然编号为2611，原摘要页明确v1为2026-10-26；归属未另核验，不将其认作徐组更新。Weijie Liu检索顶部为2026年10月的计算机论文，不能按姓名归组。局限：未逐一审阅所有合作者和出版社接收稿；官网in press状态可能滞后，检索缓存不能排除尚未索引的新成果。"
+    },
+    {
+      "groupId": "hit-zhang-qinyu",
+      "sources": [
+        {
+          "url": "https://www.hitsz.edu.cn/news/2026/0925/c6a18602/page.psp",
+          "title": "鹏城首发星成功入轨 哈工大深圳校区团队多项关键技术助力"
+        },
+        {
+          "url": "https://cist.hitsz.edu.cn/",
+          "title": "哈尔滨工业大学（深圳）信息学部：新闻与科研成果"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Qinyu+Zhang%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Qinyu Zhang 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Jian+Jiao%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Jian Jiao 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Shaohua+Wu%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Shaohua Wu 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2402.14297",
+          "title": "Semantics-Empowered Space-Air-Ground-Sea Integrated Network: New Paradigm, Frameworks, and Challenges"
+        }
+      ],
+      "result": "no_verified_material_update",
+      "notes": "在官网与作者检索的可见记录中未核实到11月5–7日的在轨验证结果、重大系统成果或重要论文修订。鹏城首发星消息仍为2026-09-25发布、9月20日入轨，原文只承诺后续在轨验证，不能推断已经完成。信息学部主页最新科研相关新闻为2026-11-04闫旭团队ISAP获奖，既早于窗口，也不是张组。Qinyu Zhang作者检索顶部2609.27527显示2026-09-23；Jian Jiao顶部2610.07544为2026-10-05，Shaohua Wu顶部2609.25560为2026-09-21，均未显示本窗口新增；多名作者存在明显跨领域同名条目，不据此归组。基线论文2402.14297原摘要页仍为v3、2024-06-16修订，没有本轮版本变化。局限：Jian Jiao检索页被工具标记为约三周前抓取；其余官网/检索也可能缓存。没有覆盖所有学生、期刊早期在线稿及未公开在轨测试，结论仅限本次已检来源。"
+    },
+    {
+      "groupId": "bit-fei-zesong",
+      "sources": [
+        {
+          "url": "https://sie.bit.edu.cn/szdw/jsml/txjsyjsj/zgzct/906fc131cd5b40a9b0dc7bfc441ceb42.htm",
+          "title": "费泽松官方教师资料"
+        },
+        {
+          "url": "https://sie.bit.edu.cn/",
+          "title": "北京理工大学信息与电子学院：新闻及科研动态"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=Zesong+Fei&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Zesong Fei 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.30693",
+          "title": "In-Orbit Computing for Remote Sensing原摘要与版本历史"
+        }
+      ],
+      "result": "no_verified_material_update",
+      "notes": "学院可见11-06事项为推免拟录取名单，属于招生而非实质研究变化，未作更新。费泽松主页没有可证的窗口内新增科研动态；arXiv作者页最新可见稿2610.30693为在轨计算/星地协同遥感框架，原页仅v1、2026-10-22，不能把旧稿重发为新增。局限：作者检索为候选发现工具，不保证覆盖所有学生、共同作者及IEEE早期在线成果；官网教师页内容可修订但未给本轮更新日期。"
+    },
+    {
+      "groupId": "buaa-liu-rongke",
+      "sources": [
+        {
+          "url": "https://teacher.buaa.edu.cn/liurongke/zh_CN/more/18015/jsjjgd/index.htm",
+          "title": "刘荣科官方研究简介"
+        },
+        {
+          "url": "https://teacher.buaa.edu.cn/liurongke/zh_CN/kyxm/18017/list/index.htm",
+          "title": "刘荣科官方科研项目"
+        },
+        {
+          "url": "https://sibu.buaa.edu.cn/",
+          "title": "北航深圳研究院：科研动态"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=Rongke+Liu&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Rongke Liu 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.41253",
+          "title": "POST-MIMO点云传输原摘要与版本历史"
+        }
+      ],
+      "result": "no_verified_material_update",
+      "notes": "官方资料仍列低空融合通信感知、空天通感算、语义通信及编码；深圳研究院科研动态可见9月23日eVTOL大会展示，早于窗口。arXiv可见最新POST-MIMO点云MIMO语义传输稿2610.41253首发2026-10-30，原页仅v1，无窗口内修订，未新增日志。同名Rongke Liu跨领域条目不据姓名归入北航。局限：教师主页论文栏目为空，深圳研究院新闻不是全组论文记录；未穷尽北航本部与深圳全部核心合作者、出版社接收稿及未公开工程验证。"
+    },
+    {
+      "groupId": "sdu-zhang-haixia",
+      "sources": [
+        {
+          "url": "https://iict.sdu.edu.cn/",
+          "title": "山东大学智能通信技术研究院：新闻与研究方向"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Haixia+Zhang%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=50",
+          "title": "arXiv：Haixia Zhang 作者检索"
+        }
+      ],
+      "result": "no_verified_material_update",
+      "notes": "研究院首页可见研究方向/新闻和2026招生、8月论坛记录，定向检索未核实到11-05至11-07新重大成果。准确姓名arXiv检索顶部2607.00316为多人合作的智简网络架构稿，显示最近修订2026-10-19，v1为6月30日，非窗口内；其余顶部条目夹杂Haixiao Zhang等近似姓名，不能按返回列表硬归组。局限：官网排序含置顶旧消息，主页并非完整时间线；本轮未穷尽张传亭等全部团队成员和期刊早期在线成果，无法仅据作者检索断言全组无新增。"
+    },
+    {
+      "groupId": "xjtu-wang-huiming",
+      "sources": [
+        {
+          "url": "https://faculty.xjtu.edu.cn/hmwang/",
+          "title": "王慧明官方主页"
+        },
+        {
+          "url": "https://faculty.xjtu.edu.cn/hmwang/zh_CN/article/239913/list/index.htm",
+          "title": "王慧明官方我的新闻"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Hui-Ming+Wang%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Hui-Ming Wang 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.22756",
+          "title": "RIMSA大规模MIMO两阶段信道估计原摘要与版本历史"
+        }
+      ],
+      "result": "no_verified_material_update",
+      "notes": "教师主页新闻最新可见为2025-10-22的抗干扰论文接收，不能以当前页面抓取时间当新动态。arXiv准确姓名检索顶部为2609.22756，原页仅v1、2026-09-19；其次DARISAA抗压制干扰稿为9月13日，未显示窗口内提交或修订。定向日期检索没有核实到11-05之后新系统/方向/重大成果。局限：教师新闻页面可能更新滞后，部分摘要页缓存为约4天前；本轮没有穷尽全部学生、其他英文拼写、微信公众号或IEEE期刊早期在线记录。"
+    },
+    {
+      "groupId": "nwpu-yang-kunde",
+      "sources": [
+        {
+          "url": "https://haiyang.nwpu.edu.cn/",
+          "title": "西北工业大学海洋研究院：新闻与科研动态"
+        },
+        {
+          "url": "https://haiyang.nwpu.edu.cn/info/1033/5701.htm",
+          "title": "深远海水声物理与信息感知学科与技术中心揭牌成立"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Kunde+Yang%22&searchtype=author&abstracts=show&order=-announced_date_first&size=50",
+          "title": "arXiv：Kunde Yang 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2507.20651",
+          "title": "Angle-distance decomposition based on deep learning for active sonar detection"
+        }
+      ],
+      "result": "no_verified_material_update",
+      "notes": "海洋研究院首页最新相关消息为2026-11-03的深远海声学中心揭牌，已经在11-05基线中，不能重复追加日志。原新闻明确：会议及揭牌发生2026-10-27；中心早在2025年6月获工信部批准成立；本次聘杨坤德为首席科学家、廖方楼为主任，不能把新闻日期写成中心初次获批日期。网页科研动态栏可见最新为2025-02-19。Kunde Yang作者检索共7条，顶部水声相关项2507.20651，原摘要页v1为2025-07-28且无新修订；其下材料科学条目存在同名风险且修订为2026-07-18，均不进入本轮。局限：该组arXiv覆盖弱；本轮补查海洋研究院官网与定向检索，未穷尽JASA/IEEE等全部期刊早期在线记录或未公开海试成果。"
+    },
+    {
+      "groupId": "hku-huang-kaibin",
+      "sources": [
+        {
+          "url": "https://wireless.hku.hk/publications",
+          "title": "HKU Wireless Lab：论文列表"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=Kaibin+Huang&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：Kaibin Huang 作者检索，按公布日期排序"
+        },
+        {
+          "url": "https://arxiv.org/abs/2611.06524",
+          "title": "Distributed Consensus, Optimization, and Learning under Communication Constraints：原始提交历史"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.01062",
+          "title": "Space Generative AI with Solar Energy Harvesting：原始提交历史"
+        },
+        {
+          "url": "https://ece.hku.hk/professor-kaibin-huang-appointed-editor-in-chief-of-ieee-transactions-on-wireless-communications/",
+          "title": "HKU ECE：黄凯斌获任 IEEE TWC 下一任主编，2026-11-03"
+        }
+      ],
+      "result": "no_verified_substantive_update",
+      "notes": [
+        "作者检索最新命中2611.06524；原始arXiv只有2026-11-04 13:50:05 UTC的v1，早于11-05基线。第三方所写11-05更新时间不能代替原始版本史，未列新增。",
+        "TWC主编任命虽是重大官方消息，官方日期为11-03，且任期2027年开始；不能充作11-05之后的新消息。",
+        "基线论文2609.01062仍为9月1日v1；实验室当前论文分类未提供本窗口可证日期的新成果。",
+        "限度：网页作者检索和实验室列表有索引/维护延迟；未完成全量arXiv API差分，结论是未核实到值得更新的变化。"
+      ]
+    },
+    {
+      "groupId": "cuhk-zhang-yingjun",
+      "sources": [
+        {
+          "url": "https://staff.ie.cuhk.edu.hk/~yjzhang/",
+          "title": "Angela Yingjun Zhang：CUHK本人主页"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=Ying-Jun+Angela+Zhang&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：Ying-Jun Angela Zhang 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Ying+Jun+Zhang%22&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：Ying Jun Zhang 姓名变体检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2507.15256",
+          "title": "Optimal Transceiver Design in Over-the-Air Federated Distillation：版本及单位"
+        }
+      ],
+      "result": "no_verified_substantive_update",
+      "notes": [
+        "完整姓名检索顶部是10月的Sharpness-Aware Muon预印本，未见可确认在11-05之后发布的候选；姓名变体检索用于补漏。",
+        "基线合作论文2507.15256仍为2025-07-21 v1；原始页面明确张颖珺及Zihao Hu属香港CUHK、Jia Yan属HKUST广州，保留分校和跨组合作边界。",
+        "主页最新新闻明显滞后，不能凭其没有新条目断言团队没有新成果。限度：未全量复核每个学生署名及所有出版商early-access记录。"
+      ]
+    },
+    {
+      "groupId": "hkust-letaief",
+      "sources": [
+        {
+          "url": "https://6g-aoe.hkust.edu.hk/",
+          "title": "6G@HK：研究平台首页及最新消息"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Khaled+B.+Letaief%22&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：Khaled B. Letaief 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2611.04552",
+          "title": "Mutual-Coupling-Aware Joint Precoding and Antenna Positioning for Movable-Antenna MU-MIMO Systems：原始版本"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.39964",
+          "title": "AIMS：原始提交与修订历史"
+        }
+      ],
+      "result": "no_verified_substantive_update",
+      "notes": [
+        "作者检索最新命中2611.04552，原始arXiv只有11-03 09:15:45 UTC的v1，早于基线；与张军等合著，不能据一篇合作论文断言整个组转向可移动天线。",
+        "AIMS最新版本仍是10-01 v2，没有窗口内新修订。",
+        "6G@HK首页12月3—4日峰会是已公开的未来活动；未找到本窗口重大研究发布。限度：6G@HK是跨校平台，其新闻不全部属于李德富个人组；尚非全量出版商差分。"
+      ]
+    },
+    {
+      "groupId": "hkust-zhang-jun",
+      "sources": [
+        {
+          "url": "https://eejzhang.people.ust.hk/",
+          "title": "HKUST Jun Zhang：主页及近期研究"
+        },
+        {
+          "url": "https://eejzhang.people.ust.hk/publicationsyear.html",
+          "title": "Jun Zhang：按年论文列表"
+        },
+        {
+          "url": "https://eejzhang.people.ust.hk/news_research.html",
+          "title": "Jun Zhang：Research News"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.36880",
+          "title": "Spatial MIMO Channel Rendering：原始版本"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.40037",
+          "title": "Radian：原始版本"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.39964",
+          "title": "AIMS：版本历史"
+        }
+      ],
+      "result": "no_verified_substantive_update",
+      "notes": [
+        "核对年度论文列表顶部及近期研究链接的原始arXiv：Spatial MIMO Channel Rendering为10-27 v1，P3-WAM最新10-22 v2，SciWalker为9-24，WorldPlay2为9-28，Radian为9-30，Salt++为9-29；均早于基线。",
+        "另核对Point2Radio、WirelessAgent++，分别为7-31和2-28 v1，AIMS仍为10-01 v2，不能把首页近期展示当新近发表。",
+        "Research News顶部将GSBF获GLOBECOM最佳论文奖标为December 2026；当前为11-07，缺本窗口会方确认，暂不将未来日期条目视作已发生的新获奖。",
+        "限度：Jun Zhang存在大量同名，优先用本人列表和Chaozheng Wen等团队锚点；并未全量追踪所有一般AI合作或代码仓库提交。"
+      ]
+    },
+    {
+      "groupId": "hkust-murch",
+      "sources": [
+        {
+          "url": "https://ece.hkust.edu.hk/eermurch",
+          "title": "HKUST ECE：Ross Murch现任资料及研究"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=Ross+Murch&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：Ross Murch 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2511.21274",
+          "title": "MAPES：原始版本历史"
+        }
+      ],
+      "result": "no_verified_substantive_update",
+      "notes": [
+        "作者检索顶部为10月的Antenna Coding by Pixel Antennas，未发现本窗口可核实的新稿；官方资料持续列多端口天线、4D电磁等方向。",
+        "基线MAPES原始版本史最新2026-06-29 v3，未见11-05之后修订。",
+        "限度：院系profile无逐条更新时间，个人实验室页未作为成功读取依据；不能排除未上arXiv的天线硬件论文或尚未进入索引的新结果。"
+      ]
+    },
+    {
+      "groupId": "cityu-fang-yuguang",
+      "sources": [
+        {
+          "url": "https://jcstemlab-smartcity.github.io/",
+          "title": "CityU JC STEM Lab of Smart City：团队主页及消息"
+        },
+        {
+          "url": "https://scholars.cityu.edu.hk/en/persons/yugufang/",
+          "title": "CityU Scholars：Yuguang Fang官方研究记录"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=Yuguang+Fang&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：Yuguang Fang 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2605.18503",
+          "title": "低空经济SCCSI综述：原始版本历史"
+        }
+      ],
+      "result": "no_verified_substantive_update",
+      "notes": [
+        "实验室可见最新明确日期消息为9月8日教师节活动，不是本窗口科研更新；官方研究门户的Nov 2026卷期不能证明11-05之后首次发表。",
+        "作者检索顶部为10月的定向信息瓶颈任务通信、运动辅助模型自适应两篇；低空SCCSI基线稿仍为5-18 v1。",
+        "限度：组内同时有佛罗里达历史合作及多校合著，不能将所有Fang署名或月份卷期记录归作香港组本轮新增；未全量复核所有期刊online-first日期。"
+      ]
+    },
+    {
+      "groupId": "cityu-dai-lin",
+      "sources": [
+        {
+          "url": "https://www.ee.cityu.edu.hk/~lindai/",
+          "title": "CityU Lin Dai：本人主页及研究主线"
+        },
+        {
+          "url": "https://www.ee.cityu.edu.hk/~lindai/publications.htm",
+          "title": "Lin Dai：本人论文列表"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Lin+Dai%22&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：精确姓名Lin Dai检索，含同名者"
+        }
+      ],
+      "result": "no_verified_substantive_update",
+      "notes": [
+        "主页主线仍是随机接入理论与可解释强化学习接入设计；论文列表最新两篇to appear未给出足以确认在本窗口公开的日期，不据排序判新增。",
+        "Delay-Optimal Random Access是基线2026年初成果，未重复写日志。精确姓名arXiv检索中出现高能物理同名Lin Dai，排除；非精确检索还会把不同作者的Lin和Dai拼成假命中。",
+        "限度：作者检索不覆盖所有2026期刊结果，to appear条目的首发日期仍需后续从出版商核实。本轮未确认实质变化。"
+      ]
+    },
+    {
+      "groupId": "polyu-liu-liang",
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-liang/",
+          "title": "PolyU EEE：刘亮现任官方资料"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Liang+Liu%22&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：精确姓名Liang Liu检索，含同名者"
+        },
+        {
+          "url": "https://arxiv.org/abs/2511.14490",
+          "title": "Multi-view imaging in networked sensing systems：原始版本历史"
+        },
+        {
+          "url": "https://www.eie.polyu.edu.hk/~liangliu/",
+          "title": "刘亮个人主页：本轮读取超时"
+        },
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/liang-liu/publications/",
+          "title": "PolyU Scholars论文列表：本轮403"
+        }
+      ],
+      "result": "no_verified_substantive_update",
+      "notes": [
+        "官方资料核实仍任PolyU EEE副教授；精确作者检索顶部多为一般AI等同名结果，未因姓名相同归入本组。",
+        "基线2511.14490最新仍为6月1日v2；未见11-05之后新版本。",
+        "限度较大：本人主页超时、官方研究门户403；成功读取的官方profile及原始arXiv只能支持有限复核，不能声称完整覆盖近期团队成果。"
+      ]
+    },
+    {
+      "groupId": "bupt-zhang-ping",
+      "sources": [
+        {
+          "url": "https://arxiv.org/search/?query=%22Ping+Zhang%22&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：精确姓名Ping Zhang检索，含同名者"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Kai+Niu%22&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：核心合作者Kai Niu检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2609.10986",
+          "title": "A Mathematical Theory of Pragmatic Information：原始版本历史"
+        },
+        {
+          "url": "https://sice.bupt.edu.cn/kxyj/kycg.htm",
+          "title": "北邮信通院科研成果：本轮412，另做索引补查"
+        }
+      ],
+      "result": "no_verified_substantive_update",
+      "notes": [
+        "基线语用信息论稿2609.10986的原始记录最新仍为9月30日v4；没有窗口内新修订。",
+        "Ping Zhang检索混有认知/动物行为等同名作者，未归入张平组；以Kai Niu、Xiaodong Xu等核心合作线辅助检查，未核实到本窗口的实质新增。",
+        "限度：北邮官方成果列表与院站读取412；按11月6/7日及人名检索官网无可核实命中，但索引缺失不等于无消息。未全量检查所有团队成员不含leader署名的论文。"
+      ]
+    },
+    {
+      "groupId": "bupt-peng-mugen",
+      "sources": [
+        {
+          "url": "https://arxiv.org/search/?query=Mugen+Peng&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：Mugen Peng 作者检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2602.06399",
+          "title": "ARIS-RSMA Enhanced ISAC System：原始版本历史"
+        },
+        {
+          "url": "https://sice.bupt.edu.cn/kxyj/kycg.htm",
+          "title": "北邮信通院科研成果：本轮412"
+        },
+        {
+          "url": "https://sice.bupt.edu.cn/",
+          "title": "北邮信通院首页：本轮412"
+        }
+      ],
+      "result": "no_verified_substantive_update",
+      "notes": [
+        "作者检索顶部为10月的PASS综述及RadioDreamer等，早于基线，不能当本轮新增。",
+        "基线2602.06399仍为2月6日v1；其仿真结果及WCL录用信息已是旧记录，不能升级成新硬件演示。",
+        "检索到11月6—8日会议名单里有彭木根，页面数月前发布、只是会议参与信息，未用作科研变化。",
+        "限度：官方院站及成果页412，已用网页索引和原始arXiv补查，但未覆盖所有实验平台和未预印本成果。"
+      ]
+    },
+    {
+      "groupId": "bupt-ji-yuefeng",
+      "sources": [
+        {
+          "url": "https://arxiv.org/search/?query=%22Yuefeng+Ji%22&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：精确姓名Yuefeng Ji检索"
+        },
+        {
+          "url": "https://arxiv.org/search/?query=%22Shanguo+Huang%22&searchtype=author&order=-announced_date_first&size=50",
+          "title": "arXiv：联合带头人Shanguo Huang检索"
+        },
+        {
+          "url": "https://arxiv.org/abs/2608.10517",
+          "title": "Link-adaptive digital twin：版本及原期刊日期"
+        },
+        {
+          "url": "https://ipoc.bupt.edu.cn/",
+          "title": "北邮光通信相关实验室官网：本轮412"
+        }
+      ],
+      "result": "no_verified_substantive_update",
+      "notes": [
+        "Yuefeng Ji精确姓名检索顶部为10月的ISRS-aware资源重优化稿；Shanguo Huang顶部为9月Agentic Optical Networks综述，未见可核实窗口内新稿。",
+        "基线2608.10517仍为8月11日v1，原始页面同时注明JOCN 2026年6月已刊；不把后续收录/抓取当新成果。",
+        "限度：团队是纪越峰、张杰、黄善国等联合带头，不以单一姓名假定覆盖整个团队；Jie Zhang同名很多，未进行无归属约束的全量匹配。官方实验室412，尚未全量复核Optica/IEEE本窗口全部early-access论文。"
+      ]
+    }
+  ],
+  "acceptedUpdates": [
+    {
+      "groupId": "seu-jin",
+      "log": {
+        "date": "2026-11-07",
+        "title": "合作预印本：未可靠解调的数据仍可辅助测距",
+        "summary": "金石参与的合作研究用导频初始化EM纳入符号不确定性，避免硬判决造成的持续测距伪峰；在局部条件和充分积累下，信道估计均方误差渐近按1/M下降。通讯作者为Fan Liu、Yifeng Xiong；目前仅有理论与仿真，不代表全组转向。",
+        "kind": "verified",
+        "sources": [
+          {
+            "title": "arXiv原始摘要与首发时刻",
+            "url": "https://arxiv.org/abs/2611.07803"
+          },
+          {
+            "title": "原始全文：作者单位、方法条件与数值验证",
+            "url": "https://arxiv.org/html/2611.07803v1"
+          }
+        ],
+        "paperId": "2611.07803",
+        "paperVersion": 1,
+        "publishedAt": "2026-11-05T10:46:39Z"
+      },
+      "candidateId": "2611.07803",
+      "decision": "新增一条合作方法进展日志；不改current/past/next，不推断整个组转向。"
+    }
+  ],
+  "candidateReviews": [
+    {
+      "id": "2611.07803",
+      "status": "verified",
+      "reviewNote": "全文确认Shi Jin为东南大学、金石邮箱jinshi@seu.edu.cn。通讯作者Fan Liu、Yifeng Xiong；仅认定金石参与合作方法研究，不推断整个组转向。首发晚于2026-11-05T08:00:20Z基线。读取时仅v1，无v2。",
+      "sources": [
+        {
+          "title": "arXiv原始摘要与首发时刻",
+          "url": "https://arxiv.org/abs/2611.07803"
+        },
+        {
+          "title": "原始全文：作者单位、方法条件与数值验证",
+          "url": "https://arxiv.org/html/2611.07803v1"
+        }
+      ]
+    },
+    {
+      "id": "2611.07724",
+      "status": "pending",
+      "reviewNote": "本轮已读摘要及作者单位：归属可确认，属于有源RIS改善既有蜂窝低空上行的理论/仿真常规延伸。保留候选待后续专题审阅，本轮不追加日志、不提高组revision。arXiv仅v1；Comments所写Minor Revision指期刊审稿阶段，不是arXiv v2。",
+      "sources": [
+        {
+          "title": "摘要与版本历史",
+          "url": "https://arxiv.org/abs/2611.07724"
+        },
+        {
+          "title": "全文单位与仿真",
+          "url": "https://arxiv.org/html/2611.07724v1"
+        }
+      ]
+    },
+    {
+      "id": "2611.07364",
+      "status": "rejected",
+      "reviewNote": "原始全文Shi Jin为上海交通大学数学科学学院、自然科学研究院，非东南大学通信组。检索页日期与摘要页显示有差异，但不影响同名排除；无需据此记录任何本组新方向。",
+      "sources": [
+        {
+          "title": "全文明确数学家单位",
+          "url": "https://arxiv.org/html/2611.07364v1"
+        }
+      ]
+    }
+  ],
+  "excludedSearchHitsNotInCache": [
+    {
+      "id": "2611.07739",
+      "version": 1,
+      "title": "Fix One, Miss Another: Leveraging Historical Bug Fixes to Uncover Residual Bugs in Database Systems",
+      "url": "https://arxiv.org/abs/2611.07739",
+      "published": "2026-11-05T09:48:45Z",
+      "updated": "2026-11-05T09:48:45Z",
+      "authors": [
+        "Yankai Rong",
+        "Zhaoyang Zhang",
+        "Shuang Liu",
+        "Wei Lu",
+        "Xiaoyong Du"
+      ],
+      "groupIds": [
+        "zju-zhang"
+      ],
+      "candidateStatus": "rejected",
+      "reviewedAt": "2026-11-07T02:55:37Z",
+      "reviewNote": "原始全文全部作者单位为中国人民大学，Zhaoyang Zhang邮箱为ruc.edu.cn，非浙大张朝阳通信组。",
+      "reviewSources": [
+        {
+          "title": "全文中国人民大学单位与邮箱",
+          "url": "https://arxiv.org/html/2611.07739v1"
+        }
+      ]
+    }
+  ],
+  "collection": {
+    "workflowRun": 42331490141,
+    "lastAttemptAt": "2026-11-07T02:54:33Z",
+    "state": "partial",
+    "groupStates": {
+      "ok": 32,
+      "partial": 1
+    },
+    "limitation": "江涛组同名Tao Jiang检索达到80条上限，最近45天窗口尚未穷尽；已结合官网补查。初次采集的历史候选不等于本轮新增。"
+  },
+  "candidateReviewScope": "逐条复核晚于编辑基线的两篇缓存候选，并排除一篇已确认同名数学作者稿；其他初始窗口存量保持pending，未声称完成81篇全文评审。",
+  "coverageReview": {
+    "reviewedAt": "2026-11-07",
+    "candidate": {
+      "id": "dlut-zhao-nan",
+      "name": "赵楠组",
+      "schoolId": "dlut",
+      "school": "大连理工大学",
+      "officialTeamName": "智能空间通信与安全传输团队",
+      "leader": "赵楠 / Nan Zhao",
+      "baseline": "生产coverage.json（evidenceDate=2026-11-05）中的唯一watchlist组；本轮定向复核，不默认新增。"
+    },
+    "result": {
+      "recommendation": "retain_watchlist",
+      "teamAndContinuity": "通过：学院官网明确负责人、同团队教师邓娜和研究生；现行教师主页有跨届学生及博士后培养记录。可以确认真实持续团队，但没有完整现役名单，不能断言当前人数或与其他组的规模排名。",
+      "impactAndActivity": "通过：2025 ICC最佳论文由本校博士生伍玉洁第一作者、赵楠通讯作者；原始论文首页与官方报道可交叉验证。2023–2026在研国自然项目及2026合作论文机构库记录支持持续活跃。奖项、编委职务、引用数不单独构成入选理由。",
+      "distinctiveness": "部分通过：隐蔽通信的技术目标是隐藏传输行为，确实区别于保护消息内容的传统保密传输；共谋检测下的隐蔽ISAC是具体、可解释的主线。现有王慧明组已覆盖无线安全与感知隐私，曾勇组覆盖空地网络和环境地图，刘亮等组覆盖ISAC。赵楠组的增量应限定为隐蔽传输的检测理论及设计，而不能泛化为再增加一个RIS/UAV/AI/ISAC综合组。",
+      "newEvidenceSufficiency": "本轮补强了学院正式团队边界、2026生成式频谱地图合作文章及IEEE专题组织证据；尚不足以据此改变当前33组的阅读预算。未把重新发现的2025获奖论文或2024团队介绍当作2026-11-07发生的新成果。"
+    },
+    "evidence": [
+      {
+        "title": "智能空间通信与安全传输团队（大连理工大学信息与通信工程学院）",
+        "url": "https://ice.dlut.edu.cn/info/1348/4256.htm",
+        "sourceDate": "2024-10-14",
+        "type": "official_team",
+        "verified": "学院正式列出赵楠为团队负责人、邓娜为团队成员及博士生张吉发；主线为空间信息网络中的高效与安全传输，具体包括AI无线网络、卫星、无人机与空间隐蔽通信。",
+        "limit": "页面不是2025–2026新公告；旧页面列邓娜为硕导，现行官方个人主页已列博导，应采用现行信息。"
+      },
+      {
+        "title": "赵楠、邓娜现行官方教师主页",
+        "url": "https://faculty.dlut.edu.cn/zhaonan/",
+        "relatedUrl": "https://faculty.dlut.edu.cn/dengna/zh_CN/index.htm",
+        "sourceDate": null,
+        "type": "official_faculty",
+        "verified": "两人当前均在大连理工大学信息与通信工程学院；赵楠为教授、博导，邓娜为副教授、博导。赵楠主页明确团队名称，列有2016级起多个年级毕业生、博士后去向和2025–2026学生活动。研究方向包括安全与隐蔽通信、无人机、ISAC、RIS及AI辅助无线网络。",
+        "limit": "官网承载的教师自维护资料，无可靠页面更新时间和完整在读名单；统计指标、奖项列表及2026年标准参与情况未逐项外部核验，不据此作规模或影响力排名。"
+      },
+      {
+        "title": "大连理工大学科研团队首获IEEE ICC最佳论文奖",
+        "url": "https://news.dlut.edu.cn/info/1024/121144.htm",
+        "sourceDate": "2025-06-19",
+        "type": "official_contribution",
+        "verified": "官方报道明确Covert ISAC: Towards Collusive Detection获ICC2025最佳论文；第一作者为2024级博士生伍玉洁，赵楠为指导老师。",
+        "limit": "这是跨校合作成果，不能把全部合作者当作本组成员；最佳论文也不能单独证明应增加精选名额。中文姓名应为伍玉洁，不能凭Yujie Wu音译。"
+      },
+      {
+        "title": "Covert ISAC: Towards Collusive Detection（原始作者稿）",
+        "url": "https://discovery.ucl.ac.uk/id/eprint/10215962/1/a503-wu%20final.pdf",
+        "metadataUrl": "https://discovery.ucl.ac.uk/id/eprint/10215962/",
+        "sourceDate": "2025",
+        "doi": "10.1109/ICC52391.2025.11160765",
+        "type": "original_paper",
+        "verified": "PDF首页作者Yujie Wu、Chengwen Xing、Jie Tang、Nan Zhao、Xiu Yin Zhang、Kai-Kit Wong、George K. Karagiannidis；Wu和Zhao归属DLUT，Zhao为通讯作者。研究在多监听者共谋检测下联合设计通信与感知波束，使感知约束与隐蔽传输速率折中。",
+        "limit": "验证方式是数值结果；不得把大学新闻的“实验表明”扩写成硬件原型、外场部署或实网验证。"
+      },
+      {
+        "title": "智能反射面辅助的高效安全无人机空地协同无线通信理论与方法（62271099）",
+        "url": "https://faculty.dlut.edu.cn/jin/zh_CN/kyxm/725717/content/56750.htm",
+        "sourceDate": "2023-11-07",
+        "type": "official_project",
+        "verified": "大学官方项目页明确赵楠为负责人、国家自然科学基金面上项目62271099、开始2023-01-01、计划完成2026-12-31、状态在研；2025 ICC作者稿亦致谢该项目。",
+        "limit": "页面位于项目参与者金明录主页，但负责人字段是赵楠；计划完成日期不能当作已完成成果或未来研究承诺。"
+      },
+      {
+        "title": "Covert Communications: A Generative Spectrum Map Paradigm",
+        "url": "https://research.chalmers.se/publication/552252",
+        "sourceDate": "2026",
+        "recordUpdatedAt": "2026-06-01",
+        "doi": "10.1109/MWC.2026.3684012",
+        "type": "author_institution_repository",
+        "verified": "合作作者Chalmers机构库列出Han Jiang和Nan Zhao均归属DLUT，文章为IEEE Wireless Communications 2026 in press。摘要讨论生成式频谱地图，并提出扩散模型混合框架和隐蔽性案例。",
+        "limit": "本轮核验到机构库作者、摘要和DOI，未取得完整作者稿；这是综述与框架/案例结合的杂志文章，不将摘要直接升格为经独立验证的系统突破，也不推断作者组未来计划。"
+      },
+      {
+        "title": "Intelligent Integrated Sensing and Covert Transmission（IEEE ComSoc专题）",
+        "url": "https://www.comsoc.org/publications/magazines/ieee-wireless-communications/cfp/intelligent-integrated-sensing-and-covert-transmission",
+        "sourceDate": "2026",
+        "type": "professional_society",
+        "verified": "IEEE ComSoc官方专题页将Nan Zhao（DLUT邮箱及机构）列为客座编辑之一；投稿截止2026-06-15，计划出版2027-02。可辅助确认当前在隐蔽传输与ISAC交叉方向的学术组织活跃。",
+        "limit": "专题征稿方向不是赵楠组已经完成的成果，也不是已公布的本组研究路线图；不能据此声称2027将实现某系统。"
+      },
+      {
+        "title": "智能语义隐蔽通信综述",
+        "url": "https://jeit.ac.cn/cn/article/doi/10.11999/JEIT260184?viewType=HTML",
+        "sourceDate": "2026",
+        "doi": "10.11999/JEIT260184",
+        "type": "journal_search_index_and_official_faculty_crosscheck",
+        "verified": "期刊搜索索引可见冯照心、徐逸凡、邢成文、徐煜华、赵楠、王金龙及语义隐蔽通信综述主题；官方教师主页列其为2026年第9期封面文章。",
+        "limit": "本轮期刊原始HTML直接打开返回403，故不作为已完整阅读的原始论文证据；综述本身也不证明新算法或系统贡献。"
+      }
+    ],
+    "decision": {
+      "action": "继续候补，本轮不新增组，不触发组内容红点。",
+      "suggestedWatchlistReason": "官方明确为智能空间通信与安全传输团队，2025获奖论文和2026合作文章支持持续活跃；其隐蔽传输主线有独立价值，本轮继续比较其对既有安全、ISAC与空地网络覆盖的增量。",
+      "nextReviewTrigger": "在后续轮换复核中，优先读到2026原始研究全文、清楚确认本组主导贡献及相对既有安全/感知主线的增量后，再决定是否增加一个只聚焦隐蔽传输的精简组档案。",
+      "productionFilesModified": false,
+      "metadataCorrectionsForRoot": [
+        {
+          "file": "data/coverage.json",
+          "problem": "华南理工大学标记included，reason却是“本轮有季飞组候选”；当前groups.json共33组、21所学校，未出现schoolId=scut。",
+          "recommendation": "改为candidate，并说明季飞等方向尚未完成当前入选核验。学校included仅表示当前实际精选名单中至少有一组，不表示已全量审查该校。"
+        },
+        {
+          "file": "data/coverage.json",
+          "problem": "methodology.coverageCaveat仍写“included按并行研究候选标记，最终应由合并后的groups名单回写”，已不适合生产状态。",
+          "recommendation": "改为included按当前groups实际学校归属回写；candidate为有可核验线索但尚未入选，deferred为本轮尚未形成足够组级证据。三者均不是学校或教师质量排名。"
+        }
+      ]
+    },
+    "reason": "本轮没有发现赵楠组归属、获奖论文归属或团队真实性方面的否定证据；相反，组织边界和持续性证据得到补强。继续候补是为控制精选阅读量，并坚持新增组必须带来清楚、可压缩表达的技术增量。隐蔽传输与传统物理层保密不能简单视为同一问题，但当前本轮完整核验的核心原创成果仍是首版已知的2025共谋检测ISAC论文；2026新增检索结果主要提供综述、框架摘要和专题组织线索，暂不据此扩张33组。",
+    "limits": [
+      "这是一个候补的定向轮换复核，不是对41所境内学校或全部通信团队的重新评审。未入精选不表示低质量。",
+      "未确认任何来源证明存在11月5日到11月7日之间的新事件；页面抓取日期不能替代成果发表日期。",
+      "检索到2026 TWC论文Air-to-Ground Covert Communication With Location and Interference Uncertainty（DOI 10.1109/TWC.2026.3687670）；DBLP/JST列出DLUT作者Hongchi Chen、Na Deng、Nan Zhao，但原始出版社页面本轮不可访问，暂列下次全文核验线索，不把二手摘要当已核验贡献。",
+      "检索中出现赌站镜像及把通信论文混入北京计算科学研究中心同名Nan Zhao档案的聚合页面，均未采纳；后续自动归组须结合DLUT机构、邮箱和可信共同作者。",
+      "未进行33组逐人全面归属审计；本轮唯一明确生产元数据问题为华南理工included与实际无scut组不一致，由根统一修正。"
+    ]
+  },
+  "limits": [
+    "审查窗口为首版commit 2026-11-05T08:00:20Z之后至2026-11-07T02:55:37Z。首版上线约08:06 UTC；建议日志对应论文10:46:39 UTC首发，晚于两者。11-05前旧论文与早于基线的11-05论文不当新增。",
+    "读取现有本地groups.json、AGENTS.md、status.json、papers.json、editorial-status.json，并git fetch origin main。当前所辖11组；remote main读取时为b3188ad3b8b90484d177e07a26ac668f5eab88c6，本地HEAD为a1f7da4，仅文档/快照提交差异。未修改生产数据。",
+    "研究开始时自动采集未开始、候选缓存为空；本研究直接调用export.arxiv.org API遭代理Tunnel 403，因而通过arXiv网页作者检索按最近版本提交日期排序补查所有配置英文全名，并打开命中项原始摘要、版本历史与全文。根代理随后独立补采成功，通报81个初始候选及基线后仅2611.07803/2611.07724，与人工核查一致；采集运行结果由根代理统一记录。",
+    "新首发与修订按原始history判定；一般网页搜索未命中不能证明不存在。arXiv daily recent列表尝试遇429，未从该失败页面推断公告日。",
+    "重点检查领导者配置姓名及公开主页，不能保证覆盖未带leader署名、仅在出版商上线而未进arXiv或未被官网收录的成果。郭立新组arXiv覆盖尤其弱，需要继续定期检查官方骨干论文页及出版商。",
+    "学校新闻首页及域名检索只覆盖可解析公开条目，部分团队站新闻栏目未成功解析。未核实到窗口消息不等于组无成果。",
+    "Shi Jin同名数学家需按单位排除；建议在后续身份规则维护中给seu-jin标记requiresDisambiguation。合作论文只证明共同署名的方法进展，不证明大组整体路线变化。",
+    "已按最新origin/main与AGENTS核查。指定校列表在生产数据中共11组；张文逸候补未纳入生产，未自行增加。",
+    "检查窗口为11-05基线之后至2026-11-07，基线没有具体时刻；无实质且可证晚于基线的成果不增加revision或红点。",
+    "本报告生成时自动采集status仍not_started、papers为空；通过网页工具人工补查官网和arXiv。后续Actions采集结果须另审，未将未启动的采集称为成功。",
+    "检索结果与网页缓存新鲜度不一，抓取日期不是发布日期；没有检索到不证明没有成果。没有穷尽所有教师、学生、共同作者、出版社早期在线或尚未公开的工程验证。",
+    "对无线光、水声、卫星另补查中心与学校官网；无明确上线日期的in press不当作本轮新论文。",
+    "姓名与近似拼写只能产生候选，跨领域同名、纯合作文章不自动说明全组转向。",
+    "未修改生产data或代码。11组均未核实到应新增日志的本轮实质变化。",
+    "检查依据为本地当前仓库data/groups.json的2026-11-05基线及AGENTS；本轮只提交11-05之后至11-07可确认的实质变化，未因补看见基线前旧成果而加日志。",
+    "开工时data/status.json为not_started、data/papers.json为空，故本文件主要记录人工网页补查，不能冒充已完成自动采集或完整arXiv差分。根任务另行启动的补采结果尚未合并进本文件。",
+    "原始arXiv摘要页的提交/修订历史优先于搜索引擎Published/Crawled和第三方Last Updated字段；索引或官网出现日期不精确的条目未硬判新增。",
+    "对可疑日期、无窗口日期、同名和跨校合著保持保守。0条proposedUpdates表示本轮所查来源未核实到应写日志的变化，不表示这11组没有任何新论文。",
+    "部分BUPT官网412，PolyU个人页超时及研究门户403；不能声称这些组已获完整官方消息覆盖。其余官方主页也可能维护滞后。"
+  ],
+  "editorialPrecisionChecks": [
+    "合作作者使用原始论文英文名Fan Liu和Yifeng Xiong，不凭拼音转写中文名；通信方向Fan Liu归属以东南官方英文简介与fan.liu邮箱交叉核对。",
+    "1/M渐近下降精确指每时延单元的信道估计均方误差，并非任意测距误差；结论依赖局部条件、成功初始化及固定信道模型。"
+  ],
+  "additionalIdentitySource": {
+    "title": "东南大学通信方向LIU Fan官方英文简介",
+    "url": "https://oic.seu.edu.cn/oicenglish/2026/0522/c68505a568527/page.htm"
+  }
+}

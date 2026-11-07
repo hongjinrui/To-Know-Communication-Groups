@@ -1,8 +1,10 @@
 {
   "version": 1,
-  "edition": "2026-11-05",
-  "previousEdition": null,
-  "changedGroupIds": [],
+  "edition": "2026-11-07T11:00:35+08:00",
+  "previousEdition": "2026-11-05",
+  "changedGroupIds": [
+    "seu-jin"
+  ],
   "scope": "985 + 北邮/西电 + 港五",
   "schools": [
     {
@@ -306,7 +308,7 @@
       },
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -404,7 +406,7 @@
       },
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -495,7 +497,7 @@
       },
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -595,7 +597,7 @@
       },
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -678,6 +680,22 @@
             "Jun Zhang"
           ],
           "note": "预印本/合作工作；将CSI转为视觉表示，应用预训练视觉模型处理信道估计、定位等任务。"
+        },
+        {
+          "title": "Reliable Bistatic Ranging With Unreliable Communication Payloads",
+          "url": "https://arxiv.org/abs/2611.07803",
+          "date": "2026-11-05",
+          "authors": [
+            "Fangping Yu",
+            "Fan Liu",
+            "Yifeng Xiong",
+            "Jie Yang",
+            "Lei Xie",
+            "Shi Jin"
+          ],
+          "note": "预印本v1/跨团队合作；EM利用符号软信息避免错误硬判决的持续偏差。局部正则与成功导频初始化条件下，信道估计均方误差渐近按1/M下降；仅理论与仿真，未报告实测。通讯作者为Fan Liu、Yifeng Xiong，金石为东南大学共同作者。",
+          "publishedAt": "2026-11-05T10:46:39Z",
+          "version": 1
         }
       ],
       "authorQueries": [
@@ -692,12 +710,13 @@
           "Hengtao He",
           "Chao-Kai Wen",
           "Wankai Tang"
-        ]
+        ],
+        "requiresDisambiguation": true
       },
-      "evidenceDate": "2026-11-05",
-      "revision": 1,
-      "previousRevision": 0,
-      "updatedThisEdition": false,
+      "evidenceDate": "2026-11-07",
+      "revision": 2,
+      "previousRevision": 1,
+      "updatedThisEdition": true,
       "logs": [
         {
           "date": "2026-11-05",
@@ -716,6 +735,25 @@
               "note": "核对持续团队所在的研究平台，平台不等于单一课题组。"
             }
           ]
+        },
+        {
+          "date": "2026-11-07",
+          "title": "合作预印本：未可靠解调的数据仍可辅助测距",
+          "summary": "金石参与的合作研究用导频初始化EM纳入符号不确定性，避免硬判决造成的持续测距伪峰；在局部条件和充分积累下，信道估计均方误差渐近按1/M下降。通讯作者为Fan Liu、Yifeng Xiong；目前仅有理论与仿真，不代表全组转向。",
+          "kind": "verified",
+          "sources": [
+            {
+              "title": "arXiv原始摘要与首发时刻",
+              "url": "https://arxiv.org/abs/2611.07803"
+            },
+            {
+              "title": "原始全文：作者单位、方法条件与数值验证",
+              "url": "https://arxiv.org/html/2611.07803v1"
+            }
+          ],
+          "paperId": "2611.07803",
+          "paperVersion": 1,
+          "publishedAt": "2026-11-05T10:46:39Z"
         }
       ]
     },
@@ -789,7 +827,7 @@
       },
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -888,7 +926,7 @@
       },
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -1001,7 +1039,7 @@
       },
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -1099,7 +1137,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -1188,7 +1226,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -1272,7 +1310,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -1354,7 +1392,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -1442,7 +1480,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -1528,7 +1566,7 @@
       "evidenceDate": "2026-11-05",
       "campus": "哈尔滨工业大学（深圳）",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -1611,7 +1649,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -1697,7 +1735,7 @@
       "evidenceDate": "2026-11-05",
       "campus": "北航本部 / 深圳研究院",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -1785,7 +1823,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -1876,7 +1914,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -1968,7 +2006,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -2075,7 +2113,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -2192,7 +2230,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -2281,7 +2319,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -2368,7 +2406,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -2461,7 +2499,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -2568,7 +2606,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -2669,7 +2707,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -2767,7 +2805,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -2882,7 +2920,7 @@
       },
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -2993,7 +3031,7 @@
       },
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -3078,7 +3116,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -3164,7 +3202,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -3246,7 +3284,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {
@@ -3336,7 +3374,7 @@
       ],
       "evidenceDate": "2026-11-05",
       "revision": 1,
-      "previousRevision": 0,
+      "previousRevision": 1,
       "updatedThisEdition": false,
       "logs": [
         {

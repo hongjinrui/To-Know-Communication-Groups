@@ -213,7 +213,7 @@
       loadRead();data.groups.forEach(group=>{if(state.read[group.id]===undefined&&!group.updatedThisEdition&&!actualLogs(group).length&&!(Number(group.revision)>1))state.read[group.id]=revisionFor(group);});saveRead();
       state.selectedSchool=state.search||state.topic||state.unreadOnly?null:data.schools.find(school=>groupsFor(school.id).length)?.id||null;state.selectedCity=getClusters().find(cluster=>cluster.schools.some(school=>school.id===state.selectedSchool))?.id||null;
       $('#school-total').textContent=data.schools.filter(school=>groupsFor(school.id).length).length;$('#group-total').textContent=data.groups.length;
-      const edition=data.edition;$('#edition').textContent=typeof edition==='object'?(dateLabel(edition?.date||edition?.publishedAt)||edition?.label||'首版基线'):String(edition||data.updatedAt||data.version||'首版基线');
+      const edition=data.edition;$('#edition').textContent=typeof edition==='object'?(dateLabel(edition?.date||edition?.publishedAt)||edition?.label||'首版基线'):(dateLabel(edition||data.updatedAt)||String(data.version||'首版基线'));$('#edition').title=typeof edition==='string'?edition:'';
       if(data.repositoryUrl&&safeURL(data.repositoryUrl))$('#github-link').href=safeURL(data.repositoryUrl);
       buildTopicFilters();renderStatus();render();
       if(location.hash.startsWith('#group=')){const id=decodeURIComponent(location.hash.slice(7));const group=data.groups.find(item=>item.id===id);if(group)openGroup(group,false);}
