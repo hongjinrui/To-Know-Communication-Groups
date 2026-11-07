@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 from xml.sax.saxutils import escape
 
 MODULE = Path(__file__).resolve().parents[1] / "scripts" / "collect_arxiv.py"
@@ -123,6 +124,40 @@ class CollectorTest(unittest.TestCase):
         self.assertEqual(check["sourceTotalResults"], 1000)
         self.assertTrue(check["historicalResultsTruncated"])
         self.assertFalse(check["windowComplete"])
+
+    def test_round_budget_stops_new_groups_and_persists_honest_status(self):
+        for first_result, expected_state in (({"xml": feed()}, "partial"), ({"error": "timeout"}, "error")):
+            with self.subTest(state=expected_state), tempfile.TemporaryDirectory() as temp:
+                data = Path(temp)
+                collector.write_json(data / "groups.json", GROUPS)
+                cache, status = collector.merge_candidates({}, GROUPS, results(feed({})), "2026-11-05T00:00:00Z")
+                collector.write_json(data / "papers.json", cache)
+                collector.write_json(data / "status.json", status)
+                old_paper_bytes = (data / "papers.json").read_bytes()
+                clock = [0.0]
+
+                def fetch_until_budget(*args):
+                    clock[0] = 1201.0
+                    return first_result
+
+                with patch.object(collector.time, "monotonic", side_effect=lambda: clock[0]), \
+                     patch.object(collector.time, "sleep"), \
+                     patch.object(collector, "fetch_group", side_effect=fetch_until_budget) as fetch:
+                    observed = collector.run(data)
+
+                self.assertEqual(fetch.call_count, 1)
+                self.assertEqual(fetch.call_args.args[0]["id"], "alpha")
+                self.assertEqual(observed["state"], expected_state)
+                checks = {check["groupId"]: check for check in observed["groups"]}
+                self.assertEqual(checks["alpha"]["state"], "ok" if expected_state == "partial" else "error")
+                self.assertEqual(checks["beta"]["state"], "error")
+                self.assertFalse(checks["beta"]["attempted"])
+                self.assertEqual(checks["beta"]["skipReason"], "time_budget")
+                self.assertEqual(checks["beta"]["lastSuccessAt"], "2026-11-05T00:00:00Z")
+                self.assertEqual(collector.read_json(data / "status.json", {})["state"], expected_state)
+                self.assertEqual(collector.read_json(data / "papers.json", {})["papers"], cache["papers"])
+                if expected_state == "error":
+                    self.assertEqual((data / "papers.json").read_bytes(), old_paper_bytes)
 
 
 if __name__ == "__main__":

@@ -17,7 +17,7 @@
 - `updates.json`：可选更新索引，首版为空数组；不替代组内 `logs`，界面以组档案为准。
 - `status.json`：`state` 是 `not_started`（尚未采集）、`ok`、`partial` 或 `error`。含本次尝试、上次完整近期窗口成功与逐组上次成功时间，以及 `sourceTotalResults`、`historicalResultsTruncated`、`windowCutoff`、`windowComplete`。`ok` 仅指近期窗口，不表示抓取了作者全部历史论文。失败不能解释成“没有新论文”。
 
-采集窗口默认最近 45 天，按 `lastUpdatedDate` 排序后在客户端筛选更新时间，单组最多返回 80 条；每个请求至少间隔 3.1 秒，失败最多尝试三次。连续三组失败后暂停其余请求，避免上游故障时长时间无效重试。若全部返回记录仍在窗口内且达到上限，健康状态会标记 `partial` 提醒补查。脚本不会声称穷尽所有论文。抓取失败保留旧候选与原有成功时间，总失败时候选文件逐字节保持不变，仍发布错误状态以便发现。JSON 原子替换防止半写入。没有 API key 或付费模型依赖。接口格式和节流依据 [arXiv 官方 API 手册](https://info.arxiv.org/help/api/user-manual.html) 与 [API 使用条款](https://info.arxiv.org/help/api/tou.html)。
+采集窗口默认最近 45 天，按 `lastUpdatedDate` 排序后在客户端筛选更新时间，单组最多返回 80 条；每个请求至少间隔 3.1 秒，失败最多尝试三次。连续三组失败后暂停其余请求，避免上游故障时长时间无效重试。每轮另有默认 20 分钟的单调时钟时间预算（可用 `--budget-seconds` 调整），开始下一组前及节流等待后检查；用尽预算后保留已完成结果，其余组记为 `error`、`attempted: false`、`skipReason: "time_budget"`，正常写入采集状态。已开始的一组会完成其有限重试，因此这不是到点强制中断；为 30 分钟作业限制保留了落盘和提交余量。若全部返回记录仍在窗口内且达到上限，健康状态会标记 `partial` 提醒补查。脚本不会声称穷尽所有论文。抓取失败保留旧候选与原有成功时间，总失败时候选文件逐字节保持不变，仍发布错误状态以便发现。JSON 原子替换防止半写入。没有 API key 或付费模型依赖。接口格式和节流依据 [arXiv 官方 API 手册](https://info.arxiv.org/help/api/user-manual.html) 与 [API 使用条款](https://info.arxiv.org/help/api/tou.html)。
 
 ## 本地操作
 

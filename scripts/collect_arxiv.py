@@ -114,7 +114,11 @@ def merge_candidates(cache: dict, groups: list[dict], results: dict, now: str) -
         gid = group["id"]
         result = results.get(gid, {"error": "No result was supplied"})
         if result.get("error"):
-            checks.append({"groupId": gid, "state": "error", "records": 0, "error": result["error"]})
+            checks.append({
+                "groupId": gid, "state": "error", "records": 0,
+                "error": result["error"], "attempted": result.get("attempted", True),
+                **({"skipReason": result["skipReason"]} if result.get("skipReason") else {}),
+            })
             continue
         try:
             parsed = parse_feed(result["xml"])
@@ -254,7 +258,7 @@ def fetch_group(group: dict, days: int, limit: int, attempts: int = 3) -> dict:
     return {"error": "No response"}
 
 
-def run(data_dir: Path, fixture: Path | None = None, days: int = 45, limit: int = 80, delay: float = 3.1) -> dict:
+def run(data_dir: Path, fixture: Path | None = None, days: int = 45, limit: int = 80, delay: float = 3.1, budget_seconds: float = 20 * 60) -> dict:
     group_document = read_json(data_dir / "groups.json", [])
     groups = group_document.get("groups", []) if isinstance(group_document, dict) else group_document
     if not groups:
@@ -269,12 +273,30 @@ def run(data_dir: Path, fixture: Path | None = None, days: int = 45, limit: int 
         now = utcnow()
         results = {}
         consecutive_failures = 0
+        deadline = time.monotonic() + budget_seconds
+
+        def skip_for_budget(group_id: str) -> bool:
+            if time.monotonic() < deadline:
+                return False
+            results[group_id] = {
+                "error": "未尝试：本轮采集时间预算已用尽，保留旧数据",
+                "attempted": False, "skipReason": "time_budget",
+            }
+            return True
+
         for i, group in enumerate(groups):
+            if skip_for_budget(group["id"]):
+                continue
             if consecutive_failures >= 3:
-                results[group["id"]] = {"error": "未尝试：连续三组采集失败，暂停本轮请求并保留旧数据"}
+                results[group["id"]] = {
+                    "error": "未尝试：连续三组采集失败，暂停本轮请求并保留旧数据",
+                    "attempted": False, "skipReason": "consecutive_failures",
+                }
                 continue
             if i:
                 time.sleep(max(3.1, delay))
+                if skip_for_budget(group["id"]):
+                    continue
             results[group["id"]] = fetch_group(group, days, limit)
             consecutive_failures = consecutive_failures + 1 if "error" in results[group["id"]] else 0
             print(f"{group['id']}: {'error' if 'error' in results[group['id']] else 'fetched'}", flush=True)
@@ -300,11 +322,12 @@ def main() -> int:
     parser.add_argument("--days", type=int, default=45)
     parser.add_argument("--limit", type=int, default=80)
     parser.add_argument("--delay", type=float, default=3.1)
+    parser.add_argument("--budget-seconds", type=float, default=20 * 60, help="Whole-round budget before starting another group (default: 1200)")
     args = parser.parse_args()
-    if args.days < 1 or not 1 <= args.limit <= 2000:
-        parser.error("--days must be positive; --limit must be between 1 and 2000")
+    if args.days < 1 or not 1 <= args.limit <= 2000 or args.budget_seconds <= 0:
+        parser.error("--days and --budget-seconds must be positive; --limit must be between 1 and 2000")
     try:
-        status = run(args.data_dir, args.fixture, args.days, args.limit, args.delay)
+        status = run(args.data_dir, args.fixture, args.days, args.limit, args.delay, args.budget_seconds)
     except (ValueError, OSError, json.JSONDecodeError) as error:
         print(str(error), file=sys.stderr)
         return 1

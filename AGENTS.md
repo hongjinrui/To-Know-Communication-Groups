@@ -14,7 +14,7 @@
 
 ## 每轮更新
 
-1. `git fetch origin main`，从最新远端开始。检查 `data/status.json` 与 `data/papers.json`，自动采集失败时可用已授权的网页搜索查证；失败不等于没有成果。
+1. `git fetch origin main`，从最新远端开始。检查 `data/status.json` 与 `data/papers.json`，自动采集失败时可用已授权的网页搜索查证；失败不等于没有成果。若应执行的定时采集没有运行记录或缓存明显过期，可在一次明确的补采提交中加入 `[collect]` 标记触发采集；普通编辑提交不加标记。等补采作业完成后再同步其数据，避免覆盖 Actions 写入的候选与状态。
 2. 核实上轮之后的新成果；读取原论文，判断实际新增了什么。对同名及归属不明条目保持 pending，不得硬归组。
 3. 有实质变化才改组档案、追加一条短日志：`{date,title,summary,kind:'verified',sources:[{title,url}]}`，必要时保留论文的版本与原始日期。
 4. 核实候选可将其 candidateStatus 置为 verified / rejected，并写 reviewNote 与 reviewedAt。采集器必须保留这些编辑字段。
