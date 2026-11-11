@@ -3,7 +3,7 @@
   "state": "partial",
   "lastAttemptAt": "2026-11-11T02:39:06Z",
   "lastSuccessAt": null,
-  "candidateCount": 85,
+  "candidateCount": 76,
   "newCandidates": 6,
   "revisedCandidates": 1,
   "groups": [
@@ -439,5 +439,6 @@
     }
   ],
   "coverageScope": "最近更新时间窗口；不代表全历史论文",
-  "message": "采集未全部完成；旧数据已保留，未把失败解释为无更新。"
+  "message": "采集未全部完成；旧数据已保留，未把失败解释为无更新。",
+  "editorialTriageAt": "2026-11-11T02:47:57Z"
 }

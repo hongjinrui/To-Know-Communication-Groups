@@ -36,6 +36,159 @@
       "changeType": "new",
       "versions": [
         1
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "归属已通过原文单位确认：肖悦、叶子强、詹启炎为电子科大，其他为外校合作作者。框架性无线AI文章及两个数值案例，未见真实系统验证；预算排除部分信令开销，不能升级为组方向变化。普通合作增量保持pending，价值待专题审阅，本轮无日志或revision。原摘要v1日期为11-09，优先于作者搜索页11-08标签。",
+      "reviewSources": [
+        {
+          "title": "原摘要及v1时间",
+          "url": "https://arxiv.org/abs/2611.11774"
+        },
+        {
+          "title": "原文单位及实验IV-A",
+          "url": "https://arxiv.org/html/2611.11774v1"
+        }
+      ]
+    },
+    {
+      "id": "2611.11387",
+      "version": 1,
+      "title": "Orthogonal Updates for the Win: Towards Accelerated Adaptive Minimax Optimization",
+      "published": "2026-11-08T13:56:03Z",
+      "updated": "2026-11-08T13:56:03Z",
+      "authors": [
+        "Zhiwei Zhai",
+        "Xinyu Wang",
+        "Wenjing Yan",
+        "Lei Ding",
+        "Ying-Jun Angela Zhang"
+      ],
+      "url": "https://arxiv.org/abs/2611.11387",
+      "summary": "",
+      "groupIds": [
+        "cuhk-zhang-yingjun"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "cuhk-zhang-yingjun",
+          "reason": "网页手工发现；单位与贡献核验见reviewNote和reviewSources，非自动姓名命中结论。"
+        }
+      ],
+      "firstSeenAt": "2026-11-11T02:47:57Z",
+      "lastSeenAt": "2026-11-11T02:47:57Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ],
+      "collectionSource": "manual_web",
+      "candidateStatus": "pending",
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "manual_web：原始全文确认张颖珺及Zhiwei Zhai、Wenjing Yan属于香港CUHK IE；窗口内新稿，作者称NeurIPS2026录用。内容为通用minimax优化/DRO/GAN，未做通信系统验证；按本轮精选边界保留pending，不写组日志。",
+      "reviewSources": [
+        {
+          "title": "原始arXiv提交历史",
+          "url": "https://arxiv.org/abs/2611.11387"
+        },
+        {
+          "title": "原始全文作者单位与实验",
+          "url": "https://arxiv.org/html/2611.11387v1"
+        }
+      ]
+    },
+    {
+      "id": "2611.11106",
+      "version": 1,
+      "title": "Jointly Optimizing Memory, Computing and Offloading for Energy-Efficient DNN Inference",
+      "published": "2026-11-08T03:39:16Z",
+      "updated": "2026-11-08T03:39:16Z",
+      "authors": [
+        "Yunchu Han",
+        "Zhaojun Nan",
+        "Sheng Zhou",
+        "Zhisheng Niu"
+      ],
+      "url": "https://arxiv.org/abs/2611.11106",
+      "summary": "在既有绿色边缘推理主线上，联合优化内存/计算频率、上行带宽与卸载；改用本地几何规划及坐标下降并补充设备剖析数据，网络级能耗收益由模型仿真给出。",
+      "groupIds": [
+        "tsinghua-niu"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "tsinghua-niu",
+          "reason": "网页手工发现；单位与贡献核验见reviewNote和reviewSources，非自动姓名命中结论。"
+        }
+      ],
+      "firstSeenAt": "2026-11-11T02:47:57Z",
+      "lastSeenAt": "2026-11-11T02:47:57Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ],
+      "collectionSource": "manual_web",
+      "candidateStatus": "pending",
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原始全文确认清华团队归属，原始history仅v1且在本轮窗口内。已与2608.13863对照：内存频率、计算频率、卸载与通信资源优化并非本次首次提出；此稿补充等价几何规划、坐标下降与更多硬件剖析/仿真。保留候选供专题审阅，按精选门槛本轮不记组日志、不修改方向、不提高revision。结果针对移动设备能耗，不等于包含边缘服务器能耗的全系统节能；没有完整无线网络部署实测。",
+      "reviewSources": [
+        {
+          "title": "原始摘要与history",
+          "url": "https://arxiv.org/abs/2611.11106"
+        },
+        {
+          "title": "原始全文：单位、早期版声明、方法及模拟",
+          "url": "https://arxiv.org/html/2611.11106v1"
+        },
+        {
+          "title": "对照旧稿",
+          "url": "https://arxiv.org/html/2608.13863v1"
+        }
+      ],
+      "reviewedAffiliations": [
+        "Tsinghua University",
+        "Chongqing Polytechnic University of Electronic Technology"
+      ]
+    },
+    {
+      "id": "2611.10673",
+      "version": 1,
+      "title": "Two-Timescale Trajectory Control, Task Reassignment and Resource Scheduling for Multi-UAV Cooperative Mobile Edge Computing",
+      "published": "2026-11-07T11:38:36Z",
+      "updated": "2026-11-07T11:38:36Z",
+      "authors": [
+        "Bin Li",
+        "Shiyu Sun",
+        "Lei Liu",
+        "Zesong Fei"
+      ],
+      "url": "https://arxiv.org/abs/2611.10673",
+      "summary": "",
+      "groupIds": [
+        "bit-fei-zesong"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "bit-fei-zesong",
+          "reason": "网页手工发现；单位与贡献核验见reviewNote和reviewSources，非自动姓名命中结论。"
+        }
+      ],
+      "firstSeenAt": "2026-11-11T02:47:57Z",
+      "lastSeenAt": "2026-11-11T02:47:57Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ],
+      "collectionSource": "manual_web",
+      "candidateStatus": "pending",
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原文确认费泽松为北理工，其他作者来自南京信息工程大学与西电广州研究院。双时间尺度MEC优化仅仿真，属于常规合作增量；价值待专题审阅，保留pending，不增加组日志或暗示全组转向。 本条为manual_web人工发现，未出现在本轮自动缓存；标题/筛词覆盖存在限制。",
+      "reviewSources": [
+        {
+          "title": "原摘要及v1时间",
+          "url": "https://arxiv.org/abs/2611.10673"
+        },
+        {
+          "title": "原文单位及验证范围",
+          "url": "https://arxiv.org/html/2611.10673v1"
+        }
       ]
     },
     {
@@ -75,6 +228,27 @@
       "changeType": "new",
       "versions": [
         1
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "已读原始history与全文：v1首发2026-11-07T08:55:48Z，在本轮窗口内。全文明确Yong Zeng属东南大学/紫金山实验室（yongzeng@seu.edu.cn），其余为跨单位合作者，不合并为曾勇组。研究可旋转半无源IRS的有效孔径与通感信道相关性，联合表面朝向、基站波束和IRS相位，在通信SINR约束下最小化目标空间频率估计CRB；多用户采用遗传算法结合交替优化。当前证据为建模、特例解析与数值仿真，无原型/实测或团队路线转向，按精选标准保持pending，本轮不写日志、不加revision。",
+      "reviewSources": [
+        {
+          "title": "原始摘要与精确版本历史",
+          "url": "https://arxiv.org/abs/2611.10589"
+        },
+        {
+          "title": "原始全文：作者单位、方法与数值验证",
+          "url": "https://arxiv.org/html/2611.10589v1"
+        }
+      ],
+      "reviewedAffiliations": [
+        "Southeast University",
+        "Purple Mountain Laboratories",
+        "Foshan University",
+        "Shanghai Jiao Tong University",
+        "Nanjing University of Science and Technology",
+        "Beijing University of Posts and Telecommunications",
+        "University of Macau"
       ]
     },
     {
@@ -91,7 +265,7 @@
       ],
       "affiliations": [],
       "summary": "Channel tracking in mobile terahertz (THz) near-field extremely large-scale multiple-input multiple-output (XL-MIMO) systems is challenging because spherical-wave propagation couples angle and range, leading to rapid and nonlinear channel evolution under sparse pilot observations. Existing approaches typically estimate pilot-local channel or position snapshots before applying temporal tracking or smoothing, making them vulnerable to information loss during snapshot formation. To break this bottleneck, we propose a paradigm shift from tracking discrete snapshots to estimating a holistic geometric entity, namely, one shared continuous UE trajectory over the tracking window. Specifically, we parameterize the trajectory using a low-dimensional cubic B-spline representation and directly couple the per-pilot profile likelihoods through this shared trajectory before any pilot-local position estimate is finalized, thereby inducing continuous near-field channel evolution. We further characterize the efficient geometric information supplied by each pilot observation and its aggregation in the shared spline-coefficient space. Based on this formulation, we develop a regularized maximum a posteriori estimator and a quadratic-penalty lifted solver that separates parallel pilot-local geometric updates from a structured global spline update. The resulting global system is banded and, for a fixed spline degree, admits linear-complexity factorization, enabling an efficient structured implementation. Simulations demonstrate consistently improved tracking accuracy over representative temporally refined baselines in the tested medium-to-high-SNR regime, together with a favorable accuracy--runtime trade-off. These results highlight the benefit of coupling sparse pilot observations through a shared continuous trajectory rather than temporally processing independently estimated snapshots.",
-      "candidateStatus": "pending",
+      "candidateStatus": "verified",
       "groupIds": [
         "bupt-peng-mugen"
       ],
@@ -109,6 +283,18 @@
       "changeType": "new",
       "versions": [
         1
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原始全文三名作者均BUPT网络与交换国重，通讯作者Chuang Yang；v1晚于上轮截点。共享轨迹直接联合导频、可辨识性/快照信息损失与结构化求解构成本轮精选方法进展；仅主导LoS、同步校准等假设下仿真，无实测，不推整体转向。",
+      "reviewSources": [
+        {
+          "title": "原始arXiv提交历史：v1为11-07 08:52:06 UTC",
+          "url": "https://arxiv.org/abs/2611.10587"
+        },
+        {
+          "title": "原始全文：作者单位、系统假设、结构化求解及仿真",
+          "url": "https://arxiv.org/html/2611.10587v1"
+        }
       ]
     },
     {
@@ -159,11 +345,11 @@
         }
       ],
       "reviewedAt": "2026-11-07T02:59:06Z",
-      "verifiedAffiliations": [
+      "reviewSummary": "合作预印本：导频初始化EM利用符号软信息改善双基地测距；信道估计均方误差的1/M渐近结论依赖局部条件，仅理论与仿真。",
+      "reviewedAffiliations": [
         "Southeast University",
         "Beijing University of Posts and Telecommunications"
-      ],
-      "reviewSummary": "合作预印本：导频初始化EM利用符号软信息改善双基地测距；信道估计均方误差的1/M渐近结论依赖局部条件，仅理论与仿真。"
+      ]
     },
     {
       "id": "2611.07724",
@@ -213,7 +399,7 @@
         }
       ],
       "reviewedAt": "2026-11-07T02:59:06Z",
-      "verifiedAffiliations": [
+      "reviewedAffiliations": [
         "Southeast University",
         "National Sun Yat-sen University",
         "Nanjing University of Posts and Telecommunications"
@@ -314,7 +500,7 @@
       ],
       "affiliations": [],
       "summary": "Embodied Internet of Things (IoT) systems are promoting the adoption of task-oriented semantic communication (SemCom), in which the trustworthy task decisions increasingly require both semantic reliability and source legitimacy. However, existing trustworthy SemCom designs mainly focus on semantic content recovery and protection, with limited attention to source identity protection. Motivated by this limitation, this paper establishes a new information exploitation perspective for integrated SemCom-identity protection that leverages task-level error tolerance to coordinate semantic information and source identity information carried by the same waveform. We first examine these two information resources and then analyze their integration feasibility at the observation, processing, and decision levels. To exploit these resources for different identity protection objectives, we further develop a dual-branch identity protection mechanism with two operating modes. In the authentication mode, semantic recovery and physical-layer source verification are performed in parallel using the same received observation. In the concealment mode, identity exposure is suppressed while semantic reconstruction quality is maintained to support anonymous transmission. Finally, two representative case studies on active source impersonation and passive identity inference are presented to evaluate the proposed framework.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "hust-jiang-tao"
       ],
@@ -334,7 +520,19 @@
         1,
         2
       ],
-      "revisionSeenAt": "2026-11-11T02:39:06Z"
+      "revisionSeenAt": "2026-11-11T02:39:06Z",
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原v1和本轮v2作者单位均明确：Yu Zhang等前五人为西安电子科技大学计算机学院，Xiaohong Jiang为日本Future University Hakodate；不是华科江涛组Yu Zhang。v2虽在窗口内，也不能归江涛组，拒绝该组姓名误匹配；不得因摘要含通信而硬归组。",
+      "reviewSources": [
+        {
+          "title": "v2原始日期",
+          "url": "https://arxiv.org/abs/2611.06788"
+        },
+        {
+          "title": "v2原文作者单位",
+          "url": "https://arxiv.org/html/2611.06788v2"
+        }
+      ]
     },
     {
       "id": "2611.06524",
@@ -725,7 +923,7 @@
       ],
       "affiliations": [],
       "summary": "In continuous-variable quantum information, sensing and quantum error correction in the same mode face an intrinsic trade-off: sensors must accumulate weak external displacements, whereas bosonic codes typically suppress such shifts as errors. Here, we establish compatibility by constructing finite-energy bosonic codes that enable a single oscillator to sense an external force while actively protecting an unknown logical qubit. By encoding logical amplitudes across discrete wave-packet sites and capturing the force signal in a shared internal coordinate, we achieve an endpoint probe readout that is independent of the logical state under continuous photon loss $γ$. Crucially, binomial site recovery cancels packet-dependent probe distortions alongside logical errors: for a $(2r+2)$-packet code, memory infidelity is suppressed to $O(γ^{r+1})$ while residual memory-probe correlations scale as $O(γ^{r+2})$. Finally, superconducting quantum circuit benchmarks under competing photon-number dephasing and Kerr nonlinearity identify preferred encoding regimes for hardware implementation.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "hust-jiang-tao"
       ],
@@ -743,6 +941,14 @@
       "changeType": "baseline",
       "versions": [
         1
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原HTML明确Yu Zhang属于南京大学固体微结构国家实验室/物理学院、苏州Shishan Laboratory及江苏量子信息平台；不是华科通信Yu Zhang。量子存储力传感论文为同名误匹配，拒绝归江涛组；原日期也早于本轮。",
+      "reviewSources": [
+        {
+          "title": "原文作者逐人单位",
+          "url": "https://arxiv.org/html/2610.39208v1"
+        }
       ]
     },
     {
@@ -873,7 +1079,7 @@
       ],
       "affiliations": [],
       "summary": "High-resolution remote sensing (RS) imagery provides fine spatial detail over large areas, making it essential for fine-grained scene understanding. Referring Remote Sensing Image Segmentation (RRSIS) aims to segment regions described by natural language, yet many existing methods rely on sequential alignment--fusion pipelines with limited joint modeling of cross-scale visual hierarchies and linguistic dependencies. Moreover, dense attention mechanisms struggle with the sparsity and wide spatial dispersion of RS targets, while current datasets offer limited structured evaluation of multi-target references, multi-hop relational reasoning, and multi-granularity descriptions, limiting both model development and evaluation. To address these challenges, we propose a Cross-Scale Sparse Attention Model (CSSAM), which aligns multiscale visual features with complex referring expressions through two key modules. The Cross-scale Modality-aligned Fusion Module (CMFM) performs unified cross-scale cross-modal fusion, while the Dynamic Multimodal Sparse Hybrid Attention (DMSHA) selectively attends to informative visual--textual tokens, reducing dense visual interactions. Furthermore, we introduce M$^{3}$RRSIS-D, a RRSIS dataset explicitly designed around three core reasoning dimensions: multi-target (M$^{1}$), reference-dependent multi-hop (M$^{2}$), and multi-granularity (M$^{3}$) expressions. Extensive experiments on M$^{3}$RRSIS-D and two public RRSIS benchmarks demonstrate that CSSAM achieves competitive performance across accuracy, fine-grained reasoning, and high-IoU localization metrics, validating its effectiveness for complex semantic reasoning in realistic RS scenarios. Code, dataset, and model weights will be released upon acceptance.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "hkust-zhang-jun"
       ],
@@ -891,6 +1097,14 @@
       "changeType": "baseline",
       "versions": [
         1
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原始全文Jun Zhang单位为清华大学自动化系、邮箱jun-zhang@mail.tsinghua.edu.cn，非HKUST ECE张军。",
+      "reviewSources": [
+        {
+          "title": "原始论文全文作者单位",
+          "url": "https://arxiv.org/html/2610.33551v1"
+        }
       ]
     },
     {
@@ -1128,7 +1342,7 @@
       ],
       "affiliations": [],
       "summary": "Multi-drone collaborative detection aims to enhance target recognition by leveraging complementary observations from overlapping aerial viewpoints. Existing approaches typically follow a two-stage pipeline that first establishes cross-view correspondences and then performs fusion-based recognition. However, this decomposition suffers from inconsistent optimization objectives, redundant pairwise modeling, and irreversible error propagation, where incorrect associations inevitably undermine subsequent recognition performance. To overcome these limitations, we propose the Coupled Association-Recognition Network (CARNet), a unified framework that jointly optimizes cross-view target association and recognition fusion through a shared target-pair representation. To improve association reliability in densely populated scenes with visually similar targets, CARNet explicitly incorporates spatial cues into pairwise relation modeling. Moreover, we introduce two complementary causal-inspired intervention strategies: the first enhances cross-view association by emphasizing appearance-confusing pairs, while the second bolsters the robustness of fusion-based recognition by learning stable multi-view representations under incomplete visual evidence. In addition, we present MDMT-CD, a fine-grained extension of the MDMT dataset that enriches the original vehicle annotations with detailed category labels, providing the first benchmark specifically designed for multi-drone collaborative vehicle detection. Extensive experiments demonstrate that CARNet consistently outperforms existing state-of-the-art methods. The MDMT-CD dataset and source code will be available at https://github.com/bigdreaming11/CARNet.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "hust-jiang-tao"
       ],
@@ -1146,6 +1360,14 @@
       "changeType": "baseline",
       "versions": [
         1
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原文全部作者单位明确为国防科技大学电子科学学院，包括Yu Zhang；不是华科江涛通信组。多无人机视觉检测题名中的collaborative不是组归属证据，拒绝该组误匹配；日期亦早于本轮。",
+      "reviewSources": [
+        {
+          "title": "原文全部作者单位",
+          "url": "https://arxiv.org/html/2610.26312v1"
+        }
       ]
     },
     {
@@ -1210,7 +1432,7 @@
       ],
       "affiliations": [],
       "summary": "Software engineering (SWE) benchmarks are the primary way to measure the capabilities of coding agents: an agent is placed in a code repository or machine environment, given a request, and judged by hidden tests. These benchmarks almost always start the agent from a clean state that contains no earlier work on the task. In practice, however, agents often continue work that a developer or another agent has already done and reported as complete, with no indication of what remains incorrect or missing. We introduce SWE-Residual, a benchmark for Starting-State Robustness: the ability to maintain performance on a task when the starting state already contains earlier work on that task. SWE-Residual contains 198 Residual States drawn from 111 tasks in DeepSWE and Terminal-Bench, where the earlier work modifies a code repository or a whole machine environment. Each Residual State is the state a predecessor agent left behind after submitting its work as complete, although the hidden tests still fail. The evaluated agent receives only the original request and this state, without the predecessor's trajectory or any sign that the attempt failed; because the request and hidden tests are unchanged, the starting state is the only difference from the source benchmark. Across five frontier agents, success drops by 20.6--53.5 percentage points on DeepSWE and 20.6--34.9 points on Terminal-Bench relative to a Clean Start, and agent rankings on DeepSWE reverse. Failed continuations show a pattern we call acceptance bias: agents treat the inherited work as the definition of what remains to be done instead of checking it against the request. On DeepSWE, in 58.9--88.2% of failed runs, they submit with exactly the same tests failing, although they pass most of these tests from a Clean Start. SWE-Residual thus exposes a capability gap that clean-start evaluation does not capture.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "ustc-xu-zhengyuan"
       ],
@@ -1228,6 +1450,14 @@
       "changeType": "baseline",
       "versions": [
         1
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原HTML作者栏明确Weijie Liu为香港大学、邮箱liuwj0817@connect.hku.hk，论文研究编码智能体评测；是同名误匹配，不能归中国科大徐正元无线光通信组。原始日期2026-10-19，亦早于本轮窗口。",
+      "reviewSources": [
+        {
+          "title": "SWE-Residual：原文作者单位",
+          "url": "https://arxiv.org/html/2610.25899v1"
+        }
       ]
     },
     {
@@ -1566,7 +1796,7 @@
       ],
       "affiliations": [],
       "summary": "Industrial recommendation rankers keep scaling in width and depth to billions of parameters, but this increasingly incurs costs in parameter growth, distributed communication overhead, and training inefficiency. We introduce \\underline{C}hain \\underline{D}imension \\underline{S}caling (CDS), a scaling strategy orthogonal to width and depth. CDS repeatedly applies a single feature-interaction block with parameters shared across iterations, so the number of iterations (the chain length) becomes a new scaling dimension that adds no parameters. A lightweight intra-chain residual connection stabilizes optimization and improves quality. CDS enables two regimes. In the \\emph{compression regime}, shallow blocks with a longer chain match deeper baselines with fewer parameters and faster training; in the \\emph{quality-scaling regime}, increasing chain length under a fixed parameter budget yields consistent offline and online gains, suggesting the chain dimension adds modeling capacity beyond parameter reuse. We evaluate CDS in a large-scale multi-task short-video ranking system in production. In the compression regime, CDS stays within $0.03\\%$ of baseline offline quality while reducing trainable parameters by 26.6\\% and improving training throughput by 6.4\\%, with neutral-to-positive online participation. In the quality-scaling regime, quality improves monotonically with chain length. Wall-clock analysis shows the efficiency gain comes mainly not from reduced FLOPs but from lower cross-device synchronization overhead and reduced optimizer update cost. These results position parameter-shared iterative computation as a practical, communication-efficient scaling axis for industrial ranking systems.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "polyu-liu-liang"
       ],
@@ -1584,6 +1814,14 @@
       "changeType": "baseline",
       "versions": [
         1
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原始全文明确Liang Liu单位Google，非香港理工大学通信刘亮；同名误匹配。",
+      "reviewSources": [
+        {
+          "title": "原始论文全文作者单位",
+          "url": "https://arxiv.org/html/2610.16415v1"
+        }
       ]
     },
     {
@@ -1836,7 +2074,7 @@
       ],
       "affiliations": [],
       "summary": "Localizing an event camera against a pre-built LiDAR map can be cast as dense optical-flow estimation between a rendered depth view and an event image, followed by a Perspective-n-Point (PnP) solver over the induced 3D-2D correspondences. Existing pipelines rely on geometric consensus during pose estimation, but do not explicitly model the reliability or pose informativeness, i.e., how strongly a correspondence constrains the camera pose, of individual correspondences. We show that the natural way to learn it -- using the per-correspondence error to constrain the learning of confidence -- suffers from a depth-dependent bias: small pixel errors reside predominantly at large depths and do not lead to high pose informativeness. Instead, in our method (CELL), we learn a per-correspondence confidence end-to-end through the pose, using a differentiable probabilistic PnP whose log-partition term encourages weight configurations that yield a better-constrained pose distribution. The learned confidence is used in three ways: (i) it reweights the flow supervision in a decoupled training scheme that keeps pose gradients out of the flow/edge backbone; (ii) it drives a probabilistic correspondence selection at test time; and (iii) together with the network's edge-probability it weights a final edge-matching refinement. We further design a partial-completion depth representation that adds signal without hallucinating across large gaps. On M3ED and DSEC our full system improves over the LEAR baseline on the majority of the evaluated sequences: it reduces the median translation error by up to 26.9% and the median rotation error by up to 15.8%.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "hkust-zhang-jun"
       ],
@@ -1854,6 +2092,14 @@
       "changeType": "baseline",
       "versions": [
         1
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原始全文Jun Zhang单位为Graz University of Technology视觉计算所，邮箱tugraz.at，非HKUST ECE张军。",
+      "reviewSources": [
+        {
+          "title": "原始论文全文作者单位",
+          "url": "https://arxiv.org/html/2610.11967v1"
+        }
       ]
     },
     {
@@ -2401,7 +2647,7 @@
       ],
       "affiliations": [],
       "summary": "Physics-informed neural networks (PINNs) provide a learning-based framework for solving partial differential equations (PDEs), yet their training behavior can change substantially throughout optimization. Residual distributions, gradient interactions, regional learning difficulty, and model-capacity requirements may evolve over time, while the network architecture and major training mechanisms are typically determined before training. We propose PINNMorph, an online PINN adaptation framework based on large language model (LLM)-guided policy evolution. PINNMorph maintains a population of state-conditioned adaptation policies that map execution diagnostics to controlled interventions over topology modification, additive representation augmentation, objective balancing, gradient handling, adaptive sampling, and optimizer-phase control. At each intervention opportunity, candidate programs are instantiated from the current policy population, selected according to the observed training state, and applied directly to the PINN under training. The resulting model inherits its existing parameters and training state and continues optimization along the same trajectory. Execution outcomes are subsequently used to evaluate interventions and evolve the policy population. Unlike pre-training architecture search or fixed adaptation rules, PINNMorph jointly adapts the current PINN and the policies governing its interventions using feedback from actual training. Experiments on 13 PDE benchmarks show that PINNMorph achieves lower solution errors than SA-PINN, ConFIG, RoPINN, HARMONIC, and PINNsAgent across all evaluated problems. Ablation studies further examine the effects of online adaptation, state-conditioned intervention selection, and execution-feedback-driven policy evolution.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "hkust-zhang-jun"
       ],
@@ -2419,6 +2665,14 @@
       "changeType": "baseline",
       "versions": [
         1
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原始全文Jun Zhang单位为Hanyang University，非HKUST ECE张军。",
+      "reviewSources": [
+        {
+          "title": "原始论文全文作者单位",
+          "url": "https://arxiv.org/html/2609.32685v1"
+        }
       ]
     },
     {
@@ -2477,7 +2731,7 @@
       ],
       "affiliations": [],
       "summary": "Large language models (LLMs) have shown strong capabilities, with retrieval-augmented generation (RAG) supporting complex multi-hop reasoning by retrieving evidence distributed across documents. Graph-based approaches exploit connections among evidence, and hypergraph-based retrieval further preserves higher-order entity associations within documents and connects documents through shared entities. However, existing hypergraph retrievers often rely on predefined structural expansion or diffusion, which may miss query-dependent interactions needed to identify relevant evidence. They also leave connections among retrieved evidence implicit, requiring LLMs to reconstruct these connections before reasoning. Therefore, we propose HyperReCo, a framework for retrieving and connecting evidence with a hypergraph neural network (HyperGNN). We represent each document as a hyperedge over its extracted entities, with shared entities connecting the hyperedges. Through hypergraph message passing with joint supervision over documents and entities, the HyperGNN learns query-dependent interactions to retrieve complementary evidence. We further introduce Gradient-Guided Hyper-Path Decoding (GGHD), which uses gradient attribution to interpret the learned interactions and translate them into explicit hyper-paths that help LLMs combine complementary facts for multi-hop reasoning. Experiments on six benchmarks show that HyperReCo achieves the best retrieval performance among the compared methods on all three multi-hop QA datasets, together with strong downstream QA performance. Case studies and further analyses demonstrate the utility of decoded hyper-paths for connecting retrieved evidence.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "ustc-xu-zhengyuan"
       ],
@@ -2495,6 +2749,14 @@
       "changeType": "baseline",
       "versions": [
         1
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原PDF第一页作者脚注将Chen Gong标为Shanghai Jiao Tong University，邮箱chen.gong@sjtu.edu.cn，非中国科大无线光通信组的龚晨；不能按英文同名归组。原始日期2026-09-26，亦早于本轮窗口。",
+      "reviewSources": [
+        {
+          "title": "HyperReCo：原PDF作者和单位脚注",
+          "url": "https://arxiv.org/pdf/2609.32327"
+        }
       ]
     },
     {
@@ -2570,6 +2832,14 @@
       "changeType": "baseline",
       "versions": [
         1
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原HTML明确Nanchi Su和Qinyu Zhang属于哈工大深圳广东省空天通信与网络技术重点实验室，张亦属鹏城实验室，组归属可确认。工作用贝叶斯操作成功概率同时衡量通感泄漏风险，只有数值验证；日期2026-09-23，属历史候选归属核验，不是本轮新增成果，不增加revision。 归属已确认，但依本轮普通增量编辑规则保持pending，价值待专题审阅；未达到日志选用标准。",
+      "reviewSources": [
+        {
+          "title": "An Operational Leakage Metric：原文作者单位与实验范围",
+          "url": "https://arxiv.org/html/2609.27527v1"
+        }
       ]
     },
     {
@@ -2588,7 +2858,7 @@
       ],
       "affiliations": [],
       "summary": "Physics-informed neural networks (PINNs) require coordinated choices across representation, architecture, sampling, constraints, loss construction, and optimization, yet effective configurations can vary substantially across partial differential equations (PDEs). Existing automated design methods search over these choices, but training outcomes are still used primarily to rank candidates rather than to inform subsequent designs. We develop PINNForge, an execution-grounded large language model (LLM)-driven evolutionary framework that treats observed PINN training behavior as a cross-generation design signal. PINNForge initializes diverse configurations from PDE-related prior knowledge, executes them, retains globally strong configurations, and feeds their execution evidence and accumulated run-level experience back to the LLM. The LLM then revises and recombines coupled design components or explores new combinations within a generate--execute--evaluate--evolve loop. Across 25 PDE benchmarks, PINNForge achieves the lowest mean MSE on 24 tasks among RoPINN, PINNsFormer, PINNsAgent, and PINNForge. Removing knowledge guidance, execution feedback, or evolutionary search increases the median task-wise MSE ratio to 3.74$\\times$, 12.10$\\times$, and 10.10$\\times$, respectively, relative to full PINNForge.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "hkust-zhang-jun"
       ],
@@ -2606,6 +2876,14 @@
       "changeType": "baseline",
       "versions": [
         2
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原始全文Jun Zhang单位为Hanyang University，非HKUST ECE张军。",
+      "reviewSources": [
+        {
+          "title": "原始论文全文作者单位",
+          "url": "https://arxiv.org/html/2609.23023v2"
+        }
       ]
     },
     {
@@ -3071,6 +3349,22 @@
       "changeType": "new",
       "versions": [
         3
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "本轮手工补查发现的旧修订。v3早于本轮截止2026-11-07T02:59:06Z，不是本轮新论文或修订，不追加日志、不打红点。已读v3确认上海交大作者单位，未逐项比较v2/v3技术变化，保留pending待专题审阅。原始history列v1 2026-04-19、v2 2026-08-30、v3 2026-11-06，以原始history UTC为准。",
+      "reviewSources": [
+        {
+          "title": "原始完整版本历史",
+          "url": "https://arxiv.org/abs/2605.00020"
+        },
+        {
+          "title": "v3全文及作者单位",
+          "url": "https://arxiv.org/html/2605.00020v3"
+        }
+      ],
+      "reviewedAffiliations": [
+        "Shanghai Jiao Tong University",
+        "Shanghai Innovation Institute"
       ]
     },
     {
@@ -3180,6 +3474,18 @@
       "changeType": "baseline",
       "versions": [
         5
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原HTML作者脚注明确全部作者属于哈工大深圳信息科学与技术学院，包括Qinyu Zhang；归属可确认。CAWOLA-AFDM为信道感知接收窗与仿真代码，不能写成在轨测试。原v1为2026-03-18，最新v5为2026-10-04 04:29:14 UTC，均早于窗口；仅核验历史候选，不新增日志。 归属已确认，但依本轮普通增量编辑规则保持pending，价值待专题审阅；未达到日志选用标准。",
+      "reviewSources": [
+        {
+          "title": "CAWOLA-AFDM：原文单位与仿真范围",
+          "url": "https://arxiv.org/html/2603.17935v5"
+        },
+        {
+          "title": "CAWOLA-AFDM：完整版本记录",
+          "url": "https://arxiv.org/abs/2603.17935"
+        }
       ]
     },
     {
@@ -3200,7 +3506,7 @@
       ],
       "affiliations": [],
       "summary": "MRI sequence synthesis aims to recover missing image contrast while preserving patient-specific anatomy. The choice of generation mechanism affects both optimization and the way source information reaches the synthesized image. In this study, we propose SRUG, a supervised standalone fusion-driven generator that learns a deterministic source-to-target mapping for paired MRI synthesis. Its direct reconstruction formulation removes generator-discriminator competition and requires neither variational latent sampling nor iterative diffusion denoising. To support structural fidelity within this formulation, SRUG uses a residual encoder adapted for image reconstruction, with a full-resolution convolutional stem, pooling-separated feature stages, and channel recalibration embedded in the residual branches. A nested multi-scale decoder (NMD) repeatedly fuses the resulting spatial features and predicts the target sequence through a single output head. L1 loss and Multi-Scale Structural Loss (MSS loss) jointly supervise the prediction, connecting the direct generation objective to anatomical detail recovery. Experiments on BraTS 2023 show competitive reconstruction fidelity and structural consistency across three MRI translation tasks. Architecture ablations assess the effects of channel recalibration, NMD, and structural supervision within the same generator framework. Additional evaluation on IXI supports applicability to another dataset and modality pair, while zero-shot testing on BraTS 2019 provides preliminary evidence of cross-dataset transferability. These results support direct supervised generation as a practical approach to paired MRI sequence synthesis, with the adapted encoding and reconstruction pathway providing the basis for structural preservation. The SRUG implementation is publicly available at https://github.com/RisingRich/SRUG.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "polyu-liu-liang"
       ],
@@ -3218,6 +3524,14 @@
       "changeType": "baseline",
       "versions": [
         2
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "原始v2作者单位列表为上海工程技术大学及复旦中山医院等，没有PolyU；不属于香港理工大学通信刘亮组。",
+      "reviewSources": [
+        {
+          "title": "原始论文全文作者单位",
+          "url": "https://arxiv.org/html/2601.04785v2"
+        }
       ]
     },
     {
@@ -3289,6 +3603,22 @@
       "changeType": "new",
       "versions": [
         2
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "确认v2于11-09 20:46:18Z修订，v1作者单位为香港CUHK IE。标题由Swarms改为Networks，两个版本摘要相同；v2 HTML404、PDF约13.15MB超过网页工具读取上限，无法可靠核实新增实验/理论，保持pending，不因版本号上涨写日志。",
+      "reviewSources": [
+        {
+          "title": "v2原始提交历史",
+          "url": "https://arxiv.org/abs/2506.09195v2"
+        },
+        {
+          "title": "v1原始全文作者单位及内容",
+          "url": "https://arxiv.org/html/2506.09195v1"
+        },
+        {
+          "title": "v2 PDF：网页读取大小受限",
+          "url": "https://arxiv.org/pdf/2506.09195v2"
+        }
       ]
     },
     {
@@ -3329,6 +3659,22 @@
       "changeType": "new",
       "versions": [
         3
+      ],
+      "reviewedAt": "2026-11-11T02:47:57Z",
+      "reviewNote": "确认v3于11-08 04:37:57Z修订，张平、Xiaodong Xu、Mengying Sun等明确BUPT网络与交换国重。相对v2可见结构重排和新增Agentic AI未来展望；条件扩散coverless案例在v2已存在。未核实重大新实验或平台，保持pending，无组日志；不称只有格式变更。",
+      "reviewSources": [
+        {
+          "title": "v3原始提交历史",
+          "url": "https://arxiv.org/abs/2505.04467"
+        },
+        {
+          "title": "v3全文作者单位与展望",
+          "url": "https://arxiv.org/html/2505.04467v3"
+        },
+        {
+          "title": "v2全文用于增量对照",
+          "url": "https://arxiv.org/html/2505.04467v2"
+        }
       ]
     },
     {

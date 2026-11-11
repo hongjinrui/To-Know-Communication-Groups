@@ -1,7 +1,7 @@
 {
   "state": "reviewed_with_limits",
-  "lastReviewAt": "2026-11-07T02:59:06Z",
-  "summary": "已对33组逐组定向补查，核实1条金石参与的合作预印本进展；其余组未在已查来源中核实到应新增日志的变化。32组arXiv近期窗口完成，江涛组因同名检索返回上限仍不完整。",
+  "lastReviewAt": "2026-11-11T02:47:57Z",
+  "summary": "已对33组逐组定向补查，新增1条彭木根参与的近场连续轨迹跟踪预印本日志。32组arXiv近期窗口完成，江涛组同名检索仍有截断缺口；普通增量、窗口外回填及未证实的版本变化未记为组进展。",
   "automation": {
     "schedule": "每周三/周六上午（北京时间）",
     "status": "scheduled"
@@ -45,14 +45,14 @@
   "verifiedUpdateCount": 1,
   "candidateReviewCounts": {
     "verified": 1,
-    "pending": 1,
-    "rejected": 1
+    "pending": 10,
+    "rejected": 11
   },
-  "pendingCandidateCount": 79,
-  "reportUrl": "https://github.com/hongjinrui/To-Know-Communication-Groups/blob/main/research/reviews/2026-11-07.json",
+  "pendingCandidateCount": 76,
+  "reportUrl": "https://github.com/hongjinrui/To-Know-Communication-Groups/blob/main/research/reviews/2026-11-11.json",
   "scopeNotes": [
-    "候选归属与贡献逐条核实；首批45天存量未全部全文审阅。",
-    "补查光/水声/卫星等arXiv弱覆盖方向的官网；部分官网有访问或索引新鲜度限制。",
-    "赵楠组继续候补，33组名单未扩张；修正华南理工学校收录状态矛盾。"
+    "结合原始版本历史复核新增/修订候选，并排除有单位证据的同名误配；并未声称完成全部存量全文审阅。",
+    "补查无线光通信、水声、卫星及电磁方向官网；访问、日期和索引限制逐组留存。",
+    "华南理工相关水声团队继续候补，33组名单未扩张。"
   ]
 }

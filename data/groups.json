@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "edition": "2026-11-07T11:00:35+08:00",
-  "previousEdition": "2026-11-05",
+  "edition": "2026-11-11T10:49:01+08:00",
+  "previousEdition": "2026-11-07T11:00:35+08:00",
   "changedGroupIds": [
-    "seu-jin"
+    "bupt-peng-mugen"
   ],
   "scope": "985 + 北邮/西电 + 港五",
   "schools": [
@@ -715,8 +715,8 @@
       },
       "evidenceDate": "2026-11-07",
       "revision": 2,
-      "previousRevision": 1,
-      "updatedThisEdition": true,
+      "previousRevision": 2,
+      "updatedThisEdition": false,
       "logs": [
         {
           "date": "2026-11-05",
@@ -2692,6 +2692,20 @@
             "Mugen Peng"
           ],
           "note": "跨组合作、已被IEEE WCL录用：联合优化主动RIS、RSMA与通感波束；依据为仿真，不能解读为硬件已落地。"
+        },
+        {
+          "title": "From Discrete Snapshots to Geometric Entity: Motion-Native Channel Tracking for THz Near-Field XL-MIMO",
+          "url": "https://arxiv.org/abs/2611.10587",
+          "date": "2026-11-07",
+          "updated": "2026-11-07",
+          "authors": [
+            "Yuheng Fan",
+            "Chuang Yang",
+            "Mugen Peng"
+          ],
+          "note": "新预印本：在导频观测层联合整段连续轨迹；通讯作者Chuang Yang。已同步校准、主导LoS等假设下的中高SNR仿真，尚未实测。",
+          "version": 1,
+          "publishedAt": "2026-11-07T08:52:06Z"
         }
       ],
       "authorQueries": [
@@ -2705,10 +2719,10 @@
         "Nian Xia",
         "Yaohua Sun"
       ],
-      "evidenceDate": "2026-11-05",
-      "revision": 1,
+      "evidenceDate": "2026-11-11",
+      "revision": 2,
       "previousRevision": 1,
-      "updatedThisEdition": false,
+      "updatedThisEdition": true,
       "logs": [
         {
           "date": "2026-11-05",
@@ -2727,6 +2741,25 @@
               "note": "云雾适配理论与方法自然科学奖（2020）、无线通信组网方法专利奖（2021）；直接访问有412限制。"
             }
           ]
+        },
+        {
+          "date": "2026-11-11",
+          "title": "近场信道跟踪：直接联合导频与整段轨迹",
+          "summary": "彭木根参与的预印本以共享B样条轨迹直接联合稀疏导频观测，分析先估快照再平滑的信息损失，并利用带状结构求解。通讯作者为Chuang Yang。证据限于已同步校准、主导直达径等假设下的中高信噪比仿真，尚无实测；不据此判断全组转向。",
+          "kind": "verified",
+          "sources": [
+            {
+              "title": "原始arXiv提交历史：v1为11-07 08:52:06 UTC",
+              "url": "https://arxiv.org/abs/2611.10587"
+            },
+            {
+              "title": "原始全文：作者单位、系统假设、结构化求解及仿真",
+              "url": "https://arxiv.org/html/2611.10587v1"
+            }
+          ],
+          "paperId": "2611.10587",
+          "paperVersion": 1,
+          "publishedAt": "2026-11-07T08:52:06Z"
         }
       ]
     },
