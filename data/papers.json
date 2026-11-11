@@ -2,6 +2,116 @@
   "schemaVersion": 1,
   "papers": [
     {
+      "id": "2611.11774",
+      "version": 1,
+      "title": "Wireless AI Networks: Co-Adapting Communication Resources and Distributed Intelligence",
+      "url": "https://arxiv.org/abs/2611.11774",
+      "published": "2026-11-09T02:29:08Z",
+      "updated": "2026-11-09T02:29:08Z",
+      "authors": [
+        "Ziqiang Ye",
+        "Yue Xiao",
+        "Qiyan Zhan",
+        "Yulan Gao",
+        "Xianfu Lei",
+        "Vladimir Poulkov"
+      ],
+      "affiliations": [],
+      "summary": "Distributed artificial intelligence (AI) increasingly relies on wireless networks, where communication and computing resources shape how AI tasks are configured and executed. However, resource availability alone does not determine how effectively these tasks can be supported, since different information selections and transmission strategies may yield different AI performance under the same resource constraints. To address this challenge, this article presents Wireless AI Networks as a unified design perspective for bidirectional adaptation between wireless communication and distributed intelligence. Specifically, an AI-executable resource budget characterizes candidate AI configurations, while task-level information value guides their selection and wireless resource allocation. Building on these principles, a wireless-AI co-adaptation framework coordinates resource abstraction, joint configuration and allocation, and execution feedback. Two complementary experiments illustrate this perspective: update selection and statistical correction improve federated learning under identical model-update payload budgets, while sensitivity-aware power allocation reduces model accuracy degradation under the same average transmit-power constraint. Together, these results highlight the importance of coordinating resource feasibility and task-level information value in distributed AI execution.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "uestc-tang-wanbin"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "uestc-tang-wanbin",
+          "matchedAuthors": [
+            "Yue Xiao"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-11T02:39:06Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ]
+    },
+    {
+      "id": "2611.10589",
+      "version": 1,
+      "title": "Intelligent Reflecting Surface for ISAC: From Beamforming to Joint Design With Surface Orientation",
+      "url": "https://arxiv.org/abs/2611.10589",
+      "published": "2026-11-07T08:55:48Z",
+      "updated": "2026-11-07T08:55:48Z",
+      "authors": [
+        "Qiaoyan Peng",
+        "Qingqing Wu",
+        "Guangji Chen",
+        "Yong Zeng",
+        "Sai Huang",
+        "Zhiyong Feng",
+        "Shanpu Shen",
+        "Wen Chen"
+      ],
+      "affiliations": [],
+      "summary": "Rotatable semi-passive intelligent reflecting surfaces (SIRSs) provide an additional spatial degree of freedom (DoF) by proactively adjusting the orientation, while dedicated sensors directly receive target echoes. To exploit this DoF for integrated sensing and communication (ISAC), we investigate the joint optimization of SIRS rotation, base station (BS) transmit beamforming, and SIRS phase-shifts to minimize the Cramér-Rao bound (CRB) for target's spatial-frequency estimation subject to per-user communication signal-to-interference-plus-noise ratio (SINR) constraints. We first establish an orientation-dependent system model that characterizes the effective aperture gains, based on which the CRB is derived. To gain useful insights, closed-form expressions of the beamforming and rotation designs are derived in the sensing-only and communication-only cases. For the co-located user and target case, we further characterize the condition under which the sensing-oriented rotation design also satisfies the communication requirement. In the single-user single-target case with ideal unit aperture gains, we analyze the channel correlation and its impact on ISAC performance. For the general multi-user case, an effective method based on the genetic algorithm is developed. Numerical results demonstrate the superiorities of the rotatable SIRS over the fixed-orientation SIRS and show that jointly optimizing the SIRS orientation and beamforming can improve the effective aperture gains and the correlation between communication and sensing channels.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "seu-zeng"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "seu-zeng",
+          "matchedAuthors": [
+            "Yong Zeng"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-11T02:39:06Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ]
+    },
+    {
+      "id": "2611.10587",
+      "version": 1,
+      "title": "From Discrete Snapshots to Geometric Entity: Motion-Native Channel Tracking for THz Near-Field XL-MIMO",
+      "url": "https://arxiv.org/abs/2611.10587",
+      "published": "2026-11-07T08:52:06Z",
+      "updated": "2026-11-07T08:52:06Z",
+      "authors": [
+        "Yuheng Fan",
+        "Chuang Yang",
+        "Mugen Peng"
+      ],
+      "affiliations": [],
+      "summary": "Channel tracking in mobile terahertz (THz) near-field extremely large-scale multiple-input multiple-output (XL-MIMO) systems is challenging because spherical-wave propagation couples angle and range, leading to rapid and nonlinear channel evolution under sparse pilot observations. Existing approaches typically estimate pilot-local channel or position snapshots before applying temporal tracking or smoothing, making them vulnerable to information loss during snapshot formation. To break this bottleneck, we propose a paradigm shift from tracking discrete snapshots to estimating a holistic geometric entity, namely, one shared continuous UE trajectory over the tracking window. Specifically, we parameterize the trajectory using a low-dimensional cubic B-spline representation and directly couple the per-pilot profile likelihoods through this shared trajectory before any pilot-local position estimate is finalized, thereby inducing continuous near-field channel evolution. We further characterize the efficient geometric information supplied by each pilot observation and its aggregation in the shared spline-coefficient space. Based on this formulation, we develop a regularized maximum a posteriori estimator and a quadratic-penalty lifted solver that separates parallel pilot-local geometric updates from a structured global spline update. The resulting global system is banded and, for a fixed spline degree, admits linear-complexity factorization, enabling an efficient structured implementation. Simulations demonstrate consistently improved tracking accuracy over representative temporally refined baselines in the tested medium-to-high-SNR regime, together with a favorable accuracy--runtime trade-off. These results highlight the benefit of coupling sparse pilot observations through a shared continuous trajectory rather than temporally processing independently estimated snapshots.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "bupt-peng-mugen"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "bupt-peng-mugen",
+          "matchedAuthors": [
+            "Mugen Peng"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-11T02:39:06Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ]
+    },
+    {
       "id": "2611.07803",
       "version": 1,
       "title": "Reliable Bistatic Ranging With Unreliable Communication Payloads",
@@ -32,7 +142,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -86,7 +196,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -136,7 +246,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -181,7 +291,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -189,11 +299,11 @@
     },
     {
       "id": "2611.06788",
-      "version": 1,
+      "version": 2,
       "title": "Integrated Identity Protection for Semantic Communications in Embodied IoT Systems",
       "url": "https://arxiv.org/abs/2611.06788",
       "published": "2026-11-04T17:02:08Z",
-      "updated": "2026-11-04T17:02:08Z",
+      "updated": "2026-11-10T00:16:55Z",
       "authors": [
         "Yu Zhang",
         "JingQi Liu",
@@ -203,7 +313,7 @@
         "Xiaohong Jiang"
       ],
       "affiliations": [],
-      "summary": "Embodied Internet of Things (IoT) systems are promoting the adoption of task-oriented semantic communication (SemCom), in which the trustworthy task decisions require both semantic information reliability and source legitimacy. However, existing trustworthy designs in SemCom mainly focus on semantic content recovery and protection, with limited attention to source legitimacy. Motivated by this limitation, this paper establishes a new information exploitation paradigm for integrated SemCom-identity protection to address active source impersonation and passive identity inference by treating each SemCom signal as an inherent carrier of both task-relevant semantic information and transmitter physical identity information. We first examine these two information resources and then analyze their integration feasibility at the observation, processing, and decision levels. To exploit these resources for trustworthy decision making, we further develop a dual-branch identity protection mechanism under different operating modes. In the authentication mode, semantic recovery and physical-layer source verification are performed in parallel using the same received observation. In the concealment mode, identity exposure is suppressed while semantic recovery quality is maintained to support anonymous sensing reports. The resulting outputs are jointly interpreted to support task decisions under mode-specific identity protection requirements. Finally, two representative case studies on active source impersonation and passive identity inference are presented to evaluate the proposed framework.",
+      "summary": "Embodied Internet of Things (IoT) systems are promoting the adoption of task-oriented semantic communication (SemCom), in which the trustworthy task decisions increasingly require both semantic reliability and source legitimacy. However, existing trustworthy SemCom designs mainly focus on semantic content recovery and protection, with limited attention to source identity protection. Motivated by this limitation, this paper establishes a new information exploitation perspective for integrated SemCom-identity protection that leverages task-level error tolerance to coordinate semantic information and source identity information carried by the same waveform. We first examine these two information resources and then analyze their integration feasibility at the observation, processing, and decision levels. To exploit these resources for different identity protection objectives, we further develop a dual-branch identity protection mechanism with two operating modes. In the authentication mode, semantic recovery and physical-layer source verification are performed in parallel using the same received observation. In the concealment mode, identity exposure is suppressed while semantic reconstruction quality is maintained to support anonymous transmission. Finally, two representative case studies on active source impersonation and passive identity inference are presented to evaluate the proposed framework.",
       "candidateStatus": "pending",
       "groupIds": [
         "hust-jiang-tao"
@@ -218,11 +328,13 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
-      "changeType": "baseline",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
+      "changeType": "revision",
       "versions": [
-        1
-      ]
+        1,
+        2
+      ],
+      "revisionSeenAt": "2026-11-11T02:39:06Z"
     },
     {
       "id": "2611.06524",
@@ -253,7 +365,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -289,7 +401,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -326,7 +438,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -360,7 +472,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -397,7 +509,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -435,7 +547,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -470,7 +582,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -510,7 +622,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -546,7 +658,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -584,7 +696,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -627,7 +739,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -664,7 +776,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -700,7 +812,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -737,7 +849,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -775,7 +887,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -814,7 +926,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -848,7 +960,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -888,7 +1000,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -925,7 +1037,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -958,7 +1070,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -993,7 +1105,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1030,7 +1142,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1072,7 +1184,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1112,7 +1224,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1152,7 +1264,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1192,7 +1304,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1230,7 +1342,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1267,7 +1379,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1302,7 +1414,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -1340,7 +1452,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1391,7 +1503,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -1430,7 +1542,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1468,7 +1580,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1503,7 +1615,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1546,7 +1658,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1583,7 +1695,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1629,7 +1741,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1665,7 +1777,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1703,7 +1815,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1738,7 +1850,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1774,7 +1886,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1811,7 +1923,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1847,7 +1959,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1885,7 +1997,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -1920,7 +2032,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1960,7 +2072,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -1997,7 +2109,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2032,7 +2144,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2071,7 +2183,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2117,7 +2229,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2153,7 +2265,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2194,7 +2306,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2230,7 +2342,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2267,7 +2379,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2490,7 +2602,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2534,7 +2646,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2572,7 +2684,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2653,7 +2765,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2689,7 +2801,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         3
@@ -2728,7 +2840,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2765,7 +2877,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2813,7 +2925,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         3
@@ -2850,7 +2962,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2884,7 +2996,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2919,10 +3031,46 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
+      ]
+    },
+    {
+      "id": "2605.00020",
+      "version": 3,
+      "title": "AirFM-DDA: Air-Interface Foundation Model in the Delay-Doppler-Angle Domain for AI-Native 6G",
+      "url": "https://arxiv.org/abs/2605.00020",
+      "published": "2026-04-19T03:26:51Z",
+      "updated": "2026-11-06T08:17:39Z",
+      "authors": [
+        "Kejia Bian",
+        "Meixia Tao",
+        "Jianhua Mo",
+        "Zhiyong Chen",
+        "Leyan Chen"
+      ],
+      "affiliations": [],
+      "summary": "The success of large foundation models is catalyzing a new paradigm for AI-native 6G network design: wireless foundation models for physical-layer design. However, existing models often operate on channel state information (CSI) in the spatial-temporal-frequency (STF) domain, where multipath components are superimposed and structurally entangled. This hinders the learning of a universal channel representation. Their reliance on global attention also incurs prohibitive overhead. In this paper, we propose AirFM-DDA, an Air-interface Foundation Model in the Delay-Doppler-Angle (DDA) domain. AirFM-DDA reparameterizes CSI into the DDA domain to resolve multipath components along physically meaningful axes and employs window-based attention with frame-structure-aware positional encoding. Extensive experiments demonstrate transferability across scenarios, tasks, datasets, and antenna configurations. For channel prediction and estimation, AirFM-DDA generalizes zero-shot to unseen cities, achieving average normalized mean-square error (NMSE) gains of 4.9-8.5 dB over the strongest baselines. With only 10% labeled data, it achieves average gains of 12.0 percentage points in Top-1 accuracy for beam prediction and 3.4 percentage points in F1 score for line-of-sight (LoS) identification. It further transfers across simulated datasets and adapts to measured data and different antenna arrays. Compared with global attention, window-based attention reduces training and inference costs by nearly an order of magnitude.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "sjtu-tao"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "sjtu-tao",
+          "matchedAuthors": [
+            "Meixia Tao"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-11T02:39:06Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
+      "changeType": "new",
+      "versions": [
+        3
       ]
     },
     {
@@ -2954,7 +3102,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2992,7 +3140,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3028,7 +3176,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         5
@@ -3066,7 +3214,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3104,10 +3252,83 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-07T06:08:20Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
       "changeType": "baseline",
       "versions": [
         4
+      ]
+    },
+    {
+      "id": "2506.09195",
+      "version": 2,
+      "title": "Graph Attention-based Decentralized Actor-Critic for Dual-Objective Control of Multi-UAV Networks",
+      "url": "https://arxiv.org/abs/2506.09195",
+      "published": "2025-06-10T19:30:53Z",
+      "updated": "2026-11-09T20:46:18Z",
+      "authors": [
+        "Haoran Peng",
+        "Ying-Jun Angela Zhang"
+      ],
+      "affiliations": [],
+      "summary": "This research focuses on optimizing multi-UAV systems with dual objectives: maximizing service coverage as the primary goal while extending battery lifetime as the secondary objective. We propose a Graph Attention-based Decentralized Actor-Critic (GADC) to optimize the dual objectives. The proposed approach leverages a graph attention network to process UAVs' limited local observation and reduce the dimension of the environment states. Subsequently, an actor-double-critic network is developed to manage dual policies for joint objective optimization. The proposed GADC uses a Kullback-Leibler (KL) divergence factor to balance the tradeoff between coverage performance and battery lifetime in the multi-UAV system. We assess the scalability and efficiency of GADC through comprehensive benchmarking against state-of-the-art methods, considering both theory and experimental aspects. Extensive testing in both ideal settings and NVIDIA Sionna's realistic ray tracing environment demonstrates GADC's superior performance.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "cuhk-zhang-yingjun"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "cuhk-zhang-yingjun",
+          "matchedAuthors": [
+            "Ying-Jun Angela Zhang"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-11T02:39:06Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
+      "changeType": "new",
+      "versions": [
+        2
+      ]
+    },
+    {
+      "id": "2505.04467",
+      "version": 3,
+      "title": "Image Steganography For Securing Intellicise Wireless Networks: \"Invisible Encryption\" Against Eavesdroppers",
+      "url": "https://arxiv.org/abs/2505.04467",
+      "published": "2025-05-07T14:38:15Z",
+      "updated": "2026-11-08T04:37:57Z",
+      "authors": [
+        "Rui Meng",
+        "Song Gao",
+        "Haixiao Gao",
+        "Yinqiu Liu",
+        "Ruichen Zhang",
+        "Huishi Song",
+        "Mengying Sun",
+        "Xiaodong Xu",
+        "Ping Zhang"
+      ],
+      "affiliations": [],
+      "summary": "As one of the most promising technologies for intellicise (intelligent and consice) wireless networks, Semantic Communication (SemCom) significantly improves communication efficiency by extracting, transmitting, and recovering semantic information, while reducing transmission delay. However, an integration of communication and artificial intelligence (AI) also exposes SemCom to security and privacy threats posed by intelligent eavesdroppers. To address this challenge, image steganography in SemCom embeds secret semantic features within cover semantic features, allowing intelligent eavesdroppers to decode only the cover image. This technique offers a form of \"invisible encryption\" for SemCom. Motivated by these advancements, this paper conducts a comprehensive exploration of integrating image steganography into SemCom. Firstly, we assess the potential of image steganography in enhancing the security of SemCom. Secondly, we delve into traditional and DL-based image steganographic paradigms for securing SemCom. Thirdly, we further discuss six image semantic steganography strategies. Fourthly, we present a case study to illustrate the effectiveness of coverless steganography SemCom. Finally, we propose future research directions for image steganography SemCom.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "bupt-zhang-ping"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "bupt-zhang-ping",
+          "matchedAuthors": [
+            "Ping Zhang"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-11T02:39:06Z",
+      "lastSeenAt": "2026-11-11T02:39:06Z",
+      "changeType": "new",
+      "versions": [
+        3
       ]
     },
     {
