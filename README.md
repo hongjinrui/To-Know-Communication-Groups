@@ -1,10 +1,12 @@
 # 通信大组地图
 
+**[在线访问：通信大组地图](https://hongjinrui.github.io/To-Know-Communication-Groups/)**
+
 面向长期跟踪的精选研究地图：学校 → 大组 → 研究主线 → 有来源的进展日志。
 
 范围是内地39所985、北邮、西电，以及香港大学、香港中文大学、香港科技大学、香港城市大学、香港理工大学，以通信工程为主。未入选不代表团队质量低；首版是可校正的编辑精选，不是学校或个人排名。
 
-网站采用静态 HTML/CSS/JavaScript，可直接部署 GitHub Pages，无需服务器或API密钥。
+网站采用静态 HTML/CSS/JavaScript，已通过 GitHub Pages 发布，无需服务器或 API 密钥。推送到 `main` 后，GitHub Actions 会自动构建并更新上述网页；发布状态见 [Actions](https://github.com/hongjinrui/To-Know-Communication-Groups/actions/workflows/atlas.yml)。
 
 ## 选什么、看什么
 
