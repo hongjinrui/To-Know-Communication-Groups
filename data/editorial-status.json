@@ -1,7 +1,7 @@
 {
   "state": "reviewed_with_limits",
-  "lastReviewAt": "2026-11-11T02:47:57Z",
-  "summary": "已对33组逐组定向补查，新增1条彭木根参与的近场连续轨迹跟踪预印本日志。32组arXiv近期窗口完成，江涛组同名检索仍有截断缺口；普通增量、窗口外回填及未证实的版本变化未记为组进展。",
+  "lastReviewAt": "2026-11-14T02:55:56Z",
+  "summary": "原33组未在已查来源中核实到需新增日志的实质变化；新收录天津大学马凯学组、港理工刘伯涛组基线档案。江涛组采集仍有截断，两组新档案尚未首采；历史成果保留原日期。",
   "automation": {
     "schedule": "每周三/周六上午（北京时间）",
     "status": "scheduled"
@@ -42,17 +42,23 @@
     "xjtu-wang-huiming",
     "zju-zhang"
   ],
-  "verifiedUpdateCount": 1,
+  "verifiedUpdateCount": 0,
   "candidateReviewCounts": {
-    "verified": 1,
-    "pending": 10,
-    "rejected": 11
+    "pending": 2,
+    "rejected": 1
   },
-  "pendingCandidateCount": 76,
-  "reportUrl": "https://github.com/hongjinrui/To-Know-Communication-Groups/blob/main/research/reviews/2026-11-11.json",
+  "pendingCandidateCount": 80,
+  "reportUrl": "https://github.com/hongjinrui/To-Know-Communication-Groups/blob/main/research/reviews/2026-11-14.json",
   "scopeNotes": [
-    "结合原始版本历史复核新增/修订候选，并排除有单位证据的同名误配；并未声称完成全部存量全文审阅。",
-    "补查无线光通信、水声、卫星及电磁方向官网；访问、日期和索引限制逐组留存。",
-    "华南理工相关水声团队继续候补，33组名单未扩张。"
+    "本轮新收录档案与科研成果更新分开；原33组的历史日志和版本保留。",
+    "新组的团队、影响力和近期活跃来自官方组织页、原始出版物与实际硬件/网络证据。",
+    "新增两组的首轮arXiv采集尚未执行；RFIC及光纤方向需持续补查会议、出版商和官网。",
+    "原有候选复核保留原始版本日期、跨组合作与同名限制，未声称所有历史稿件均已全文审阅。"
+  ],
+  "catalogGroupCount": 35,
+  "newGroupCount": 2,
+  "newGroupIds": [
+    "tju-ma-kaixue",
+    "polyu-lau-alan"
   ]
 }

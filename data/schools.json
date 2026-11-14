@@ -230,6 +230,19 @@
       "lon": 114.18,
       "coverage": "selected",
       "scopeException": false
+    },
+    {
+      "id": "tju",
+      "name": "天津大学（卫津路校区）",
+      "shortName": "天大·卫津路",
+      "city": "天津",
+      "region": "内地",
+      "lat": 39.10912,
+      "lon": 117.16467,
+      "coverage": "selected",
+      "scopeException": false,
+      "locationAccuracy": "campus_centroid",
+      "locationSource": "https://mapcarta.com/W48165383"
     }
   ]
 }

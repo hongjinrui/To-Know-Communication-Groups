@@ -56,9 +56,10 @@
     },
     {
       "name": "天津大学",
-      "status": "candidate",
-      "reason": "智能多媒体与通信团队有公开团队资料，但当前偏视频/视觉，需进一步限定本项目的通信主线边界。",
-      "source": "https://tj.teacher.360eol.com/teacherBasic/preview?teacherId=3068"
+      "status": "included",
+      "reason": "已核实并收录马凯学牵头的互联感知集成电路与系统团队，重点为ISL低损耗异构集成与射频芯片；不将此前偏视觉的团队线索直接并入。",
+      "source": "https://sme.tju.edu.cn/info/1018/2421.htm",
+      "lastReviewedAt": "2026-11-14"
     },
     {
       "name": "复旦大学",
@@ -248,7 +249,8 @@
     {
       "name": "香港理工大学",
       "status": "included",
-      "reason": "首版已核对香港校区并纳入精选组；未覆盖该校所有实验室。"
+      "reason": "已精选刘亮组及刘伯涛组；后者补充相干光通信DSP、生产光网络质量估计与空芯光纤现场系统，企业合作者不自动算为组员。",
+      "lastReviewedAt": "2026-11-14"
     }
   ],
   "watchlist": [
@@ -281,8 +283,9 @@
       "lastReviewedAt": "2026-11-07"
     }
   ],
-  "lastAuditAt": "2026-11-11",
+  "lastAuditAt": "2026-11-14",
   "lastAuditScope": [
-    "华南理工季飞相关水声通信候补的当前团队边界及近年贡献复核"
+    "天津大学射频硬件团队定向复核并纳入",
+    "港理工相干光通信与空芯光纤团队补充核验并纳入"
   ]
 }

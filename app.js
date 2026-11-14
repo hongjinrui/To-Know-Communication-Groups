@@ -14,7 +14,7 @@
     uestc: 'chengdu', scut: 'guangzhou', hust: 'wuhan'
   };
   const clusterConfig = {
-    beijing: { name: '北京', lon: 116.4, lat: 39.9 }, yangtze: { name: '长三角', lon: 119.5, lat: 31.5 },
+    beijing: { name: '京津', lon: 116.4, lat: 39.9 }, yangtze: { name: '长三角', lon: 119.5, lat: 31.5 },
     hongkong: { name: '香港', lon: 114.2, lat: 21.9 }, xian: { name: '西安', lon: 108.9, lat: 34.3 },
     chengdu: { name: '成都', lon: 104.1, lat: 30.7 }, guangzhou: { name: '广州', lon: 112.7, lat: 24.0 },
     wuhan: { name: '武汉', lon: 113.8, lat: 30.6 }, shenzhen: { name: '深圳', lon: 113.974, lat: 22.591 }, harbin: { name: '哈尔滨', lon: 126.6, lat: 45.8 }
@@ -51,7 +51,7 @@
     state.data.schools.forEach(school => {
       if (!groupsFor(school.id).length) return;
       const city = String(school.city || '');
-      const cityKeys = { '北京': 'beijing', '香港': 'hongkong', '西安': 'xian', '成都': 'chengdu', '武汉': 'wuhan', '深圳': 'shenzhen', '广州': 'guangzhou', '哈尔滨': 'harbin', '南京': 'yangtze', '上海': 'yangtze', '杭州': 'yangtze', '合肥': 'yangtze' };
+      const cityKeys = { '北京': 'beijing', '天津': 'beijing', '香港': 'hongkong', '西安': 'xian', '成都': 'chengdu', '武汉': 'wuhan', '深圳': 'shenzhen', '广州': 'guangzhou', '哈尔滨': 'harbin', '南京': 'yangtze', '上海': 'yangtze', '杭州': 'yangtze', '合肥': 'yangtze' };
       const key = cityKeys[city] || (city ? city : knownClusters[school.id] || school.id);
       const config = clusterConfig[key] || { name: school.city || school.shortName || school.name };
       const lon = Number(school.lon); const lat = Number(school.lat);
@@ -124,7 +124,7 @@
     if (!groups.length) { root.append(empty(state.unreadOnly ? '已读完所有符合条件的更新' : '没有符合条件的大组', state.unreadOnly ? '首版用于建立研究基线。新的核实更新会在组名旁出现红点。' : '尝试换一个方向，或重置筛选查看精选名单。', '✓')); return; }
     groups.forEach(group => {
       const card = node('button', 'group-card'); card.type = 'button'; card.setAttribute('aria-label', `${group.name}，${schoolFor(group)?.name || ''}${unread(group) ? '，有未读核实更新' : ''}，查看研究档案`);
-      const overline = node('div', 'card-overline'); overline.append(node('span', '', schoolFor(group)?.name || '研究档案')); if (group.updatedThisEdition) overline.append(node('span', 'edition-badge', '本轮更新')); else overline.append(node('span', '', '精选档案'));
+      const overline = node('div', 'card-overline'); overline.append(node('span', '', schoolFor(group)?.name || '研究档案')); if (group.updatedThisEdition) overline.append(node('span', 'edition-badge', group.previousRevision === 0 ? '新收录' : '本轮更新')); else overline.append(node('span', '', '精选档案'));
       const title = node('h3', '', group.name); if (unread(group)) { const dot = node('span', 'small-dot'); dot.setAttribute('aria-label', '未读更新'); title.append(dot); }
       const tags = node('div', 'tags'); list(group.topics).slice(0,4).forEach(topic => tags.append(tagNode(topic)));
       card.append(overline,title,node('p','tagline',group.tagline || displayText(group.current)),tags,node('span','card-arrow','↗')); card.addEventListener('click',() => openGroup(group)); root.append(card);
@@ -201,7 +201,9 @@
     if(!state.data)return;
     const root=$('#topic-filters');root.replaceChildren();const counts=new Map();state.data.groups.forEach(group=>list(group.topics).forEach(topic=>counts.set(topic,(counts.get(topic)||0)+1)));
     const topics=['',...Array.from(counts).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],'zh-CN')).map(([topic])=>topic)];
-    topics.forEach(topic=>{const button=node('button',`topic-chip${state.topic===topic?' active':''}`,topic||'全部');button.type='button';button.setAttribute('aria-pressed',String(state.topic===topic));button.addEventListener('click',()=>{state.topic=topic;state.selectedSchool=null;state.selectedCity=null;buildTopicFilters();render();});root.append(button);});
+    const chooseTopic=topic=>{state.topic=topic;state.selectedSchool=null;state.selectedCity=null;buildTopicFilters();render();};
+    topics.slice(0,7).forEach(topic=>{const button=node('button',`topic-chip${state.topic===topic?' active':''}`,topic||'全部');button.type='button';button.setAttribute('aria-pressed',String(state.topic===topic));button.addEventListener('click',()=>chooseTopic(topic));root.append(button);});
+    if(topics.length>7){const select=node('select','topic-select');select.setAttribute('aria-label','更多研究方向');topics.forEach(topic=>{const option=node('option','',topic||`更多方向（共${topics.length-1}项）`);option.value=topic;select.append(option);});select.value=state.topic;select.addEventListener('change',()=>chooseTopic(select.value));root.append(select);}
   }
   function switchView(view) {state.view=view;$$('.nav-item').forEach(button=>{const selected=button.dataset.view===view;button.classList.toggle('active',selected);button.setAttribute('aria-current',selected?'page':'false');});['atlas','changes','method'].forEach(id=>{const el=$(`#${id}-view`);el.hidden=id!==view;el.classList.toggle('active',id===view);});}
   async function optionalJSON(path) {try{const response=await fetch(path,{cache:'no-cache'});if(!response.ok)return null;return await response.json();}catch{return null;}}

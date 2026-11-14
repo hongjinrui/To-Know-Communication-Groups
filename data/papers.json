@@ -2,6 +2,54 @@
   "schemaVersion": 1,
   "papers": [
     {
+      "id": "2611.16253",
+      "version": 1,
+      "title": "A Constructive Theory of Closed-Form Rate-Distortion Functions",
+      "published": "2026-11-12T03:56:18Z",
+      "updated": "2026-11-12T03:56:18Z",
+      "authors": [
+        "Dazhuan Xu",
+        "Yongming Huang",
+        "Xiaohu You"
+      ],
+      "url": "https://arxiv.org/abs/2611.16253",
+      "summary": "合作理论预印本，以相容后验和条件熵构造部分率失真解析式；含zeta特定乘性失真参数解及负二项/Gamma部分区间结果，并明确多项经典结果仅为统一推导。",
+      "groupIds": [
+        "seu-you"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "seu-you",
+          "reason": "手工网页发现；原始作者单位与贡献范围见审阅来源。"
+        }
+      ],
+      "firstSeenAt": "2026-11-14T02:55:56Z",
+      "lastSeenAt": "2026-11-14T02:55:56Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ],
+      "collectionSource": "manual_web",
+      "candidateStatus": "pending",
+      "reviewNote": "原始history仅v1，首发2026-11-12T03:56:18Z晚于截止。原始PDF首页确认Xiaohu You与Yongming Huang为东南/紫金山单位；Dazhuan Xu为南航/紫金山且通讯作者。已读引言、贡献、适用区间、结论与来源表；在Dazhuan Xu等2023率熵函数主线上扩展相容后验构造，不是任意源/任意物理失真均有闭式解，Gamma/负二项有未覆盖区间，实际编码器与任务收益属后续工作。保持pending作理论专题候选，本轮不追加组日志、不提高revision；仅表明合作方法增量，不代表尤肖虎组整体转向。HTML全文404，单位与论述范围以原始PDF核实；没有逐项独立证明全部数学定理。",
+      "reviewSources": [
+        {
+          "title": "原始摘要与首发时分",
+          "url": "https://arxiv.org/abs/2611.16253"
+        },
+        {
+          "title": "原始26页PDF：单位、通讯作者、贡献与范围",
+          "url": "https://arxiv.org/pdf/2611.16253"
+        }
+      ],
+      "reviewedAt": "2026-11-14T02:55:56Z",
+      "reviewedAffiliations": [
+        "Purple Mountain Laboratories",
+        "Nanjing University of Aeronautics and Astronautics",
+        "Southeast University"
+      ]
+    },
+    {
       "id": "2611.15499",
       "version": 1,
       "title": "Rateless Coding for Efficient Model Broadcast in Federated Learning",
@@ -35,7 +83,19 @@
       "changeType": "new",
       "versions": [
         1
-      ]
+      ],
+      "reviewNote": "原文确认Zuolin Jin和Jingxuan Huang为北京理工大学信息与电子学院，Zijun Qin和通讯作者Xianhao Chen为香港大学，Ming Xiao为KTH。作者中没有Zesong Fei；目前仅确认BIT单位和配置作者查询命中，不足以证明属于费组或由费组主导，组归属需进一步核实。贡献为FL噪声下行的收敛失真预算、逐轮量化/Raptor码分布及客户端模型条件先验辅助解码的联合设计；实验为ResNet-18/CIFAR-10的3客户端、10轮数值验证，假设上行无差错，下行采用Gilbert–Elliott两状态模型，未见真实无线系统/硬件测试。本轮组归属及研究增量的专题价值均待核实，保持pending，不据此改变费组整体方向或追加日志。",
+      "reviewSources": [
+        {
+          "title": "原摘要、完整作者和v1时间",
+          "url": "https://arxiv.org/abs/2611.15499"
+        },
+        {
+          "title": "原文单位、模型III-A及实验VI-A",
+          "url": "https://arxiv.org/html/2611.15499v1"
+        }
+      ],
+      "reviewedAt": "2026-11-14T02:55:56Z"
     },
     {
       "id": "2611.14893",
@@ -59,7 +119,7 @@
       ],
       "affiliations": [],
       "summary": "Higher-order exceptional points arise from the coalescence of multiple eigenvalues and eigenstates, leading to enhanced spectral responses to weak perturbations. However, realizing and controlling such higher-order degeneracies in interacting many-body systems remains challenging due to the complex coupling among multiple interacting eigenstates. Here, we construct spatially structured microensemble arrays in cold Rydberg gas, where long-range interaction and spatial connectivity enlarge the effective non-Hermitian dimensionality, enabling higher-order exceptional points. By varying the spatial arrangement of these sites, we realize different orders of non-Hermitian exceptional points. We further show that interactions between Rydberg excitation sites can enhance the quantum Fisher information, thereby improving sensing sensitivity. The resulting higher-order exceptional points exhibit increasingly nonlinear phase-boundary responses, which can be further tuned by varying the measurement time and atom number. By tracking shifts of these phase boundaries, we achieve a sensitivity of 0.47(10) nV cm-1 Hz-1/2, surpassing the standard quantum limit. Our results establish Rydberg microensemble arrays as a platform connecting higher-order non-Hermitian criticality, many-body dynamics, and microwave sensing.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "hkust-zhang-jun"
       ],
@@ -77,7 +137,19 @@
       "changeType": "new",
       "versions": [
         1
-      ]
+      ],
+      "reviewNote": "Jun Zhang同名误配。v1全文作者与单位为中国科大量子信息实验室、安徽量子网络重点实验室、合肥国家实验室及合肥Davinci Quantum Technology；与HKUST通信张军组无已核归属。首发2026-11-11T01:29:33Z另早于本轮02:47:57Z截点；不作为窗口内更新。",
+      "reviewSources": [
+        {
+          "title": "arXiv原始记录与精确提交时间",
+          "url": "https://arxiv.org/abs/2611.14893"
+        },
+        {
+          "title": "arXiv v1全文作者单位",
+          "url": "https://arxiv.org/html/2611.14893v1"
+        }
+      ],
+      "reviewedAt": "2026-11-14T02:55:56Z"
     },
     {
       "id": "2611.13807",

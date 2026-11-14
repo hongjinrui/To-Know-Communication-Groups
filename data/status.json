@@ -439,5 +439,15 @@
     }
   ],
   "coverageScope": "最近更新时间窗口；不代表全历史论文",
-  "message": "采集未全部完成；旧数据已保留，未把失败解释为无更新。"
+  "message": "采集未全部完成；旧数据已保留，未把失败解释为无更新。",
+  "editorialTriageAt": "2026-11-14T02:55:56Z",
+  "catalogCoverage": {
+    "groupsInCollection": 33,
+    "catalogGroupCount": 35,
+    "newGroupsAwaitingFirstCollection": [
+      "tju-ma-kaixue",
+      "polyu-lau-alan"
+    ],
+    "note": "新组以官网、出版商与会议原始来源建立研究基线；本轮采集启动时尚未加入作者名单，未声称已首采。"
+  }
 }

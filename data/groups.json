@@ -1,9 +1,10 @@
 {
   "version": 1,
-  "edition": "2026-11-11T10:49:01+08:00",
-  "previousEdition": "2026-11-07T11:00:35+08:00",
+  "edition": "2026-11-14T10:56:20+08:00",
+  "previousEdition": "2026-11-11T10:49:01+08:00",
   "changedGroupIds": [
-    "bupt-peng-mugen"
+    "tju-ma-kaixue",
+    "polyu-lau-alan"
   ],
   "scope": "985 + 北邮/西电 + 港五",
   "schools": [
@@ -237,6 +238,19 @@
       "lon": 114.18,
       "coverage": "selected",
       "scopeException": false
+    },
+    {
+      "id": "tju",
+      "name": "天津大学（卫津路校区）",
+      "shortName": "天大·卫津路",
+      "city": "天津",
+      "region": "内地",
+      "lat": 39.10912,
+      "lon": 117.16467,
+      "coverage": "selected",
+      "scopeException": false,
+      "locationAccuracy": "campus_centroid",
+      "locationSource": "https://mapcarta.com/W48165383"
     }
   ],
   "groups": [
@@ -2721,8 +2735,8 @@
       ],
       "evidenceDate": "2026-11-11",
       "revision": 2,
-      "previousRevision": 1,
-      "updatedThisEdition": true,
+      "previousRevision": 2,
+      "updatedThisEdition": false,
       "logs": [
         {
           "date": "2026-11-05",
@@ -3429,6 +3443,234 @@
           ]
         }
       ]
+    },
+    {
+      "id": "tju-ma-kaixue",
+      "name": "马凯学组",
+      "schoolId": "tju",
+      "leaders": [
+        {
+          "name": "马凯学",
+          "en": "Kaixue Ma"
+        }
+      ],
+      "tagline": "低损耗射频芯片与ISL异构集成，从电路走向封装和阵列",
+      "whyFollow": "官网独立命名的多教师团队，持续建设ISL加工平台；2025 D波段阵列芯片入选ISSCC亮点，射频多谐振理论获2025年度天津市自然科学特等奖。补充通信名单中的可制造射频硬件路线。",
+      "past": "围绕硅基射频损耗与耦合多谐振调控，发展SISL低损耗自封装结构、无源/有源电路及天线协同集成。",
+      "current": "ISL从介质结构延伸至金属、硅基MEMS及混合集成；2025实现D波段4发4收雷达阵列芯片与封装天线，2026综述系统梳理其射频集成路线。",
+      "next": "跟踪ISL在毫米波阵列和通信前端中的损耗、散热、制造容差与成本，区分器件实测、雷达演示和真正的通信链路验证。",
+      "confidence": "高：官方命名团队及2026牵头记录、原始ISL论文、ISSCC官方亮点和芯片作者归属交叉核验；不将整个微电子学院并为一组。",
+      "topics": [
+        "射频集成电路",
+        "ISL异构集成",
+        "毫米波阵列",
+        "自封装电路"
+      ],
+      "sources": [
+        {
+          "title": "天津大学官方命名团队介绍",
+          "url": "https://sme.tju.edu.cn/info/1018/2421.htm",
+          "note": "2023-09-12明确马凯学负责人；人数是历史口径。"
+        },
+        {
+          "title": "2026-11-06 ISL路线与当前牵头团队",
+          "url": "https://news.tju.edu.cn/info/1012/619979.htm",
+          "note": "确认同一命名团队持续存在，区分路线综述与新器件成果。"
+        },
+        {
+          "title": "ISL原始综述PDF",
+          "url": "https://jf2.hep.com.cn/3074463899544aa88521ba913e996549.pdf?response-content-disposition=attachment%3B+filename%3D%22Integrated+Suspended+Line%3A+A+New+Heterogeneous+Integration+for+5G%2F6G+RF+Integrated+Circuits.pdf%22",
+          "note": "马凯学、王勇强共同通讯，天津大学唯一单位；四类ISL平台、器件与系统文献。"
+        },
+        {
+          "title": "ISSCC2025官方Press Kit",
+          "url": "https://static1.squarespace.com/static/6130ef779c7a2574bd4b8888/t/683f41498b09f01a5864a5fc/1748975949054/ISSCC2025PressKit.pdf",
+          "note": "第38页（从0计）10.2亮点及作者、单位；初版材料不用于无条件性能排名。"
+        },
+        {
+          "title": "2025芯片系统与第一/通讯作者报道",
+          "url": "https://news.tju.edu.cn/info/1012/345189.htm",
+          "note": "刘兵第一作者、马凯学通讯；雷达芯片与成像演示，不是通信速率实证。"
+        },
+        {
+          "title": "射频多谐振理论获2025年度天津市自然科学特等奖",
+          "url": "https://sme.tju.edu.cn/info/1090/7356.htm",
+          "note": "2026-05-26报道；仅记录具体项目和奖项，不复制未核基线的提升百分比。"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Integrated Suspended Line: A New Heterogeneous Integration for 5G/6G RF Integrated Circuits",
+          "url": "https://doi.org/10.1016/j.eng.2026.10.002",
+          "date": "2026-11-03",
+          "authors": [
+            "Kaixue Ma",
+            "Yongqiang Wang"
+          ],
+          "note": "原始综述PDF核对；SISL/MISL/Si-ISL/HISL的结构、加工与射频应用，不当作新系统性能突破。"
+        },
+        {
+          "title": "A 132-to-148GHz CMOS 4TX-4RX FMCW Radar Transceiver Array with Cavity-Backed Antenna-in-Package Achieving 28dBm EIRP",
+          "url": "https://doi.org/10.1109/ISSCC49661.2025.10904524",
+          "date": "2025-02",
+          "note": "第一作者刘兵、通讯作者马凯学；ISSCC官方亮点与校方报道交叉核验。芯片/封装天线协同的雷达成像实证，不将雷达指标写成通信速率。完整作者表以论文原文为准。",
+          "firstAuthor": "Bing Liu",
+          "correspondingAuthors": [
+            "Kaixue Ma"
+          ]
+        }
+      ],
+      "authorQueries": [
+        "Kaixue Ma",
+        "Kai-Xue Ma"
+      ],
+      "evidenceDate": "2026-11-14",
+      "revision": 1,
+      "previousRevision": 0,
+      "updatedThisEdition": true,
+      "logs": [
+        {
+          "date": "2026-11-14",
+          "title": "完成入选基线核验",
+          "kind": "baseline",
+          "summary": "核实马凯学牵头的命名团队及ISL/射频芯片主线。2025芯片和2026-11-03综述保留原始日期；本条记录新入选基线，不是本周新研究成果。",
+          "sources": [
+            {
+              "title": "官方团队组织",
+              "url": "https://sme.tju.edu.cn/info/1018/2421.htm"
+            },
+            {
+              "title": "2026当前团队与ISL路线",
+              "url": "https://news.tju.edu.cn/info/1012/619979.htm"
+            },
+            {
+              "title": "ISSCC芯片及作者归属",
+              "url": "https://news.tju.edu.cn/info/1012/345189.htm"
+            }
+          ]
+        }
+      ],
+      "addedAt": "2026-11-14",
+      "identityHints": {
+        "affiliations": [
+          "Tianjin University"
+        ],
+        "requiresDisambiguation": true
+      }
+    },
+    {
+      "id": "polyu-lau-alan",
+      "name": "刘伯涛组",
+      "schoolId": "polyu",
+      "leaders": [
+        {
+          "name": "刘伯涛",
+          "en": "Alan Pak Tao Lau"
+        }
+      ],
+      "tagline": "相干光通信DSP、传输质量估计与空芯光纤现场系统",
+      "whyFollow": "面向真实光网络开展DSP、传输质量估计和现场校准，已有跨年产业部署与开放生产网络数据，适合跟踪高容量光纤系统从模型到部署的路径。",
+      "past": "长期研究相干光通信的信号处理与性能监控，随后把物理建模、参数测量和数据方法用于开放、多厂商生产光网络的传输质量估计，并参与开放实际网络数据。",
+      "current": "2026原始论文研究空芯光纤气体吸收造成的OSNR损失及一次现场测量重校准；校方另报道与企业合作完成C+L波段空芯光纤现场传输。其角色是信号功率设计与监控，不能把整条产业链或光纤制造归给本组。",
+      "next": "跟踪性能模型能否在不同光纤、设备及长期环境变化中保持准确；现场传输能否转化为持续运营，并公开误差、稳定性和部署成本数据。这些是跟踪问题，非已宣布计划。",
+      "confidence": "中高：当前官方任职、跨年师生与原始论文、产业部署证据相互支持；最新完整组员名册与人数未核实，不作规模排名。",
+      "topics": [
+        "光纤通信",
+        "相干DSP",
+        "光网络",
+        "传输质量估计",
+        "空芯光纤"
+      ],
+      "sources": [
+        {
+          "title": "PolyU现任资料：Alan Pak Tao Lau",
+          "url": "https://www.polyu.edu.hk/cus/about-cus/people/prof-lau-pak-tao-alan/",
+          "note": "现任EEE教授；研究包括相干光通信DSP、物理层建模及光网络性能监控。"
+        },
+        {
+          "title": "PolyU 2024产业部署与团队报道",
+          "url": "https://www.polyu.edu.hk/media/media-releases/2024/0411_polyu-and-alibaba-cloud-join-hands-to-advance-signal-quality-estimation-technology/",
+          "note": "校方明确Lau带领研究团队、He Yan为其博士生；报告技术已用于阿里云15国/地区网络。"
+        },
+        {
+          "title": "OFC 2026原始论文：空芯光纤一次现场测量",
+          "url": "https://opg.optica.org/abstract.cfm?uri=OFC-2026-Tu3E.3",
+          "note": "作者单位区分PolyU与阿里云；摘要含100 km建模及80/130 km一次测量重校准验证。"
+        },
+        {
+          "title": "PolyU 2026空芯光纤现场传输报道",
+          "url": "https://www.polyu.edu.hk/eee/news-and-events/news/2026/2026-11-13-prof-lau-pak-tao-alan-s-team-and-alibaba-cloud/",
+          "note": "11-13报道较早ACP 2026会议成果；提供当前团队与高容量光传输活动证据，不能当成本轮首次披露。"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Accelerating Hollow-Core Fiber Deployment: An Efficient One-Shot Field Measurement Technique to Characterize CO2 Absorption-induced OSNR Penalty",
+          "url": "https://opg.optica.org/abstract.cfm?uri=OFC-2026-Tu3E.3",
+          "date": "2026-03-17",
+          "authors": [
+            "Yan He",
+            "Sai Chen",
+            "Liang Dou",
+            "Zhiqun Zhai",
+            "Huan Zhang",
+            "Yuanchao Su",
+            "Alan Pak Tao Lau"
+          ],
+          "note": "OFC 2026 Tu3E.3会议报告日期；未核定online-first。以100 km空芯光纤建模，通过一次测量将模型重校准到80/130 km。He Yan兼署PolyU与阿里云，不能据此把合作公司并为组员。"
+        },
+        {
+          "title": "Open-source data for QoT estimation in optical networks from Alibaba",
+          "url": "https://opg.optica.org/jocn/abstract.cfm?uri=jocn-16-1-1",
+          "date": "2023-12-19",
+          "authors": [
+            "Zhiqun Zhai",
+            "Liang Dou",
+            "Yan He",
+            "Alan Pak Tao Lau",
+            "Chongjin Xie"
+          ],
+          "note": "原始Published日期为2023-12-19，卷期为2024年。开放生产光传输网络数据；产业合作成果，不把全部作者算入本组。"
+        }
+      ],
+      "authorQueries": [
+        "Alan Pak Tao Lau",
+        "Alan Pak-Tao Lau"
+      ],
+      "evidenceDate": "2026-11-14",
+      "revision": 1,
+      "previousRevision": 0,
+      "updatedThisEdition": true,
+      "logs": [
+        {
+          "date": "2026-11-14",
+          "title": "建立研究基线",
+          "kind": "baseline",
+          "summary": "相干光通信DSP、生产光网络传输质量估计与空芯光纤现场验证。当前建档不表示ACP成果在本周首次公开。",
+          "sources": [
+            {
+              "title": "PolyU现任资料：Alan Pak Tao Lau",
+              "url": "https://www.polyu.edu.hk/cus/about-cus/people/prof-lau-pak-tao-alan/",
+              "note": "现任EEE教授；研究包括相干光通信DSP、物理层建模及光网络性能监控。"
+            },
+            {
+              "title": "PolyU 2024产业部署与团队报道",
+              "url": "https://www.polyu.edu.hk/media/media-releases/2024/0411_polyu-and-alibaba-cloud-join-hands-to-advance-signal-quality-estimation-technology/",
+              "note": "校方明确Lau带领研究团队、He Yan为其博士生；报告技术已用于阿里云15国/地区网络。"
+            }
+          ]
+        }
+      ],
+      "addedAt": "2026-11-14",
+      "identityHints": {
+        "affiliations": [
+          "The Hong Kong Polytechnic University"
+        ],
+        "nameVariants": [
+          "Alan P. T. Lau"
+        ],
+        "requiresDisambiguation": true
+      }
     }
   ],
   "repositoryUrl": "https://github.com/hongjinrui/To-Know-Communication-Groups"
