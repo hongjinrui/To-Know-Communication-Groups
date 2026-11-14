@@ -2,6 +2,84 @@
   "schemaVersion": 1,
   "papers": [
     {
+      "id": "2611.15499",
+      "version": 1,
+      "title": "Rateless Coding for Efficient Model Broadcast in Federated Learning",
+      "url": "https://arxiv.org/abs/2611.15499",
+      "published": "2026-11-11T13:58:23Z",
+      "updated": "2026-11-11T13:58:23Z",
+      "authors": [
+        "Zijun Qin",
+        "Zuolin Jin",
+        "Jingxuan Huang",
+        "Ming Xiao",
+        "Xianhao Chen"
+      ],
+      "affiliations": [],
+      "summary": "Model broadcast in federated learning (FL) with wireless channels faces significant challenges due to large model sizes and heterogeneous, unreliable channel conditions. While rateless coding has been widely adopted in modern broadcast communications to handle channel heterogeneity, its potential for model broadcast in FL remains largely unexplored. To fill this gap, we propose a joint source-channel coding scheme based on rateless coding to improve the robustness and efficiency of downlink model broadcast in FL. Specifically, we establish a rigorous convergence analysis of FL to inform the rateless code and quantization design under noisy downlink channel conditions. Moreover, by observing that the iterative process of FL naturally provides prior information about client updates, we leverage client-side local models as conditional prior information to aid the decoding process, thereby reducing transmission costs. Extensive simulations demonstrate that our rateless coding scheme significantly enhances downlink model broadcast efficiency in FL, while retaining comparable training accuracies for both homogeneous and heterogeneous data distributions.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "bit-fei-zesong"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "bit-fei-zesong",
+          "matchedAuthors": [
+            "Jingxuan Huang"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-14T02:39:45Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ]
+    },
+    {
+      "id": "2611.14893",
+      "version": 1,
+      "title": "Higher-Order Exceptional Point Sensing with Rydberg Micro-Ensemble Arrays",
+      "url": "https://arxiv.org/abs/2611.14893",
+      "published": "2026-11-11T01:29:33Z",
+      "updated": "2026-11-11T01:29:33Z",
+      "authors": [
+        "Jun Zhang",
+        "Ya-Jun Wang",
+        "Zi-Han Li",
+        "Jin-Hang Fang",
+        "Luan-Yi Wei",
+        "Qing Li",
+        "Guang-Can Guo",
+        "Bang Liu",
+        "Li-Hua Zhang",
+        "Dong-Sheng Ding",
+        "Bao-Sen Shi"
+      ],
+      "affiliations": [],
+      "summary": "Higher-order exceptional points arise from the coalescence of multiple eigenvalues and eigenstates, leading to enhanced spectral responses to weak perturbations. However, realizing and controlling such higher-order degeneracies in interacting many-body systems remains challenging due to the complex coupling among multiple interacting eigenstates. Here, we construct spatially structured microensemble arrays in cold Rydberg gas, where long-range interaction and spatial connectivity enlarge the effective non-Hermitian dimensionality, enabling higher-order exceptional points. By varying the spatial arrangement of these sites, we realize different orders of non-Hermitian exceptional points. We further show that interactions between Rydberg excitation sites can enhance the quantum Fisher information, thereby improving sensing sensitivity. The resulting higher-order exceptional points exhibit increasingly nonlinear phase-boundary responses, which can be further tuned by varying the measurement time and atom number. By tracking shifts of these phase boundaries, we achieve a sensitivity of 0.47(10) nV cm-1 Hz-1/2, surpassing the standard quantum limit. Our results establish Rydberg microensemble arrays as a platform connecting higher-order non-Hermitian criticality, many-body dynamics, and microwave sensing.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "hkust-zhang-jun"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "hkust-zhang-jun",
+          "matchedAuthors": [
+            "Jun Zhang"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-14T02:39:45Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ]
+    },
+    {
       "id": "2611.13807",
       "version": 1,
       "title": "Relaxing Cross-Modal Correspondence for Multimodal Remote Sensing Pretraining",
@@ -34,7 +112,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T06:37:53Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "new",
       "versions": [
         1
@@ -71,7 +149,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "new",
       "versions": [
         1
@@ -263,7 +341,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "new",
       "versions": [
         1
@@ -318,7 +396,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "new",
       "versions": [
         1
@@ -367,7 +445,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -421,7 +499,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -471,7 +549,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -516,7 +594,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -553,7 +631,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "revision",
       "versions": [
         1,
@@ -602,7 +680,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -638,7 +716,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -675,7 +753,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -709,7 +787,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -746,7 +824,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -784,7 +862,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -819,7 +897,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -859,7 +937,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -895,7 +973,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -933,7 +1011,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -976,7 +1054,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1021,7 +1099,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1057,7 +1135,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1094,7 +1172,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1132,7 +1210,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1179,7 +1257,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1213,7 +1291,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1253,7 +1331,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1290,7 +1368,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1323,7 +1401,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1358,7 +1436,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1395,7 +1473,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1445,7 +1523,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1485,7 +1563,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1533,7 +1611,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1573,7 +1651,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1611,7 +1689,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1648,7 +1726,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1683,7 +1761,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -1721,7 +1799,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1772,7 +1850,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -1811,7 +1889,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1849,7 +1927,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1892,7 +1970,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1935,7 +2013,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1972,7 +2050,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2018,7 +2096,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2054,7 +2132,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2092,7 +2170,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2127,7 +2205,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2171,7 +2249,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2208,7 +2286,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2244,7 +2322,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2282,7 +2360,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2317,7 +2395,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2357,7 +2435,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2429,7 +2507,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2468,7 +2546,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2953,7 +3031,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T06:37:53Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "new",
       "versions": [
         2
@@ -3035,7 +3113,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3116,7 +3194,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3152,7 +3230,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         3
@@ -3191,7 +3269,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3228,7 +3306,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3276,7 +3354,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         3
@@ -3313,7 +3391,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3347,7 +3425,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3382,7 +3460,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3418,7 +3496,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "new",
       "versions": [
         3
@@ -3469,7 +3547,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3507,7 +3585,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3543,7 +3621,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         5
@@ -3593,7 +3671,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3639,7 +3717,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "baseline",
       "versions": [
         4
@@ -3672,7 +3750,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "new",
       "versions": [
         2
@@ -3728,7 +3806,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-11T06:37:53Z",
+      "lastSeenAt": "2026-11-14T02:39:45Z",
       "changeType": "new",
       "versions": [
         3

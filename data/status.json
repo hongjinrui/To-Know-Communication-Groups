@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "state": "partial",
-  "lastAttemptAt": "2026-11-11T06:37:53Z",
+  "lastAttemptAt": "2026-11-14T02:39:45Z",
   "lastSuccessAt": null,
-  "candidateCount": 78,
+  "candidateCount": 80,
   "newCandidates": 2,
   "revisedCandidates": 0,
   "groups": [
@@ -16,9 +16,9 @@
       "sourceTotalResults": 158,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:37:53Z",
+      "windowCutoff": "2026-09-30T02:39:45Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "tsinghua-niu",
@@ -29,9 +29,9 @@
       "sourceTotalResults": 229,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:37:57Z",
+      "windowCutoff": "2026-09-30T02:39:48Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "pku-song",
@@ -42,48 +42,48 @@
       "sourceTotalResults": 148,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:00Z",
+      "windowCutoff": "2026-09-30T02:39:52Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "seu-you",
       "state": "ok",
       "records": 1,
       "fetchedRecords": 80,
-      "windowRecords": 2,
-      "sourceTotalResults": 204,
+      "windowRecords": 3,
+      "sourceTotalResults": 205,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:03Z",
+      "windowCutoff": "2026-09-30T02:39:55Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "seu-jin",
       "state": "ok",
       "records": 15,
       "fetchedRecords": 80,
-      "windowRecords": 23,
+      "windowRecords": 22,
       "sourceTotalResults": 682,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:07Z",
+      "windowCutoff": "2026-09-30T02:39:59Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "seu-zeng",
       "state": "ok",
-      "records": 5,
+      "records": 3,
       "fetchedRecords": 80,
-      "windowRecords": 7,
+      "windowRecords": 5,
       "sourceTotalResults": 245,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:10Z",
+      "windowCutoff": "2026-09-30T02:40:03Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "sjtu-tao",
@@ -94,22 +94,22 @@
       "sourceTotalResults": 194,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:14Z",
+      "windowCutoff": "2026-09-30T02:40:08Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "zju-zhang",
       "state": "ok",
-      "records": 6,
+      "records": 5,
       "fetchedRecords": 80,
-      "windowRecords": 12,
+      "windowRecords": 11,
       "sourceTotalResults": 355,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:17Z",
+      "windowCutoff": "2026-09-30T02:40:12Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "uestc-tang-wanbin",
@@ -120,9 +120,9 @@
       "sourceTotalResults": 314,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:20Z",
+      "windowCutoff": "2026-09-30T02:40:16Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "uestc-tang-youxi",
@@ -133,9 +133,9 @@
       "sourceTotalResults": 3,
       "historicalResultsTruncated": false,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:24Z",
+      "windowCutoff": "2026-09-30T02:40:20Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "hust-jiang-tao",
@@ -143,10 +143,10 @@
       "records": 5,
       "fetchedRecords": 80,
       "windowRecords": 80,
-      "sourceTotalResults": 2531,
+      "sourceTotalResults": 2533,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:27Z",
+      "windowCutoff": "2026-09-30T02:40:23Z",
       "windowComplete": false,
       "lastSuccessAt": null,
       "warning": "达到单组返回上限，窗口内可能有遗漏；需补查或提高limit"
@@ -160,22 +160,22 @@
       "sourceTotalResults": 102,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:31Z",
+      "windowCutoff": "2026-09-30T02:40:27Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "ustc-xu-zhengyuan",
       "state": "ok",
       "records": 1,
       "fetchedRecords": 80,
-      "windowRecords": 20,
-      "sourceTotalResults": 402,
+      "windowRecords": 17,
+      "sourceTotalResults": 404,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:34Z",
+      "windowCutoff": "2026-09-30T02:40:30Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "hit-zhang-qinyu",
@@ -186,48 +186,48 @@
       "sourceTotalResults": 146,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:38Z",
+      "windowCutoff": "2026-09-30T02:40:34Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "bit-fei-zesong",
       "state": "ok",
-      "records": 4,
+      "records": 3,
       "fetchedRecords": 80,
-      "windowRecords": 11,
-      "sourceTotalResults": 172,
+      "windowRecords": 10,
+      "sourceTotalResults": 173,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:41Z",
+      "windowCutoff": "2026-09-30T02:40:37Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "buaa-liu-rongke",
       "state": "ok",
       "records": 1,
       "fetchedRecords": 80,
-      "windowRecords": 8,
+      "windowRecords": 7,
       "sourceTotalResults": 167,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:45Z",
+      "windowCutoff": "2026-09-30T02:40:41Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "hku-huang-kaibin",
       "state": "ok",
       "records": 5,
       "fetchedRecords": 80,
-      "windowRecords": 8,
+      "windowRecords": 7,
       "sourceTotalResults": 256,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:48Z",
+      "windowCutoff": "2026-09-30T02:40:44Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "cuhk-zhang-yingjun",
@@ -238,9 +238,9 @@
       "sourceTotalResults": 113,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:52Z",
+      "windowCutoff": "2026-09-30T02:40:48Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "hkust-letaief",
@@ -251,22 +251,22 @@
       "sourceTotalResults": 30,
       "historicalResultsTruncated": false,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:55Z",
+      "windowCutoff": "2026-09-30T02:40:52Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "hkust-zhang-jun",
       "state": "ok",
-      "records": 9,
+      "records": 10,
       "fetchedRecords": 80,
-      "windowRecords": 64,
-      "sourceTotalResults": 1456,
+      "windowRecords": 59,
+      "sourceTotalResults": 1459,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:38:59Z",
+      "windowCutoff": "2026-09-30T02:40:55Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "hkust-murch",
@@ -277,9 +277,9 @@
       "sourceTotalResults": 54,
       "historicalResultsTruncated": false,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:02Z",
+      "windowCutoff": "2026-09-30T02:40:58Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "cityu-fang-yuguang",
@@ -290,9 +290,9 @@
       "sourceTotalResults": 98,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:05Z",
+      "windowCutoff": "2026-09-30T02:41:02Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "cityu-dai-lin",
@@ -303,35 +303,35 @@
       "sourceTotalResults": 34,
       "historicalResultsTruncated": false,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:09Z",
+      "windowCutoff": "2026-09-30T02:41:08Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "polyu-liu-liang",
       "state": "ok",
       "records": 2,
       "fetchedRecords": 80,
-      "windowRecords": 9,
+      "windowRecords": 8,
       "sourceTotalResults": 336,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:12Z",
+      "windowCutoff": "2026-09-30T02:41:12Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "bupt-zhang-ping",
       "state": "ok",
-      "records": 6,
+      "records": 5,
       "fetchedRecords": 80,
-      "windowRecords": 19,
+      "windowRecords": 15,
       "sourceTotalResults": 655,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:16Z",
+      "windowCutoff": "2026-09-30T02:41:15Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "bupt-peng-mugen",
@@ -342,9 +342,9 @@
       "sourceTotalResults": 110,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:19Z",
+      "windowCutoff": "2026-09-30T02:41:19Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "bupt-ji-yuefeng",
@@ -355,9 +355,9 @@
       "sourceTotalResults": 12,
       "historicalResultsTruncated": false,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:23Z",
+      "windowCutoff": "2026-09-30T02:41:22Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "xidian-li-sheng",
@@ -368,9 +368,9 @@
       "sourceTotalResults": 53,
       "historicalResultsTruncated": false,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:26Z",
+      "windowCutoff": "2026-09-30T02:41:26Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "xidian-guo",
@@ -381,22 +381,22 @@
       "sourceTotalResults": 3,
       "historicalResultsTruncated": false,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:30Z",
+      "windowCutoff": "2026-09-30T02:41:30Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "seu-wang-chengxiang",
       "state": "ok",
-      "records": 4,
+      "records": 3,
       "fetchedRecords": 80,
-      "windowRecords": 4,
+      "windowRecords": 3,
       "sourceTotalResults": 125,
       "historicalResultsTruncated": true,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:33Z",
+      "windowCutoff": "2026-09-30T02:41:33Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "sdu-zhang-haixia",
@@ -407,9 +407,9 @@
       "sourceTotalResults": 38,
       "historicalResultsTruncated": false,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:37Z",
+      "windowCutoff": "2026-09-30T02:41:37Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "xjtu-wang-huiming",
@@ -420,9 +420,9 @@
       "sourceTotalResults": 71,
       "historicalResultsTruncated": false,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:40Z",
+      "windowCutoff": "2026-09-30T02:41:41Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     },
     {
       "groupId": "nwpu-yang-kunde",
@@ -433,9 +433,9 @@
       "sourceTotalResults": 7,
       "historicalResultsTruncated": false,
       "coverageScope": "recent_updated_window",
-      "windowCutoff": "2026-09-27T06:39:44Z",
+      "windowCutoff": "2026-09-30T02:41:44Z",
       "windowComplete": true,
-      "lastSuccessAt": "2026-11-11T06:37:53Z"
+      "lastSuccessAt": "2026-11-14T02:39:45Z"
     }
   ],
   "coverageScope": "最近更新时间窗口；不代表全历史论文",
