@@ -2,6 +2,44 @@
   "schemaVersion": 1,
   "papers": [
     {
+      "id": "2611.22322",
+      "version": 1,
+      "title": "Hardware Impairment Parameter Estimation in Fluid Antenna Systems by Inverse Optimization",
+      "url": "https://arxiv.org/abs/2611.22322",
+      "published": "2026-11-17T07:19:14Z",
+      "updated": "2026-11-17T07:19:14Z",
+      "authors": [
+        "Songling Zhang",
+        "Zhaohui Yang",
+        "Ruopeng Xu",
+        "Hao Xu",
+        "Xusheng Zhu",
+        "Zhaoyang Zhang",
+        "Kai-Kit Wong"
+      ],
+      "affiliations": [],
+      "summary": "In this paper, the problem of estimating the hardware impairment parameters of fluid antennas (FAs) in a multi-base station (BS) multi-user communication system is studied. The actual hardware coefficients are unknown, whereas the FA positions and transmit beamforming vectors adopted by the BSs are known. We first formulate a forward spectral efficiency (SE) maximization problem and introduce aggregate interference variables whose consistency with the physical inter-cell interference can be maintained through a pricing mechanism. For inverse estimation, the aggregate interference is obtained from receiver-side interference measurements associated with the observed network decisions. We then construct a trust-region linear model of the position-update problem around the observed FA positions. To extend the applicability of the proposed framework to antenna positions obtained from inexact or heuristic algorithms, we develop an inverse optimization model with an explicit duality-gap tolerance, which is solved using sequential quadratic programming (SQP). Simulation results show that the proposed scheme attains a lower estimation error than KKT residual minimization (KKT-RM) at both considered transmit-power levels and improves the SE by up to 22.86% over the Ideal-hardware-assumption scheme.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "zju-zhang"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "zju-zhang",
+          "matchedAuthors": [
+            "Zhaoyang Zhang"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ]
+    },
+    {
       "id": "2611.20665",
       "version": 1,
       "title": "SiGMA: Site-Grounded Multi-Modal ISAC Data Generation for Environment-Aware Communications",
@@ -27,22 +65,22 @@
       ],
       "matchEvidence": [
         {
-          "groupId": "hkust-zhang-jun",
-          "matchedAuthors": [
-            "Jun Zhang"
-          ],
-          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
-        },
-        {
           "groupId": "hkust-letaief",
           "matchedAuthors": [
             "Khaled B. Letaief"
           ],
           "reason": "人工补核原始v1作者单位：HKUST香港ECE；只证明单篇合作归属，贡献和开放资产限度见reviewNote。"
+        },
+        {
+          "groupId": "hkust-zhang-jun",
+          "matchedAuthors": [
+            "Jun Zhang"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
         }
       ],
       "firstSeenAt": "2026-11-18T02:42:20Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         1
@@ -101,7 +139,7 @@
         }
       ],
       "firstSeenAt": "2026-11-18T02:42:20Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         1
@@ -157,7 +195,7 @@
         }
       ],
       "firstSeenAt": "2026-11-18T02:42:20Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         1
@@ -211,7 +249,7 @@
         }
       ],
       "firstSeenAt": "2026-11-18T02:42:20Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         1
@@ -311,7 +349,7 @@
         }
       ],
       "firstSeenAt": "2026-11-14T02:39:45Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         1
@@ -365,7 +403,7 @@
         }
       ],
       "firstSeenAt": "2026-11-14T02:39:45Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         1
@@ -416,7 +454,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T06:37:53Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         1
@@ -453,7 +491,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         1
@@ -645,7 +683,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         1
@@ -700,7 +738,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         1
@@ -749,7 +787,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -803,7 +841,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -853,7 +891,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -898,7 +936,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -935,7 +973,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "revision",
       "versions": [
         1,
@@ -984,7 +1022,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1020,7 +1058,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1057,7 +1095,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1091,7 +1129,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1128,7 +1166,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1166,7 +1204,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1201,7 +1239,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1241,7 +1279,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1277,7 +1315,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1315,7 +1353,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1358,7 +1396,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1403,7 +1441,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1439,7 +1477,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1476,7 +1514,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1514,7 +1552,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1561,7 +1599,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1595,7 +1633,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1635,7 +1673,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1672,7 +1710,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1705,7 +1743,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1740,7 +1778,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1827,7 +1865,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1867,7 +1905,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1915,7 +1953,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1955,7 +1993,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1993,7 +2031,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2030,7 +2068,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2065,7 +2103,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2103,7 +2141,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2111,11 +2149,11 @@
     },
     {
       "id": "2610.16859",
-      "version": 2,
+      "version": 3,
       "title": "ANCHOR: Assessing Naturalistic Constraint Hierarchies and Ordering in Repository-Grounded Agentic Coding",
       "url": "https://arxiv.org/abs/2610.16859",
       "published": "2026-10-12T14:28:38Z",
-      "updated": "2026-10-14T06:22:34Z",
+      "updated": "2026-11-17T09:58:04Z",
       "authors": [
         "Wenqiang Zhu",
         "Xinping Lei",
@@ -2126,6 +2164,7 @@
         "Weihao Li",
         "Jingxuan Xu",
         "Zihang Xu",
+        "Ziqi Miao",
         "Gang Wu",
         "Zhongqiu Wang",
         "Yuhui Bai",
@@ -2154,11 +2193,13 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
-      "changeType": "baseline",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "changeType": "revision",
       "versions": [
-        2
-      ]
+        2,
+        3
+      ],
+      "revisionSeenAt": "2026-11-18T07:38:36Z"
     },
     {
       "id": "2610.16656",
@@ -2203,7 +2244,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "revision",
       "versions": [
         1,
@@ -2279,7 +2320,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2322,7 +2363,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2365,7 +2406,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2402,7 +2443,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2448,7 +2489,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2484,7 +2525,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2522,7 +2563,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2557,7 +2598,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2601,7 +2642,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2638,7 +2679,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -3312,6 +3353,54 @@
       ]
     },
     {
+      "id": "2609.23808",
+      "version": 2,
+      "title": "FLARE: A Full-Lifecycle Dense Supervision Paradigm for Long-Horizon Coding Agents via Generative Reward Model",
+      "url": "https://arxiv.org/abs/2609.23808",
+      "published": "2026-09-20T18:54:16Z",
+      "updated": "2026-11-17T09:59:52Z",
+      "authors": [
+        "Jingxuan Xu",
+        "Gang Wu",
+        "Yanan Wu",
+        "Yutao Mou",
+        "Songwei Yu",
+        "Tianzhuang He",
+        "Zhengshuo Gong",
+        "Zhao Liu",
+        "Zihang Xu",
+        "Wenqiang Zhu",
+        "Xinping Lei",
+        "Weihao Li",
+        "Ziqi Miao",
+        "Yuhui Bai",
+        "Zhongqiu Wang",
+        "Yan Wu",
+        "Ariel Deng"
+      ],
+      "affiliations": [],
+      "summary": "While test-time scaling enhances Large Language Model (LLM) agents in long-horizon software engineering (SWE), sparse binary rewards (Pass/Fail) create a severe credit assignment crisis and waste failed exploratory trajectories. Current trajectory optimization and scaling methods are costly and structurally limited, relying on heuristic state reuse without causal diagnosis or delayed scalar scoring without actionable online guidance. We propose FLARE (Full-Lifecycle Alignment and Reward Engine), a novel dense supervision paradigm driven by a lightweight Generative Reward Model (GRM). First, RADAR, an offline causal-aware diagnostic framework, extracts high-fidelity, hindsight-free supervision through causal-chain backtracking to distill a GRM providing real-time, step-level risk feedback. Second, FLARE uses this GRM to continuously optimize the agent across its entire lifecycle. During inference, FLARE acts as an Active Scaffold, autonomously intercepting high-risk generation steps for localized breakpoint re-execution, drastically reducing compute overhead. During post-training, the GRM's structured signals serve as process-supervised reranking scores for Supervised Fine-Tuning (SFT) and step-level dense rewards for Reinforcement Learning (RL), mitigating policy collapse in sparse environments. Extensive evaluations show that FLARE establishes a new Pareto frontier across the agent lifecycle: FLARE (N=1) outperforms Global Rollout (N=5) with a 5x reduction in token consumption. Extending FLARE to training overcomes the sparse reward problem in long-horizon interactive tasks, delivering relative performance gains of 19.13% in SFT through process-aware data curation and a consistent 9.19% improvement in RL.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "uestc-tang-wanbin"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "uestc-tang-wanbin",
+          "matchedAuthors": [
+            "Gang Wu"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "changeType": "new",
+      "versions": [
+        2
+      ]
+    },
+    {
       "id": "2609.23023",
       "version": 2,
       "title": "PINNForge: Execution-Grounded Evolutionary Design of Physics-Informed Neural Networks",
@@ -3383,7 +3472,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T06:37:53Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         2
@@ -3465,7 +3554,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3546,7 +3635,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3582,7 +3671,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         3
@@ -3621,7 +3710,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3658,7 +3747,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3706,7 +3795,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         3
@@ -3743,7 +3832,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3777,7 +3866,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3812,7 +3901,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3848,7 +3937,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         3
@@ -3899,7 +3988,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3937,7 +4026,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -4023,7 +4112,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -4069,7 +4158,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "baseline",
       "versions": [
         4
@@ -4102,7 +4191,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         2
@@ -4158,7 +4247,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-18T02:42:20Z",
+      "lastSeenAt": "2026-11-18T07:38:36Z",
       "changeType": "new",
       "versions": [
         3
