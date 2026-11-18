@@ -64,8 +64,9 @@
     {
       "name": "复旦大学",
       "status": "candidate",
-      "reason": "官网无线通信尖兵团队有明确多教师组织及5G/6G项目与奖项；应列下一轮高优先核验，不宜据此次未入选推断没有强组。",
-      "source": "https://fit.fudan.edu.cn/data/List/wireless"
+      "reason": "已核无线通信尖兵团队五位现成员、近期语义传输/星地MPTCP原始研究及2026在研项目；整体现任负责人和统一组边界未明确，需进一步比较传输层实现等细分主线对既有覆盖的增量，继续候补。",
+      "source": "https://fit.fudan.edu.cn/data/List/wireless",
+      "lastReviewedAt": "2026-11-18"
     },
     {
       "name": "上海交通大学",
@@ -283,9 +284,8 @@
       "lastReviewedAt": "2026-11-07"
     }
   ],
-  "lastAuditAt": "2026-11-14",
+  "lastAuditAt": "2026-11-18",
   "lastAuditScope": [
-    "天津大学射频硬件团队定向复核并纳入",
-    "港理工相干光通信与空芯光纤团队补充核验并纳入"
+    "复旦大学无线通信尖兵团队及传输层实现主线定向复核；继续候补，未新增组"
   ]
 }

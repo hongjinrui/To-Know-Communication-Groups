@@ -1,12 +1,12 @@
 {
   "state": "reviewed_with_limits",
-  "lastReviewAt": "2026-11-14T02:55:56Z",
-  "summary": "原33组未在已查来源中核实到需新增日志的实质变化；新收录天津大学马凯学组、港理工刘伯涛组基线档案。江涛组采集仍有截断，两组新档案尚未首采；历史成果保留原日期。",
+  "lastReviewAt": "2026-11-18T02:52:24Z",
+  "summary": "35组已复核，本轮无新增实质日志；排除1篇同名候选，普通增量继续待审。江涛组查询仍截断，光/水声/射频另补查官网与出版商。",
   "automation": {
     "schedule": "每周三/周六上午（北京时间）",
     "status": "scheduled"
   },
-  "reviewedGroupCount": 33,
+  "reviewedGroupCount": 35,
   "reviewedGroupIds": [
     "bit-fei-zesong",
     "buaa-liu-rongke",
@@ -25,6 +25,7 @@
     "hust-jiang-tao",
     "nwpu-yang-kunde",
     "pku-song",
+    "polyu-lau-alan",
     "polyu-liu-liang",
     "sdu-zhang-haixia",
     "seu-jin",
@@ -32,6 +33,7 @@
     "seu-you",
     "seu-zeng",
     "sjtu-tao",
+    "tju-ma-kaixue",
     "tsinghua-dai",
     "tsinghua-niu",
     "uestc-tang-wanbin",
@@ -44,21 +46,21 @@
   ],
   "verifiedUpdateCount": 0,
   "candidateReviewCounts": {
-    "pending": 2,
+    "pending": 4,
     "rejected": 1
   },
-  "pendingCandidateCount": 80,
-  "reportUrl": "https://github.com/hongjinrui/To-Know-Communication-Groups/blob/main/research/reviews/2026-11-14.json",
+  "pendingCandidateCount": 83,
+  "reportUrl": "https://github.com/hongjinrui/To-Know-Communication-Groups/blob/main/research/reviews/2026-11-18.json",
   "scopeNotes": [
-    "本轮新收录档案与科研成果更新分开；原33组的历史日志和版本保留。",
-    "新组的团队、影响力和近期活跃来自官方组织页、原始出版物与实际硬件/网络证据。",
-    "新增两组的首轮arXiv采集尚未执行；RFIC及光纤方向需持续补查会议、出版商和官网。",
-    "原有候选复核保留原始版本日期、跨组合作与同名限制，未声称所有历史稿件均已全文审阅。"
+    "当前35组均已做本轮来源复核，包括上轮新收录的马凯学组和刘伯涛组；没有新增组、正文变化或科研日志，不提高revision。",
+    "11-18补采34组近期配置查询完成，江涛组因同名宽查询达到80条上限仍不完整；人工窄检索仅补部分盲点，不解除此覆盖缺口。",
+    "马凯学组已完成首次arXiv查询但返回0条；刘伯涛组查询有9条返回、1条在近期窗口且0条通过候选匹配。已补查官方及出版商，零候选不等于无成果。",
+    "本轮审阅4篇新发现与1篇修订；其中CUHK稿实际首发11-12，早于上轮审阅。1篇Hanyang同名Jun Zhang综述排除，其余4篇保持pending。",
+    "SiGMA单篇合作的两组归属已人工核实，但所链仓库本轮为空；RFWeave仅核实新增展示页，不称已发布研究代码或数据。未把单篇合作当整体路线变化。",
+    "轮换复核复旦无线通信尖兵团队：组织与活跃可查，总负责人及统一组边界仍需核，继续候补，保持精选35组。",
+    "官网/出版商存在412、403、超时、验证码、订阅及缓存限制；没有全量重读历史存量或穷尽所有组员论文，具体来源与阻碍见审阅报告。"
   ],
   "catalogGroupCount": 35,
-  "newGroupCount": 2,
-  "newGroupIds": [
-    "tju-ma-kaixue",
-    "polyu-lau-alan"
-  ]
+  "newGroupCount": 0,
+  "newGroupIds": []
 }

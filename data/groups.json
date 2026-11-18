@@ -1,11 +1,8 @@
 {
   "version": 1,
-  "edition": "2026-11-14T10:56:20+08:00",
-  "previousEdition": "2026-11-11T10:49:01+08:00",
-  "changedGroupIds": [
-    "tju-ma-kaixue",
-    "polyu-lau-alan"
-  ],
+  "edition": "2026-11-18T10:52:24+08:00",
+  "previousEdition": "2026-11-14T10:56:20+08:00",
+  "changedGroupIds": [],
   "scope": "985 + 北邮/西电 + 港五",
   "schools": [
     {
@@ -3526,8 +3523,8 @@
       ],
       "evidenceDate": "2026-11-14",
       "revision": 1,
-      "previousRevision": 0,
-      "updatedThisEdition": true,
+      "previousRevision": 1,
+      "updatedThisEdition": false,
       "logs": [
         {
           "date": "2026-11-14",
@@ -3639,8 +3636,8 @@
       ],
       "evidenceDate": "2026-11-14",
       "revision": 1,
-      "previousRevision": 0,
-      "updatedThisEdition": true,
+      "previousRevision": 1,
+      "updatedThisEdition": false,
       "logs": [
         {
           "date": "2026-11-14",
