@@ -169,9 +169,10 @@
     },
     {
       "name": "重庆大学",
-      "status": "candidate",
-      "reason": "天线与通信信息处理有公开团队线索；本轮暂未完成当前leader、组边界与近年研究主线交叉核验。",
-      "source": "https://www.bioklab.cqu.edu.cn/English/Team/Team.htm"
+      "status": "included",
+      "reason": "已核唐明春牵头的持续天线团队、密集阵列正式奖项、原始实测研究及2026研究活动，收录一个以电小惠更斯源、滤波天线与密集阵列互耦覆盖为核心的组；原生物感知实验室宽口径名录不直接归并。",
+      "source": "https://faculty.cqu.edu.cn/MingchunTang/zh_CN/index.htm",
+      "lastReviewedAt": "2026-11-21"
     },
     {
       "name": "西安交通大学",
@@ -284,8 +285,8 @@
       "lastReviewedAt": "2026-11-07"
     }
   ],
-  "lastAuditAt": "2026-11-18",
+  "lastAuditAt": "2026-11-21",
   "lastAuditScope": [
-    "复旦大学无线通信尖兵团队及传输层实现主线定向复核；继续候补，未新增组"
+    "重庆大学候补定向复核并收录唐明春一个紧凑天线组，其他候补保留既有结论"
   ]
 }

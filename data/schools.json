@@ -243,6 +243,20 @@
       "scopeException": false,
       "locationAccuracy": "campus_centroid",
       "locationSource": "https://mapcarta.com/W48165383"
+    },
+    {
+      "id": "cqu",
+      "name": "重庆大学（虎溪校园）",
+      "shortName": "重大·虎溪",
+      "city": "重庆",
+      "region": "内地",
+      "lat": 29.59467,
+      "lon": 106.29317,
+      "coverage": "selected",
+      "scopeException": false,
+      "locationAccuracy": "campus_centroid",
+      "locationSource": "https://mapcarta.com/W239537195",
+      "locationNote": "OpenStreetMap way239537195校园示意点；唐明春与杨佳宁官方正文确认虎溪校园办公，不代表信息技术科研楼或实验室精确坐标。"
     }
   ]
 }

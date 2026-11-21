@@ -1,8 +1,11 @@
 {
   "version": 1,
-  "edition": "2026-11-18T10:52:24+08:00",
-  "previousEdition": "2026-11-14T10:56:20+08:00",
-  "changedGroupIds": [],
+  "edition": "2026-11-21T10:38:08+08:00",
+  "previousEdition": "2026-11-18T10:52:24+08:00",
+  "changedGroupIds": [
+    "hkust-zhang-jun",
+    "cqu-tang-mingchun"
+  ],
   "scope": "985 + 北邮/西电 + 港五",
   "schools": [
     {
@@ -248,6 +251,20 @@
       "scopeException": false,
       "locationAccuracy": "campus_centroid",
       "locationSource": "https://mapcarta.com/W48165383"
+    },
+    {
+      "id": "cqu",
+      "name": "重庆大学（虎溪校园）",
+      "shortName": "重大·虎溪",
+      "city": "重庆",
+      "region": "内地",
+      "lat": 29.59467,
+      "lon": 106.29317,
+      "coverage": "selected",
+      "scopeException": false,
+      "locationAccuracy": "campus_centroid",
+      "locationSource": "https://mapcarta.com/W239537195",
+      "locationNote": "OpenStreetMap way239537195校园示意点；唐明春与杨佳宁官方正文确认虎溪校园办公，不代表信息技术科研楼或实验室精确坐标。"
     }
   ],
   "groups": [
@@ -2053,7 +2070,7 @@
       "tagline": "从边缘AI走向无线世界模型与智能体",
       "whyFollow": "iComAI Lab 有持续更新的博士培养、团队成果及开源研究；无线工作获得2016 Marconi与2019 ComSoc/IT联合论文奖等认可。通信和AI两条线的交汇较清晰，适合观察方向迁移。",
       "past": "多天线随机几何分析、低时延通信，继而推进任务导向通信、绿色边缘AI与协作推理。",
-      "current": "2026官网将世界模型和AI Agents列为重点；无线分支聚焦3D无线辐射场、几何感知定位、智能体网络管理，也扩展到视觉生成与具身AI。",
+      "current": "2026官网将世界模型和AI Agents列为重点；无线分支聚焦3D无线辐射场、几何感知定位、智能体网络管理，也扩展到视觉生成与具身AI。 合作SiGMA已公开通感数据生成代码，真实站点闭环仍待验证。",
       "next": "重点看无线世界模型能否跨场景泛化并反哺波束/定位决策；只保留与通信主线直接相关的AI成果进入精简日志。",
       "confidence": "高：当前香港任职、团队动态、官方论文列表与开源原始论文一致；Jun Zhang同名多，自动采集必须用机构/合作者二次消歧。",
       "topics": [
@@ -2108,6 +2125,22 @@
             "Khaled B. Letaief"
           ],
           "note": "预印本、跨组合作：智能体协调场景与任务学习，体现AI方法返回通感系统的路径。"
+        },
+        {
+          "title": "SiGMA: Site-Grounded Multi-Modal ISAC Data Generation for Environment-Aware Communications",
+          "url": "https://arxiv.org/abs/2611.20665",
+          "date": "2026-11-16",
+          "authors": [
+            "Yijie Bian",
+            "Wei Guo",
+            "Kai Zhang",
+            "Xiao Ye",
+            "Shurui Xu",
+            "Shenghui Song",
+            "Jun Zhang",
+            "Khaled B. Letaief"
+          ],
+          "note": "11-16 v1预印本，HKUST香港与SEU合作；本轮更新对应11-19公开生成代码，真实站点闭环及完整RIS验证仍待完成。"
         }
       ],
       "authorQueries": [
@@ -2122,10 +2155,10 @@
         "Wenqiang Sun",
         "Yijie Bian"
       ],
-      "evidenceDate": "2026-11-05",
-      "revision": 1,
+      "evidenceDate": "2026-11-21",
+      "revision": 2,
       "previousRevision": 1,
-      "updatedThisEdition": false,
+      "updatedThisEdition": true,
       "logs": [
         {
           "date": "2026-11-05",
@@ -2142,6 +2175,26 @@
               "title": "港科大ECE：Jun Zhang",
               "url": "https://ece.hkust.edu.hk/eejzhang",
               "note": "任职与具体奖项，避免与其他学校同名作者混淆。"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-19",
+          "title": "SiGMA公开通感数据生成代码",
+          "summary": "张军、李德富等合作的SiGMA公开建图、同步感知及信道/RIS/雷达数据生成代码，便于检查多模态与无线数据的对齐。当前文档验证主要为小场景与后端测试；真实站点全流程和1024单元RIS射线追踪仍待完成。",
+          "kind": "verified",
+          "sources": [
+            {
+              "title": "11-19实际代码提交与文件清单",
+              "url": "https://github.com/Trans-cending/SiGMA/commit/ca04ced79e1cb274aef6e7e51b4d3340c45e7f1b"
+            },
+            {
+              "title": "固定版本remaining_work：整站与完整RIS待验证",
+              "url": "https://github.com/Trans-cending/SiGMA/blob/ca04ced79e1cb274aef6e7e51b4d3340c45e7f1b/docs/remaining_work.md"
+            },
+            {
+              "title": "原始PDF：首页香港HKUST/SEU单位",
+              "url": "https://arxiv.org/pdf/2611.20665v1"
             }
           ]
         }
@@ -3665,6 +3718,122 @@
         ],
         "nameVariants": [
           "Alan P. T. Lau"
+        ],
+        "requiresDisambiguation": true
+      }
+    },
+    {
+      "id": "cqu-tang-mingchun",
+      "name": "唐明春组",
+      "schoolId": "cqu",
+      "leaders": [
+        {
+          "name": "唐明春",
+          "en": "Ming-Chun Tang"
+        }
+      ],
+      "tagline": "电小惠更斯天线、滤波天线与密集阵列的互耦和覆盖设计",
+      "whyFollow": "官方命名实验室由唐明春2013年创立，现有明确骨干及多年学生培养。唐首列的密集阵列高效率广域覆盖成果获2025通信学会一等奖，原始论文有电小天线和阵列实测；补充体积、带宽与覆盖受限的通信天线硬件路线。",
+      "past": "围绕近场谐振寄生与电、磁偶极协同辐射，研究小型化高效率天线、惠更斯源和滤波天线，并延伸到密集阵列互耦与覆盖。",
+      "current": "已有低剖面宽覆盖阵列及四态方向图可重构电小惠更斯源实测，另发表近场耦合滤波天线研究。2026公开会议程序另列低频磁电天线近场链路的合作研究，尚不据此判断整个组转向。",
+      "next": "跟踪小体积、带宽、辐射效率及覆盖的折中能否在密集阵列和真实通信平台中保持；重点核制造容差、互耦与实测链路，区分天线原型、系统演示和部署。",
+      "confidence": "高：命名实验室与2026课题组、现行骨干、原始实测论文和学会正式奖项交叉；网站部分页直访受限，不采用未核当前人数或跨校合作规模。",
+      "topics": [
+        "电小惠更斯天线",
+        "滤波天线",
+        "密集阵列",
+        "近场耦合"
+      ],
+      "sources": [
+        {
+          "title": "官方实验室简介",
+          "url": "https://antenna.cqu.edu.cn/sysgk/sysjj.htm",
+          "note": "官方索引明确2013由唐明春创立；本轮直访412，人数不作当前精确口径。"
+        },
+        {
+          "title": "唐明春现行官方主页",
+          "url": "https://faculty.cqu.edu.cn/MingchunTang/zh_CN/index.htm",
+          "note": "在职、实验室链接与虎溪校区A619；不以院长职务替代组边界。"
+        },
+        {
+          "title": "杨佳宁现行官方主页",
+          "url": "https://faculty.cqu.edu.cn/JianingYang/en/index.htm",
+          "note": "明确唐明春天线团队骨干、持续学生培养及2025论文；不升为联合leader。"
+        },
+        {
+          "title": "2025中国通信学会正式获奖名单",
+          "url": "https://px.china-cic.cn/Detail/24/6900/6900",
+          "note": "2025-12-06密集阵列高效率广域覆盖一等奖，唐明春与重庆大学列首；跨校获奖者不全部并组。"
+        },
+        {
+          "title": "WAI2026官方终版程序与研究摘要",
+          "url": "https://www.wai-emc.com/static/front/doc/WAI-2026-Final-Program.pdf?v=1793622774",
+          "note": "11-05报告列易达、唐明春为重庆大学，题目及实验摘要可核；本轮PDF直访超时、官方索引可读。仅佐证持续研究，非到场或交付证明。"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Low-profile, low sidelobe array antenna with ultrawide beam coverage for UAV communication",
+          "url": "https://doi.org/10.1016/j.cja.2024.07.031",
+          "date": "2024-08-02",
+          "authors": [
+            "Mei Li",
+            "Zhiliang Shang",
+            "Lin Pu",
+            "Ming-Chun Tang",
+            "Lei Zhu"
+          ],
+          "note": "出版方原文页核对；十单元Huygens源阵列与馈电/耦合协同，测得161°半功率波束宽度和低旁瓣。2025卷期不改变2024公开日期；非无人机实飞链路验证。"
+        },
+        {
+          "title": "Pattern-Reconfigurable, Vertically Polarized, Wideband Electrically Small Huygens Source Antenna",
+          "url": "https://doi.org/10.3390/electronics14030634",
+          "date": "2025-02-06",
+          "authors": [
+            "Yunlu Duan",
+            "Ming-Chun Tang",
+            "Mei Li",
+            "Zhehao Zhang",
+            "Qingli Lin",
+            "Richard W. Ziolkowski"
+          ],
+          "note": "前四作者重庆大学、李梅通讯；原型四个方向态覆盖方位360°，ka=0.89，实测带宽14.1%。限该设计及测试，非连续扫描或整机链路。"
+        }
+      ],
+      "authorQueries": [
+        "Ming-Chun Tang",
+        "Mingchun Tang"
+      ],
+      "evidenceDate": "2026-11-21",
+      "revision": 1,
+      "previousRevision": 0,
+      "updatedThisEdition": true,
+      "logs": [
+        {
+          "date": "2026-11-21",
+          "title": "完成入选基线核验",
+          "kind": "baseline",
+          "summary": "核实唐明春牵头的天线与射频团队、电小惠更斯源及密集阵列主线，补核2026具体研究活动。2024–2025论文与2025奖项保留原始日期，本条是新入选建档，不是本周新研究成果。",
+          "sources": [
+            {
+              "title": "2026官方命名课题组",
+              "url": "https://www.ccee.cqu.edu.cn/info/1354/7704.htm"
+            },
+            {
+              "title": "当前leader与校区",
+              "url": "https://faculty.cqu.edu.cn/MingchunTang/zh_CN/index.htm"
+            },
+            {
+              "title": "学会正式授奖",
+              "url": "https://px.china-cic.cn/Detail/24/6900/6900"
+            }
+          ]
+        }
+      ],
+      "addedAt": "2026-11-21",
+      "identityHints": {
+        "affiliations": [
+          "Chongqing University"
         ],
         "requiresDisambiguation": true
       }

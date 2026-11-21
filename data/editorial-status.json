@@ -1,7 +1,7 @@
 {
   "state": "reviewed_with_limits",
-  "lastReviewAt": "2026-11-18T02:52:24Z",
-  "summary": "35组已复核，本轮无新增实质日志；排除1篇同名候选，普通增量继续待审。江涛组查询仍截断，光/水声/射频另补查官网与出版商。",
+  "lastReviewAt": "2026-11-21T02:35:22Z",
+  "summary": "原35组已复核，新增SiGMA代码公开日志；唐明春组完成基线收录，共36组。排除2篇明确误配；江涛查询仍截断，新组尚未首采。",
   "automation": {
     "schedule": "每周三/周六上午（北京时间）",
     "status": "scheduled"
@@ -44,23 +44,26 @@
     "xjtu-wang-huiming",
     "zju-zhang"
   ],
-  "verifiedUpdateCount": 0,
+  "verifiedUpdateCount": 1,
   "candidateReviewCounts": {
-    "pending": 4,
-    "rejected": 1
+    "pending": 8,
+    "rejected": 2,
+    "verified": 1
   },
-  "pendingCandidateCount": 83,
-  "reportUrl": "https://github.com/hongjinrui/To-Know-Communication-Groups/blob/main/research/reviews/2026-11-18.json",
+  "pendingCandidateCount": 89,
+  "reportUrl": "https://github.com/hongjinrui/To-Know-Communication-Groups/blob/main/research/reviews/2026-11-21.json",
   "scopeNotes": [
-    "当前35组均已做本轮来源复核，包括上轮新收录的马凯学组和刘伯涛组；没有新增组、正文变化或科研日志，不提高revision。",
-    "11-18补采34组近期配置查询完成，江涛组因同名宽查询达到80条上限仍不完整；人工窄检索仅补部分盲点，不解除此覆盖缺口。",
-    "马凯学组已完成首次arXiv查询但返回0条；刘伯涛组查询有9条返回、1条在近期窗口且0条通过候选匹配。已补查官方及出版商，零候选不等于无成果。",
-    "本轮审阅4篇新发现与1篇修订；其中CUHK稿实际首发11-12，早于上轮审阅。1篇Hanyang同名Jun Zhang综述排除，其余4篇保持pending。",
-    "SiGMA单篇合作的两组归属已人工核实，但所链仓库本轮为空；RFWeave仅核实新增展示页，不称已发布研究代码或数据。未把单篇合作当整体路线变化。",
-    "轮换复核复旦无线通信尖兵团队：组织与活跃可查，总负责人及统一组边界仍需核，继续候补，保持精选35组。",
-    "官网/出版商存在412、403、超时、验证码、订阅及缓存限制；没有全量重读历史存量或穷尽所有组员论文，具体来源与阻碍见审阅报告。"
+    "现有35组按上轮11-18T02:52:24Z之后复核；唐明春组另完成团队、影响力与近期活跃三类入选审阅，建baseline不冒充本周新成果。",
+    "SiGMA以张军组为唯一编辑入口，明示李德富等合作；原始论文仍11-16 v1，本轮资源事件为11-19代码提交。真实站点全流程、完整RIS及原实验资产仍有限制，不称已完整复现。",
+    "本轮补采7篇首次进入缓存；加上上轮编辑后晚采的3篇及SiGMA资源复核，共审11篇。Lund Liang Liu和材料物理Tao Jiang误配排除；Independent Researcher的Gang Wu仍待身份核实，保持pending。",
+    "34个配置近期查询完成；江涛同名宽查询达到80条上限仍partial，人工窄查不解除覆盖缺口。ok只指配置姓名、窗口和标题过滤，不是全成员/全期刊覆盖。",
+    "新收录唐明春组尚未执行首次arXiv查询；其建档基于官方团队、学会正式奖项、原始实测论文和2026官方会议程序，后续继续补非arXiv来源。",
+    "普通方法与真实理论增量保留pending供专题比较，不把单篇合作或新版本自动解释为整个组转向；日期不清的光学线索仅留报告。",
+    "PDF大小上限、原文HTML404、部分官网412/超时及出版商订阅/验证限制逐项记录；未取到原文不视为无成果，未穷尽历史存量。"
   ],
-  "catalogGroupCount": 35,
-  "newGroupCount": 0,
-  "newGroupIds": []
+  "catalogGroupCount": 36,
+  "newGroupCount": 1,
+  "newGroupIds": [
+    "cqu-tang-mingchun"
+  ]
 }

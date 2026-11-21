@@ -36,7 +36,19 @@
       "changeType": "new",
       "versions": [
         1
-      ]
+      ],
+      "reviewNote": "history核v1=2026-11-19T12:48:04Z，窗口内新稿；6作者全属浙江大学ISEE，Zhaoyang Zhang身份与核心合作者明确。CAC对冻结14-bit VQGAN码本作平衡前缀分组、前后缀双射及交换优化，以非线性图像解码失真为目标，保留载荷与无错重建，无需重训。COCO val2017的BSC仿真在BER0.01时LPIPS较原始标签降12.3%，COCO AP增1.72点（相对14.1%），不是AP绝对增加14.1点。静态查表设计，未证明动态无线实际部署；属于任务导向token通信普通方法增量，保持pending，无组日志。",
+      "reviewSources": [
+        {
+          "title": "arXiv原始记录与v1时间",
+          "url": "https://arxiv.org/abs/2611.26038"
+        },
+        {
+          "title": "v1全文，单位、算法与实验设置",
+          "url": "https://arxiv.org/html/2611.26038v1"
+        }
+      ],
+      "reviewedAt": "2026-11-21T02:35:22Z"
     },
     {
       "id": "2611.25756",
@@ -57,6 +69,7 @@
       "summary": "Fluid antenna systems (FAS) have emerged as a promising technology for enhancing wireless communications through adaptive antenna repositioning. Recently, Fourier neural operators (FNOs) have shown strong potential for FAS channel estimation owing to their ability to learn resolution-invariant mappings and generalize across different port densities. However, existing operator learning approaches require densely sampled channel realizations as training labels, whereas a practical receiver only collects noisy pilot observations from a small subset of ports. This mismatch between training requirements and practical channel acquisition poses a major obstacle to deployment. To address this challenge, we develop a self-supervised framework that trains the FNO-based estimator directly from noisy sub-sampled pilots without any labeled channel fields. The proposed objective combines a pilot splitting strategy, which creates supervision at ports hidden from the model input, with a correction based on Stein's unbiased risk estimate (SURE) that eliminates the measurement noise bias. We prove that this objective admits the same minimum mean square error (MMSE) solution as the ideal supervised criterion. Since the loss relies solely on received pilots, the estimator can be continually adapted online on the live pilot stream. Simulation results show that the self-supervised FNO achieves accuracy comparable to supervised training, generalizes zero-shot to unseen port resolutions, and rapidly recovers from distribution shift via online adaptation.",
       "candidateStatus": "pending",
       "groupIds": [
+        "hkust-letaief",
         "hkust-zhang-jun"
       ],
       "matchEvidence": [
@@ -66,6 +79,13 @@
             "Jun Zhang"
           ],
           "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        },
+        {
+          "groupId": "hkust-letaief",
+          "matchedAuthors": [
+            "Khaled B. Letaief"
+          ],
+          "reason": "人工核原始v1的HKUST香港作者单位与合作关系；单篇署名不代表整个组转向，贡献及范围见reviewNote。"
         }
       ],
       "firstSeenAt": "2026-11-21T02:24:09Z",
@@ -73,7 +93,19 @@
       "changeType": "new",
       "versions": [
         1
-      ]
+      ],
+      "reviewNote": "原始v1为2026-11-19T08:58:26Z，完整6作者均HKUST香港ECE，补上Khaled B. Letaief对应组归属。新内容为导频拆分加SURE去噪修正的自监督FNO训练，避免使用稠密干净信道标签；论文在可表达性、采样/噪声独立及可评分等假设下论证已评估网格端口的MMSE最优性，连续孔径/未见分辨率靠结构与经验验证。数值限3.5GHz、20径合成信道，分布漂移在线适配仍模拟；无已核实测硬件或开放代码。属于既有FAS估计路线可跟踪方法增量，先pending，不追加第二条组日志或推全组转向。",
+      "reviewSources": [
+        {
+          "title": "原始v1时间与全作者",
+          "url": "https://arxiv.org/abs/2611.25756"
+        },
+        {
+          "title": "原始全文：香港单位、命题假设及合成信道评估",
+          "url": "https://arxiv.org/html/2611.25756v1"
+        }
+      ],
+      "reviewedAt": "2026-11-21T02:35:22Z"
     },
     {
       "id": "2611.25657",
@@ -112,7 +144,23 @@
       "changeType": "new",
       "versions": [
         1
-      ]
+      ],
+      "reviewNote": "原始history核v1=2026-11-19T07:39:04Z，窗口内新稿；实际5作者，与补采metadata一致。Yan/Xu/Zhou属清华EE/BNRist，Shen/Jiang属上海大学；Sheng Zhou为通讯作者，可连到NIULAB，不能扩成Niu本人或全组新路线。IDR/Intent2MAC将服务意图经受约束DSL生成/评价MAC，两个示例分别是ns-3工业机器人Wi-Fi与Python/Gym远程控制；收益为服务满足率/控制性能且可能牺牲吞吐。执行为固定规则，LLM用于离线设计迭代；尚无共享自动DSL编译器、硬件部署、验证实时在线适应或跨任务自演进。已读贡献和限制，作为AI原生网络架构及仿真方法进展保持pending，暂不增加组日志/revision。",
+      "reviewSources": [
+        {
+          "title": "arXiv原始记录与v1时间",
+          "url": "https://arxiv.org/abs/2611.25657"
+        },
+        {
+          "title": "v1全文，含单位与两项仿真边界",
+          "url": "https://arxiv.org/html/2611.25657v1"
+        },
+        {
+          "title": "v1 PDF首面核5位作者",
+          "url": "https://arxiv.org/pdf/2611.25657"
+        }
+      ],
+      "reviewedAt": "2026-11-21T02:35:22Z"
     },
     {
       "id": "2611.24553",
@@ -131,7 +179,7 @@
       ],
       "affiliations": [],
       "summary": "Using real-world massive MIMO measurements from the LuViRA dataset, we present a system-level solution combining Mamba-based model development and hardware acceleration for indoor localization. Three Mamba-based models are explored: the original Mamba architecture, CMamba, a channel-correlation-enhanced state-space model designed to exploit correlations across input channels, and our proposed Slim-Mamba. Hardware implementation and bottleneck analysis are then used to guide further model simplification and optimization. The resulting Slim-Mamba simplifies the original Mamba selective state-space block into a lightweight gated recurrent update, preserving temporal state modelling and output gating while reducing the complexity of the selective-scan computation. The deployed model contains 816k trainable parameters and has a model size of 3.40MB under FP32 precision while maintaining high localization accuracy. The corresponding accelerator provides a reconfigurable architecture with a highly parallel MAC array optimized for matrix-vector operations and fine-grained pipelining, improving resource utilization and reducing inference latency. The hardware-aware fixed-point model achieves a mean localization error of 0.14m, closely matching the floating-point baseline. Implemented on a Zynq UltraScale+ ZCU102 FPGA, the four-block backbone has an estimated serial latency of 212.04us per token at 100MHz.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "polyu-liu-liang"
       ],
@@ -149,7 +197,19 @@
       "changeType": "new",
       "versions": [
         1
-      ]
+      ],
+      "reviewNote": "Liang Liu同名误配。原始HTML首部明确全体6作者为瑞典Lund University电气与信息技术系、通讯作者Ilayda Yaman，没有PolyU刘亮单位。FPGA、真实定位数据与公开代码不构成归PolyU的理由。PDF因20,565,592 bytes超过工具长度限制未读取，但原始HTML单位直接可证。",
+      "reviewSources": [
+        {
+          "title": "原始v1提交时刻与6作者",
+          "url": "https://arxiv.org/abs/2611.24553"
+        },
+        {
+          "title": "原始HTML：全作者Lund University及通讯作者",
+          "url": "https://arxiv.org/html/2611.24553v1"
+        }
+      ],
+      "reviewedAt": "2026-11-21T02:35:22Z"
     },
     {
       "id": "2611.22322",
@@ -187,7 +247,19 @@
       "changeType": "new",
       "versions": [
         1
-      ]
+      ],
+      "reviewNote": "补采metadata与原始页一致：唯一v1首发2026-11-17T07:19:14Z，早于2026-11-18T02:52:24Z，本轮仅完成迟采条目核实，不视为本轮新成果。Songling Zhang/Zhaohui Yang/Ruopeng Xu/Zhaoyang Zhang属浙大，Hao Xu属东南，Xusheng Zhu/Kai-Kit Wong属UCL；这是合作单篇。根据观测FA位置/波束与接收端干扰量，以信赖域线性化、含对偶间隙容忍的逆优化/SQP估计损伤系数；结果是仿真误差/SE提升，最高22.86%相对于Ideal-hardware-assumption方案，不是实物硬件校准测量。属于流体天线硬件非理想模型的方法进展，保持pending，不新写日志、不打当前红点。",
+      "reviewSources": [
+        {
+          "title": "arXiv原始记录与首发时间",
+          "url": "https://arxiv.org/abs/2611.22322"
+        },
+        {
+          "title": "v1全文单位、逆优化与仿真边界",
+          "url": "https://arxiv.org/html/2611.22322v1"
+        }
+      ],
+      "reviewedAt": "2026-11-21T02:35:22Z"
     },
     {
       "id": "2611.20665",
@@ -208,7 +280,7 @@
       ],
       "affiliations": [],
       "summary": "Learning-based multi-modal integrated sensing and communication (ISAC) requires data that associate environmental observations with the wireless response generated by the same site and dynamic scene state. Acquiring such data at new sites requires sensor calibration, coordinated measurements, and cross-modal association. We present site-grounded multi-modal ISAC data generation (SiGMA), which combines OpenStreetMap (OSM), Overture Maps, and procedural three-dimensional (3D) reconstruction to create georeferenced urban scenes. A shared scene geometry and time-indexed actor state link synchronized red-green-blue (RGB) images, light detection and ranging (LiDAR) point clouds, positioning records, frequency-modulated continuous-wave (FMCW) Radar in-phase and quadrature (IQ) samples, and ray-traced wireless channels. For configurable reflected propagation under direct-link blockage, SiGMA generates optional reconfigurable intelligent surface (RIS) component channels for phase-configuration evaluation across shared scene states. The evaluation results demonstrate that the framework improves zero-shot beam prediction performance on real DeepSense 6G measurements compared with an OSM-derived synthetic-data baseline. A camera-assisted RIS case study further demonstrates the generation of sensing-associated supervision for configurable reflected propagation. The dataset generation pipeline is available at https://github.com/Trans-cending/SiGMA-main.",
-      "candidateStatus": "pending",
+      "candidateStatus": "verified",
       "groupIds": [
         "hkust-letaief",
         "hkust-zhang-jun"
@@ -235,30 +307,52 @@
       "versions": [
         1
       ],
-      "reviewNote": "原始v1为2026-11-16T07:27:58Z，作者Jun Zhang/Khaled B. Letaief等明确HKUST香港ECE，Xiao Ye/Shurui Xu为SEU合作，不合并团队。以共享地理几何/动态场景状态生成多模态ISAC监督；DeepSense 6G Scenario3的1487帧、52轨迹零样本波束预测支持有限真实迁移，Top5归一化增益约0.93对0.89（32码本），RIS选择仅模拟。论文声称pipeline available，但11-18 GitHub仓库size=0且contents API明确空仓库，未核实可用代码、场景资产或数据发布。作为环境感知主线的待跟踪平台候选保留pending，不写已开源平台或整个组路线变化，不提日志。",
+      "reviewNote": "本次核实的是代码公开事件，不是论文新版本。论文仍v1、2026-11-16T07:27:58Z；同ID仓库1459571462已从SiGMA-main改名SiGMA，11-19T03:11:01Z提交ca04ced实际加入地理融合/CLI、CARLA同步传感、Sionna通道/RIS/Radar与FMCW生成代码和配置。已读实际runner/raytracing代码及文档，不仅是README占位。原文HKUST香港Jun Zhang/Khaled B. Letaief等与SEU合作；PDF星号/剑号是机构而非通讯作者标记，未核唯一主导。张军组官网明确Wei Guo为在组博士后；以张军组作单一编辑入口并明示李德富等合作，不向两组复制日志。仓库自报124测试、小fixture与GPU后端探测，不等于本维护者运行验证；真实站点Cook/Import、实时感知闭环及完整1024元RIS射线追踪仍pending，原数据/权重/原实验码本与部分资产未随仓库开放，不泛称完整开源平台或已复现论文。",
       "reviewSources": [
         {
-          "title": "原始v1及精确提交时刻",
+          "title": "11-19实际代码提交与文件清单",
+          "url": "https://github.com/Trans-cending/SiGMA/commit/ca04ced79e1cb274aef6e7e51b4d3340c45e7f1b"
+        },
+        {
+          "title": "固定版本README：功能、依赖及验证边界",
+          "url": "https://github.com/Trans-cending/SiGMA/blob/ca04ced79e1cb274aef6e7e51b4d3340c45e7f1b/README.md"
+        },
+        {
+          "title": "固定版本remaining_work：整站与完整RIS待验证",
+          "url": "https://github.com/Trans-cending/SiGMA/blob/ca04ced79e1cb274aef6e7e51b4d3340c45e7f1b/docs/remaining_work.md"
+        },
+        {
+          "title": "固定版本paper_correspondence：原实验资产缺口",
+          "url": "https://github.com/Trans-cending/SiGMA/blob/ca04ced79e1cb274aef6e7e51b4d3340c45e7f1b/docs/paper_correspondence.md"
+        },
+        {
+          "title": "原始v1 metadata及旧仓库链接",
           "url": "https://arxiv.org/abs/2611.20665"
         },
         {
-          "title": "原始全文：单位、评估和限制",
-          "url": "https://arxiv.org/html/2611.20665v1"
+          "title": "原始PDF：首页香港HKUST/SEU单位",
+          "url": "https://arxiv.org/pdf/2611.20665v1"
         },
         {
-          "title": "论文指向代码仓库：本轮为空",
-          "url": "https://github.com/Trans-cending/SiGMA-main"
-        },
-        {
-          "title": "GitHub原始contents API：This repository is empty",
-          "url": "https://api.github.com/repos/Trans-cending/SiGMA-main/contents"
+          "title": "张军组官网：Wei Guo博士后",
+          "url": "https://eejzhang.people.ust.hk/group.html"
         }
       ],
-      "reviewedAt": "2026-11-18T02:52:24Z",
+      "reviewedAt": "2026-11-21T02:35:22Z",
       "reviewedAffiliations": [
         "The Hong Kong University of Science and Technology",
         "Southeast University"
-      ]
+      ],
+      "reviewedResourceEvent": {
+        "kind": "code_publication",
+        "repository": "https://github.com/Trans-cending/SiGMA",
+        "repositoryId": 1459571462,
+        "oldRepository": "https://github.com/Trans-cending/SiGMA-main",
+        "codeCommit": "ca04ced79e1cb274aef6e7e51b4d3340c45e7f1b",
+        "codeCommittedAt": "2026-11-19T03:11:01Z",
+        "initialReadmeCommittedAt": "2026-11-19T02:05:46Z",
+        "mainEntryGroupId": "hkust-zhang-jun"
+      }
     },
     {
       "id": "2611.20399",
@@ -2349,7 +2443,19 @@
         2,
         3
       ],
-      "revisionSeenAt": "2026-11-18T07:38:36Z"
+      "revisionSeenAt": "2026-11-18T07:38:36Z",
+      "reviewNote": "原始v3首页Gang Wu署Independent Researcher；作者群为相互重叠的软件智能体合作，未见电子科大单位或已核本组核心关联。仅凭独立研究者署名与研究题材，仍不足以断言为另一位Gang Wu；未核清现任身份和团队关系，保持pending。原始更新2026-11-17T09:58:04Z早于11-18T02:52:24Z，本轮只是迟发现候选复核，不作为通信组新成果、方向变化或新增日志。",
+      "reviewSources": [
+        {
+          "title": "原摘要：完整作者和v1/v2/v3原始时间",
+          "url": "https://arxiv.org/abs/2610.16859"
+        },
+        {
+          "title": "v3原PDF：首页Gang Wu脚注3与机构表",
+          "url": "https://arxiv.org/pdf/2610.16859v3"
+        }
+      ],
+      "reviewedAt": "2026-11-21T02:35:22Z"
     },
     {
       "id": "2610.16656",
@@ -3548,7 +3654,19 @@
       "changeType": "new",
       "versions": [
         2
-      ]
+      ],
+      "reviewNote": "原始v2首页Gang Wu署Independent Researcher；作者群为相互重叠的软件智能体合作，未见电子科大单位或已核本组核心关联。仅凭独立研究者署名与研究题材，仍不足以断言为另一位Gang Wu；未核清现任身份和团队关系，保持pending。原始更新2026-11-17T09:59:52Z早于11-18T02:52:24Z，本轮只是迟发现候选复核，不作为通信组新成果、方向变化或新增日志。",
+      "reviewSources": [
+        {
+          "title": "原摘要：17作者与v1/v2原始时间",
+          "url": "https://arxiv.org/abs/2609.23808"
+        },
+        {
+          "title": "v2原PDF：首页Gang Wu脚注1与机构表",
+          "url": "https://arxiv.org/pdf/2609.23808v2"
+        }
+      ],
+      "reviewedAt": "2026-11-21T02:35:22Z"
     },
     {
       "id": "2609.23023",
@@ -3703,7 +3821,23 @@
       "changeType": "new",
       "versions": [
         2
-      ]
+      ],
+      "reviewNote": "原始v1 2026-07-24T12:02:08Z，v2 2026-11-19T16:11:56Z；两作者均北邮网络与交换/LEO融合通信实验室，Peng为通讯作者。有限支撑主定理v1已有，不当本周首次提出。v2不只格式：滤波遗忘证明改用Hilbert投影度量/Birkhoff收缩，并新增非零ISI、正暗电流、充分小峰值时每个最优i.i.d.输入严格为{0,A}的二点命题及证明。范围是i.i.d.类的平稳互信息率，不是任意相关输入的完整容量；未核定显式适用阈值或完成34页证明正确性审计。真实理论增量保留pending待专题判断，不把修订或单篇光信道理论泛化为整组路线变化。",
+      "reviewSources": [
+        {
+          "title": "原始history：v1/v2精确时刻",
+          "url": "https://arxiv.org/abs/2607.22234"
+        },
+        {
+          "title": "v1：既有主定理与原证明",
+          "url": "https://arxiv.org/html/2607.22234v1"
+        },
+        {
+          "title": "v2：北邮单位、二点命题及修订证明",
+          "url": "https://arxiv.org/html/2607.22234v2"
+        }
+      ],
+      "reviewedAt": "2026-11-21T02:35:22Z"
     },
     {
       "id": "2607.13535",
@@ -3844,6 +3978,7 @@
       "summary": "High-frequency massive multiple-input multiple-output (MIMO) systems promise ultra-high data rates. However, efficient beam management remains challenging due to the prohibitive beam training overhead and intricate coordination required in multi-user MIMO (MU-MIMO) scenarios. To address these bottlenecks, environment-aware communications have emerged as a promising paradigm, leveraging site-specific knowledge to circumvent exhaustive pilot-based beam training and streamline multi-user communications. In this paper, we propose a geometry-driven framework that utilizes multi-modal environmental data, specifically regional 3D light detection and ranging (LiDAR) point clouds and location information, to construct an offline virtual base station (VBS) database. By modeling dominant reflection paths via mirror symmetry across building facades reconstructed from the point clouds, the VBS database provides a compact and sparse description of the wireless propagation environment. Given a user location, the VBS representation supports online coarse channel reconstruction and the generation of a beamspace prior. To refine the coarse estimates, we design a VBS-assisted orthogonal-pilot (VOP)-based partial beam training scheme with limited online measurements. Finally, to coordinate beam selection under inter-user interference, we develop a hierarchical dual-agent dueling double deep Q-network for coordinated beam selection (DD3QN-CBS). Simulation results show that the proposed framework improves effective spectral efficiency over the evaluated stochastic, heuristic, and conventional learning-based baselines, while achieving competitive performance with fewer online beam measurements.",
       "candidateStatus": "pending",
       "groupIds": [
+        "hkust-letaief",
         "hkust-zhang-jun",
         "seu-jin"
       ],
@@ -3861,6 +3996,13 @@
             "Jun Zhang"
           ],
           "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        },
+        {
+          "groupId": "hkust-letaief",
+          "matchedAuthors": [
+            "Khaled B. Letaief"
+          ],
+          "reason": "人工核原始v2的HKUST香港作者单位与合作关系；单篇署名不代表整个组转向，贡献及范围见reviewNote。"
         }
       ],
       "firstSeenAt": "2026-11-21T02:24:09Z",
@@ -3868,7 +4010,23 @@
       "changeType": "new",
       "versions": [
         2
-      ]
+      ],
+      "reviewNote": "与香港负责代理交叉核对v1/v2：原始v1=2026-06-25T03:37:20Z，v2=2026-11-18T06:21:06Z，后者在本轮窗口。七作者两版相同；Jie Yang/ Shi Jin属东南，Bian/Guo/Song/Jun Zhang/Khaled B. Letaief属港科大香港。v2新增V-D4复杂度与运行时：RTX5880 Ada、K=14和64×4候选设置，所提方法39.292ms，对比DRL-CBS20.113ms，104662参数，O(K²)；不能说速度全面优于所有基线。另澄清状态、选择mask及基线。LiDAR建筑镜像VBS、粗信道重构、VOP局部导频与DD3QN协调在v1已存在，未见新物理系统/开放资产或整组方向变化，保持pending，无日志；两组共审同一候选只合并一条审阅。",
+      "reviewSources": [
+        {
+          "title": "arXiv版本史与作者",
+          "url": "https://arxiv.org/abs/2606.26567"
+        },
+        {
+          "title": "v1原文",
+          "url": "https://arxiv.org/html/2606.26567v1"
+        },
+        {
+          "title": "v2原文，V-D4运行时及复杂度",
+          "url": "https://arxiv.org/html/2606.26567v2"
+        }
+      ],
+      "reviewedAt": "2026-11-21T02:35:22Z"
     },
     {
       "id": "2606.25310",
@@ -4333,7 +4491,7 @@
       ],
       "affiliations": [],
       "summary": "Quantum many-body interactions and strong correlation effects facilitate the emergence of new quantum states and exotic properties in condensed matter systems. One of outstanding questions in this field is whether a non-ergodic and non-thermalizing state solely driven by strong correlations, i.e. the disorder-free many-body localization (DFMBL) phase, exist in condensed matter systems. In this work, using a novel Bragg scattering phase breaking approach and sophisticated theoretical simulation, we unambiguously identify this two-dimensional quantum state in the real material system of AgCrSe2. The strong correlations among in-plane Ag atoms give rise to significant phononic flat bands and static two-dimensional off-center displacements of Ag atoms ranging from 0 to 0.5 angstrom with non-ergodic behavior. With a few representative materials, we prove that low-energy phononic flat bands serve as a promising indicator for a catalogue of DFMBL materials. As temperature rising, this static localization state with multiple degenerate local configurations persists up to near room temperature before transforming into a dynamically correlated state at a higher temperature. Emergent vibrational modes in the THz range and star-like topological structures constitute the low-energy excitation in the DFMBL phase. Moreover, the atomic engineering of a single Ag atom position induces a collective, correlated triangular motif, manifesting a generalized Winger solid in the atomic degree of freedom and underpinning the DFMBL regime. The identified DFMBL phase in a real material system offers a unified framework for understanding the rich quantum phenomena, such as the boson peak, the Debye-Einstein two-channel thermal conductivity and the spiral spin liquid state in quantum materials, and also offers a promising platform for topologically protected quantum computation and quantum memory.",
-      "candidateStatus": "pending",
+      "candidateStatus": "rejected",
       "groupIds": [
         "hust-jiang-tao"
       ],
@@ -4351,7 +4509,23 @@
       "changeType": "new",
       "versions": [
         3
-      ]
+      ],
+      "reviewNote": "原摘要/history确认当前v3修订为2026-11-19T01:17:53Z，题名与13完整作者和本轮缓存一致。原始v1及v2第一页逐人脚注明确Tao Jiang²属于上海交通大学物理与天文学院、激光等离子体教育部重点实验室；v3仍同一作者序列、同核心合作作者、同材料量子物理题材，据此排除华科通信江涛组归属。指定v3 PDF为15,961,059字节，web工具报超大小，HTML404，命令下载HTTP403（原因未判清）；本轮没有取得v3全文或核其首面单位，也不声称比较其技术修订。这是姓名误配清理，不作为华科组成果/路线更新。",
+      "reviewSources": [
+        {
+          "title": "当前原摘要：v3作者、题名和submission history",
+          "url": "https://arxiv.org/abs/2603.17591"
+        },
+        {
+          "title": "v1原PDF：Tao Jiang逐人脚注2",
+          "url": "https://arxiv.org/pdf/2603.17591v1"
+        },
+        {
+          "title": "v2原PDF：Tao Jiang逐人脚注2",
+          "url": "https://arxiv.org/pdf/2603.17591v2"
+        }
+      ],
+      "reviewedAt": "2026-11-21T02:35:22Z"
     },
     {
       "id": "2601.04785",

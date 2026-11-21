@@ -3,3 +3,5 @@
 .pipeline-status{font-size:10px;line-height:1.9;color:var(--muted);border:1px solid var(--line);background:#edf2e5;border-radius:6px;padding:12px 15px;margin:0 0 28px}.log-sources{font-size:10px;line-height:1.9;margin-top:8px}.log-sources a{text-decoration:underline;text-underline-offset:3px}@media(max-width:1050px){.scope-badge{max-width:140px;white-space:normal;text-align:center;line-height:1.5}}@media(max-width:760px){.scope-badge{max-width:150px}.pipeline-status{font-size:9px}.map-pin b{font-size:9px}}
 .pin-shenzhen{transform:translate(-100%,-90%)}.pin-hongkong{transform:translate(-5%,15%)}
 .topic-select{max-width:210px;border:1px solid var(--line);border-radius:99px;color:var(--green);background:var(--paper);padding:4px 10px;font:inherit;font-size:10px;min-height:28px;cursor:pointer}.topic-select:focus-visible{outline:3px solid #9dbc73;outline-offset:4px}@media(max-width:760px){.topic-select{max-width:190px;font-size:9px}}
+
+.pin-重庆{transform:translate(-10%,10%)}
