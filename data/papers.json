@@ -2,6 +2,156 @@
   "schemaVersion": 1,
   "papers": [
     {
+      "id": "2611.26038",
+      "version": 1,
+      "title": "Channel-Aware Codebook Design for Task-Oriented Token Communication Over Wireless Networks",
+      "url": "https://arxiv.org/abs/2611.26038",
+      "published": "2026-11-19T12:48:04Z",
+      "updated": "2026-11-19T12:48:04Z",
+      "authors": [
+        "Chenliang Wu",
+        "Zhicheng Liu",
+        "Zhouxiang Zhao",
+        "Ruopeng Xu",
+        "Zhaohui Yang",
+        "Zhaoyang Zhang"
+      ],
+      "affiliations": [],
+      "summary": "This paper investigates the adaptive codebook design for task-oriented token communication over wireless networks with dynamic channels. This paper proposes the channel-aware codebook (CAC), a joint channel- and reconstruction-driven framework that reorders the labels of a frozen 14-bit VQGAN codebook. In the considered framework, a balanced geometric partition forms prefix groups, a prefix bijection places the groups on the label hypercube, and bijective suffix assignments place the codewords within each group. The problem is formulated to minimize the expected full-image perceptual distortion of the frozen decoder under a binary symmetric channel, averaged over a design set of bit error rates (BERs) and retaining simultaneous token errors. An offline algorithm alternates prefix and suffix exchanges and screens and confirms candidates on paired batches under a fixed decoder-evaluation budget. The assignment preserves the error-free reconstruction and the payload and deploys as static lookup tables without retraining. Under the binary symmetric channel at BER $0.01$, it reduces LPIPS by $12.3\\%$ and improves COCO AP by $14.1\\%$ ($1.72$ points) relative to the native labels, and it lowers LPIPS by a further $4.5\\%$ relative to a related assignment adaptation at the same payload.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "zju-zhang"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "zju-zhang",
+          "matchedAuthors": [
+            "Zhaoyang Zhang"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-21T02:24:09Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ]
+    },
+    {
+      "id": "2611.25756",
+      "version": 1,
+      "title": "Self-Supervised Operator Learning for Channel Estimation in Fluid Antenna Systems",
+      "url": "https://arxiv.org/abs/2611.25756",
+      "published": "2026-11-19T08:58:26Z",
+      "updated": "2026-11-19T08:58:26Z",
+      "authors": [
+        "Erqiang Tang",
+        "Zixin Wang",
+        "Wei Guo",
+        "Shenghui Song",
+        "Jun Zhang",
+        "Khaled B. Letaief"
+      ],
+      "affiliations": [],
+      "summary": "Fluid antenna systems (FAS) have emerged as a promising technology for enhancing wireless communications through adaptive antenna repositioning. Recently, Fourier neural operators (FNOs) have shown strong potential for FAS channel estimation owing to their ability to learn resolution-invariant mappings and generalize across different port densities. However, existing operator learning approaches require densely sampled channel realizations as training labels, whereas a practical receiver only collects noisy pilot observations from a small subset of ports. This mismatch between training requirements and practical channel acquisition poses a major obstacle to deployment. To address this challenge, we develop a self-supervised framework that trains the FNO-based estimator directly from noisy sub-sampled pilots without any labeled channel fields. The proposed objective combines a pilot splitting strategy, which creates supervision at ports hidden from the model input, with a correction based on Stein's unbiased risk estimate (SURE) that eliminates the measurement noise bias. We prove that this objective admits the same minimum mean square error (MMSE) solution as the ideal supervised criterion. Since the loss relies solely on received pilots, the estimator can be continually adapted online on the live pilot stream. Simulation results show that the self-supervised FNO achieves accuracy comparable to supervised training, generalizes zero-shot to unseen port resolutions, and rapidly recovers from distribution shift via online adaptation.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "hkust-zhang-jun"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "hkust-zhang-jun",
+          "matchedAuthors": [
+            "Jun Zhang"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-21T02:24:09Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ]
+    },
+    {
+      "id": "2611.25657",
+      "version": 1,
+      "title": "Intent-Defined Radio: A Goal-Native Architecture for Next-Generation Wireless Networks",
+      "url": "https://arxiv.org/abs/2611.25657",
+      "published": "2026-11-19T07:39:04Z",
+      "updated": "2026-11-19T07:39:04Z",
+      "authors": [
+        "Wencheng Yan",
+        "Binrui Xu",
+        "Yihao Shen",
+        "Zhiyuan Jiang",
+        "Sheng Zhou"
+      ],
+      "affiliations": [
+        "Dept. of Electronic Engineering & BNRist, Tsinghua University, Beijing, China",
+        "School of Communications and Information Engineering, Shanghai University, Shanghai, China"
+      ],
+      "summary": "Wireless systems are becoming harder to operate because service goals are increasingly expressed in outcome-oriented terms, while radio platforms still expose mainly low-level configurations and protocol-specific controls. This mismatch makes it difficult to translate latency, reliability, throughput, and continuity requirements into coherent radio behavior. This article argues for Intent-Defined Radio (IDR) as a new system abstraction for next-generation wireless networks. Rather than treating the radio stack as a fixed mechanism set to be manually engineered and then tuned, IDR connects explicit service goals to executable radio behavior within a constrained design space by leveraging the capacity of large language models (LLMs). We position IDR relative to programmable radio, intent-based networking, and learning-based protocol design. We also present two simulation studies using Intent2MAC to illustrate the design loop, demonstrating executable MAC synthesis and offline refinement guided by evaluation feedback. The results show improved service satisfaction at a throughput cost and improved remote-control performance when random contention is replaced by distributed urgency-based arbitration. We finally discuss the open challenges in intent specification, evidence, hardware execution, interoperability, and lifecycle cost, and outline a staged path toward deployment.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "tsinghua-niu"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "tsinghua-niu",
+          "matchedAuthors": [
+            "Sheng Zhou"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-21T02:24:09Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ]
+    },
+    {
+      "id": "2611.24553",
+      "version": 1,
+      "title": "Slim-Mamba: An Efficient and Reconfigurable Mamba-Based Accelerator for Massive MIMO Indoor Localization",
+      "url": "https://arxiv.org/abs/2611.24553",
+      "published": "2026-11-18T14:54:28Z",
+      "updated": "2026-11-18T14:54:28Z",
+      "authors": [
+        "Shengjie Chen",
+        "Chenxi Zhang",
+        "Sijia Cheng",
+        "Ove Edfors",
+        "Liang Liu",
+        "Ilayda Yaman"
+      ],
+      "affiliations": [],
+      "summary": "Using real-world massive MIMO measurements from the LuViRA dataset, we present a system-level solution combining Mamba-based model development and hardware acceleration for indoor localization. Three Mamba-based models are explored: the original Mamba architecture, CMamba, a channel-correlation-enhanced state-space model designed to exploit correlations across input channels, and our proposed Slim-Mamba. Hardware implementation and bottleneck analysis are then used to guide further model simplification and optimization. The resulting Slim-Mamba simplifies the original Mamba selective state-space block into a lightweight gated recurrent update, preserving temporal state modelling and output gating while reducing the complexity of the selective-scan computation. The deployed model contains 816k trainable parameters and has a model size of 3.40MB under FP32 precision while maintaining high localization accuracy. The corresponding accelerator provides a reconfigurable architecture with a highly parallel MAC array optimized for matrix-vector operations and fine-grained pipelining, improving resource utilization and reducing inference latency. The hardware-aware fixed-point model achieves a mean localization error of 0.14m, closely matching the floating-point baseline. Implemented on a Zynq UltraScale+ ZCU102 FPGA, the four-block backbone has an estimated serial latency of 212.04us per token at 100MHz.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "polyu-liu-liang"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "polyu-liu-liang",
+          "matchedAuthors": [
+            "Liang Liu"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-21T02:24:09Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
+      "changeType": "new",
+      "versions": [
+        1
+      ]
+    },
+    {
       "id": "2611.22322",
       "version": 1,
       "title": "Hardware Impairment Parameter Estimation in Fluid Antenna Systems by Inverse Optimization",
@@ -33,7 +183,7 @@
         }
       ],
       "firstSeenAt": "2026-11-18T07:38:36Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         1
@@ -80,7 +230,7 @@
         }
       ],
       "firstSeenAt": "2026-11-18T02:42:20Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         1
@@ -139,7 +289,7 @@
         }
       ],
       "firstSeenAt": "2026-11-18T02:42:20Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         1
@@ -195,7 +345,7 @@
         }
       ],
       "firstSeenAt": "2026-11-18T02:42:20Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         1
@@ -249,7 +399,7 @@
         }
       ],
       "firstSeenAt": "2026-11-18T02:42:20Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         1
@@ -349,7 +499,7 @@
         }
       ],
       "firstSeenAt": "2026-11-14T02:39:45Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         1
@@ -403,7 +553,7 @@
         }
       ],
       "firstSeenAt": "2026-11-14T02:39:45Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         1
@@ -454,7 +604,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T06:37:53Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         1
@@ -491,7 +641,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         1
@@ -683,7 +833,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         1
@@ -738,7 +888,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         1
@@ -787,7 +937,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -841,7 +991,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -891,7 +1041,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -936,7 +1086,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -973,7 +1123,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "revision",
       "versions": [
         1,
@@ -1022,7 +1172,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1058,7 +1208,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1095,7 +1245,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1129,7 +1279,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1166,7 +1316,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1204,7 +1354,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1239,7 +1389,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1279,7 +1429,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1315,7 +1465,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1353,7 +1503,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1396,7 +1546,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1441,7 +1591,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1477,7 +1627,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1514,7 +1664,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1552,7 +1702,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1599,7 +1749,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1633,7 +1783,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1673,7 +1823,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1710,7 +1860,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1743,7 +1893,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1778,7 +1928,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1865,7 +2015,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1905,7 +2055,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1953,7 +2103,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -1993,7 +2143,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2031,7 +2181,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2068,7 +2218,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2103,7 +2253,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -2141,7 +2291,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2193,7 +2343,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "revision",
       "versions": [
         2,
@@ -2244,7 +2394,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "revision",
       "versions": [
         1,
@@ -2320,7 +2470,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2363,7 +2513,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2406,7 +2556,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2443,7 +2593,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2489,7 +2639,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2525,7 +2675,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2563,7 +2713,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2598,7 +2748,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2642,7 +2792,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -2679,7 +2829,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         1
@@ -3394,7 +3544,7 @@
         }
       ],
       "firstSeenAt": "2026-11-18T07:38:36Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         2
@@ -3472,7 +3622,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T06:37:53Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         2
@@ -3523,6 +3673,39 @@
       ]
     },
     {
+      "id": "2607.22234",
+      "version": 2,
+      "title": "Finite-Support Structure of Optimal i.i.d. Inputs for Finite-Memory Poisson Channels",
+      "url": "https://arxiv.org/abs/2607.22234",
+      "published": "2026-07-24T12:02:08Z",
+      "updated": "2026-11-19T16:11:56Z",
+      "authors": [
+        "Renzhi Yuan",
+        "Mugen Peng"
+      ],
+      "affiliations": [],
+      "summary": "Discrete-time Poisson channels with finite intersymbol interference provide a natural model for direct-detection optical links in which multipath memory and signal-dependent shot noise appear simultaneously. Under peak and average optical-intensity constraints, we study the stationary mutual-information-rate optimization under an independent and identically distributed (i.i.d.) input restriction. We prove that every input distribution maximizing the stationary mutual information rate within the i.i.d. input class has finite support. The proof is carried out directly on the entropy rate of the continuous-state hidden Markov output process induced by the finite-memory channel. We first establish a filtering-forgetting estimate whose constants are uniform over all admissible i.i.d. input laws. We then derive the entropy-rate first variation, construct a holomorphic extension of the corresponding influence function, and combine the Karush-Kuhn-Tucker condition with a supralinear growth argument.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "bupt-peng-mugen"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "bupt-peng-mugen",
+          "matchedAuthors": [
+            "Mugen Peng"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-21T02:24:09Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
+      "changeType": "new",
+      "versions": [
+        2
+      ]
+    },
+    {
       "id": "2607.13535",
       "version": 2,
       "title": "Channel Parameter Estimation and Characteristic Analysis at THz Bands in Hybrid Near-Field/Far-Field Scenarios",
@@ -3554,7 +3737,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3635,8 +3818,54 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
+      "versions": [
+        2
+      ]
+    },
+    {
+      "id": "2606.26567",
+      "version": 2,
+      "title": "Multi-Modal Environment-Aware Beam Management for Massive MIMO: A Geometry-Driven Virtual Base Station Framework",
+      "url": "https://arxiv.org/abs/2606.26567",
+      "published": "2026-06-25T03:37:20Z",
+      "updated": "2026-11-18T06:21:06Z",
+      "authors": [
+        "Yijie Bian",
+        "Wei Guo",
+        "Jie Yang",
+        "Shenghui Song",
+        "Jun Zhang",
+        "Shi Jin",
+        "Khaled B. Letaief"
+      ],
+      "affiliations": [],
+      "summary": "High-frequency massive multiple-input multiple-output (MIMO) systems promise ultra-high data rates. However, efficient beam management remains challenging due to the prohibitive beam training overhead and intricate coordination required in multi-user MIMO (MU-MIMO) scenarios. To address these bottlenecks, environment-aware communications have emerged as a promising paradigm, leveraging site-specific knowledge to circumvent exhaustive pilot-based beam training and streamline multi-user communications. In this paper, we propose a geometry-driven framework that utilizes multi-modal environmental data, specifically regional 3D light detection and ranging (LiDAR) point clouds and location information, to construct an offline virtual base station (VBS) database. By modeling dominant reflection paths via mirror symmetry across building facades reconstructed from the point clouds, the VBS database provides a compact and sparse description of the wireless propagation environment. Given a user location, the VBS representation supports online coarse channel reconstruction and the generation of a beamspace prior. To refine the coarse estimates, we design a VBS-assisted orthogonal-pilot (VOP)-based partial beam training scheme with limited online measurements. Finally, to coordinate beam selection under inter-user interference, we develop a hierarchical dual-agent dueling double deep Q-network for coordinated beam selection (DD3QN-CBS). Simulation results show that the proposed framework improves effective spectral efficiency over the evaluated stochastic, heuristic, and conventional learning-based baselines, while achieving competitive performance with fewer online beam measurements.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "hkust-zhang-jun",
+        "seu-jin"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "seu-jin",
+          "matchedAuthors": [
+            "Shi Jin"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        },
+        {
+          "groupId": "hkust-zhang-jun",
+          "matchedAuthors": [
+            "Jun Zhang"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-21T02:24:09Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
+      "changeType": "new",
       "versions": [
         2
       ]
@@ -3671,7 +3900,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         3
@@ -3710,7 +3939,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3747,7 +3976,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3795,7 +4024,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         3
@@ -3832,7 +4061,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3866,7 +4095,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3901,7 +4130,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -3937,7 +4166,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         3
@@ -3988,7 +4217,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -4081,6 +4310,50 @@
       ]
     },
     {
+      "id": "2603.17591",
+      "version": 3,
+      "title": "Disorder-free many-body localization in real quantum materials",
+      "url": "https://arxiv.org/abs/2603.17591",
+      "published": "2026-03-18T10:58:45Z",
+      "updated": "2026-11-19T01:17:53Z",
+      "authors": [
+        "Yingpeng Qi",
+        "Jianmin Yang",
+        "Zhihui Zhou",
+        "Qing Xu",
+        "Yang Lv",
+        "Xiao Zou",
+        "Tao Jiang",
+        "Pengfei Zhu",
+        "Dongxue Chen",
+        "Zhenrong Sun",
+        "Lin Xie",
+        "Dao Xiang",
+        "Jiaqing He"
+      ],
+      "affiliations": [],
+      "summary": "Quantum many-body interactions and strong correlation effects facilitate the emergence of new quantum states and exotic properties in condensed matter systems. One of outstanding questions in this field is whether a non-ergodic and non-thermalizing state solely driven by strong correlations, i.e. the disorder-free many-body localization (DFMBL) phase, exist in condensed matter systems. In this work, using a novel Bragg scattering phase breaking approach and sophisticated theoretical simulation, we unambiguously identify this two-dimensional quantum state in the real material system of AgCrSe2. The strong correlations among in-plane Ag atoms give rise to significant phononic flat bands and static two-dimensional off-center displacements of Ag atoms ranging from 0 to 0.5 angstrom with non-ergodic behavior. With a few representative materials, we prove that low-energy phononic flat bands serve as a promising indicator for a catalogue of DFMBL materials. As temperature rising, this static localization state with multiple degenerate local configurations persists up to near room temperature before transforming into a dynamically correlated state at a higher temperature. Emergent vibrational modes in the THz range and star-like topological structures constitute the low-energy excitation in the DFMBL phase. Moreover, the atomic engineering of a single Ag atom position induces a collective, correlated triangular motif, manifesting a generalized Winger solid in the atomic degree of freedom and underpinning the DFMBL regime. The identified DFMBL phase in a real material system offers a unified framework for understanding the rich quantum phenomena, such as the boson peak, the Debye-Einstein two-channel thermal conductivity and the spiral spin liquid state in quantum materials, and also offers a promising platform for topologically protected quantum computation and quantum memory.",
+      "candidateStatus": "pending",
+      "groupIds": [
+        "hust-jiang-tao"
+      ],
+      "matchEvidence": [
+        {
+          "groupId": "hust-jiang-tao",
+          "matchedAuthors": [
+            "Tao Jiang"
+          ],
+          "reason": "英文全名精确匹配且标题含通信相关词；同名、单位与组归属仍需核实"
+        }
+      ],
+      "firstSeenAt": "2026-11-21T02:24:09Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
+      "changeType": "new",
+      "versions": [
+        3
+      ]
+    },
+    {
       "id": "2601.04785",
       "version": 2,
       "title": "SRUG: A Fusion-Driven Generator Network for Medical Image Translation",
@@ -4112,7 +4385,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         2
@@ -4158,7 +4431,7 @@
         }
       ],
       "firstSeenAt": "2026-11-07T02:54:33Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "baseline",
       "versions": [
         4
@@ -4191,7 +4464,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         2
@@ -4247,7 +4520,7 @@
         }
       ],
       "firstSeenAt": "2026-11-11T02:39:06Z",
-      "lastSeenAt": "2026-11-18T07:38:36Z",
+      "lastSeenAt": "2026-11-21T02:24:09Z",
       "changeType": "new",
       "versions": [
         3
